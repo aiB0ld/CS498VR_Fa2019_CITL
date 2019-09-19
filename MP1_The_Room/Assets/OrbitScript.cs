@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OrbitScript : MonoBehaviour {
 
-    public float orbitSpeed = 1.0f;
+    public float orbitSpeed = 200.0f;
 
     private Vector3 parentPos;
 
