@@ -1,2 +1,0 @@
-E:\Class\CS498VR\CS498VR_Fa2019\MP1_The_Room\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-E:\Class\CS498VR\CS498VR_Fa2019\MP1_The_Room\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
