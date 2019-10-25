@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-10-16T17:09:14.035-05:00
-  initializedAtString: 2019-10-16T17:09:12.044-05:00
+  lastUpdatedAtString: 2019-10-25T16:08:35.386-05:00
+  initializedAtString: 2019-10-25T15:57:06.898-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
@@ -23,14 +23,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Tim_working_branch
+    tracking: origin/Tim_working_branch
   currentConfigBranch:
-    name: master
+    name: Tim_working_branch
     remote:
       name: origin
       url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
-    trackingBranch: master
+    trackingBranch: Tim_working_branch
   currentConfigRemote:
     name: origin
     url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git

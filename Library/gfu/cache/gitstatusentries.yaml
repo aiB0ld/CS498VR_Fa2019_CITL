@@ -12,6 +12,234 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-10-16T17:10:33.467-05:00
-  initializedAtString: 2019-10-16T17:09:13.574-05:00
-  entries: []
+  lastUpdatedAtString: 2019-10-25T16:09:09.131-05:00
+  initializedAtString: 2019-10-25T15:57:08.450-05:00
+  entries:
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Terrain.mat
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Terrain.mat
+    projectPath: Assets\Terrain.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Terrain.mat.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Terrain.mat.meta
+    projectPath: Assets\Terrain.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures.meta
+    projectPath: Assets\Textures.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures\terrain_base.png
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures\terrain_base.png
+    projectPath: Assets\Textures\terrain_base.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures\terrain_base.png.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures\terrain_base.png.meta
+    projectPath: Assets\Textures\terrain_base.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures\terrain_height.png
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures\terrain_height.png
+    projectPath: Assets\Textures\terrain_height.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Textures\terrain_height.png.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures\terrain_height.png.meta
+    projectPath: Assets\Textures\terrain_height.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\assetDatabase3
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\CurrentLayout.dwlt
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorInstance.json
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\expandedItems
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gituser.yaml
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\39\39f0754eb61ca8842ba9431537f93466
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\39\39f0754eb61ca8842ba9431537f93466
+    projectPath: Library\metadata\39\39f0754eb61ca8842ba9431537f93466
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\39\39f0754eb61ca8842ba9431537f93466.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\39\39f0754eb61ca8842ba9431537f93466.info
+    projectPath: Library\metadata\39\39f0754eb61ca8842ba9431537f93466.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da
+    projectPath: Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da.info
+    projectPath: Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1
+    projectPath: Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1.info
+    projectPath: Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\75\758654f496af7f14caf92c02c2400e08
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\75\758654f496af7f14caf92c02c2400e08
+    projectPath: Library\metadata\75\758654f496af7f14caf92c02c2400e08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\75\758654f496af7f14caf92c02c2400e08.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\75\758654f496af7f14caf92c02c2400e08.info
+    projectPath: Library\metadata\75\758654f496af7f14caf92c02c2400e08.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0c202803f4130f181eed576857d8b4ce.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\0\0c202803f4130f181eed576857d8b4ce.bin
+    projectPath: Library\ShaderCache\0\0c202803f4130f181eed576857d8b4ce.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1656c5e1c27822320dbfbde7546c8d83.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\1656c5e1c27822320dbfbde7546c8d83.bin
+    projectPath: Library\ShaderCache\1\1656c5e1c27822320dbfbde7546c8d83.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\321ee39bb820c1c517693e1baa2e3e5b.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\321ee39bb820c1c517693e1baa2e3e5b.bin
+    projectPath: Library\ShaderCache\3\321ee39bb820c1c517693e1baa2e3e5b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3eb41ba0279c517036829c28ae9ea10a.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\3eb41ba0279c517036829c28ae9ea10a.bin
+    projectPath: Library\ShaderCache\3\3eb41ba0279c517036829c28ae9ea10a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a92beed0086c3e4bef81d7259e2edd66.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\a92beed0086c3e4bef81d7259e2edd66.bin
+    projectPath: Library\ShaderCache\a\a92beed0086c3e4bef81d7259e2edd66.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\aae106ad853ca9f689b5ad82493d0ea9.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\aae106ad853ca9f689b5ad82493d0ea9.bin
+    projectPath: Library\ShaderCache\a\aae106ad853ca9f689b5ad82493d0ea9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b861647f7ac142d7837817e885ce9759.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\b861647f7ac142d7837817e885ce9759.bin
+    projectPath: Library\ShaderCache\b\b861647f7ac142d7837817e885ce9759.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d46092457fc813dad36b2d28cf9e0262.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\d\d46092457fc813dad36b2d28cf9e0262.bin
+    projectPath: Library\ShaderCache\d\d46092457fc813dad36b2d28cf9e0262.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\ProcessJobs\e4d7cdea9e7b674007a994e68f178ef6.bakert
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\ProcessJobs\e4d7cdea9e7b674007a994e68f178ef6.bakert
+    projectPath: Temp\ProcessJobs\e4d7cdea9e7b674007a994e68f178ef6.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityLockfile
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
