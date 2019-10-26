@@ -12,66 +12,240 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-10-25T16:09:09.131-05:00
-  initializedAtString: 2019-10-25T15:57:08.450-05:00
+  lastUpdatedAtString: 2019-10-25T21:40:00.957-05:00
+  initializedAtString: 2019-10-25T21:32:30.558-05:00
   entries:
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+  - path: .vs\CS498VR_Fa2019_CITL\v15\.suo
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\.suo
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\.suo
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Browse.VC.db
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Browse.VC.db
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Browse.VC.db
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Browse.VC.opendb
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Browse.VC.opendb
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Browse.VC.opendb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\db.lock
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\db.lock
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\db.lock
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assembly-CSharp.csproj
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Editor.meta
+    projectPath: Assets\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\TerrainGeneratorEditor.cs
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Editor\TerrainGeneratorEditor.cs
+    projectPath: Assets\Editor\TerrainGeneratorEditor.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\TerrainGeneratorEditor.cs.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Editor\TerrainGeneratorEditor.cs.meta
+    projectPath: Assets\Editor\TerrainGeneratorEditor.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources.meta
+    projectPath: Assets\Resources.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Materials.meta
+    projectPath: Assets\Resources\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials\TerrainMaterial.mat
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Materials\TerrainMaterial.mat
+    projectPath: Assets\Resources\Materials\TerrainMaterial.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials\TerrainMaterial.mat.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Materials\TerrainMaterial.mat.meta
+    projectPath: Assets\Resources\Materials\TerrainMaterial.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Textures.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Textures.meta
+    projectPath: Assets\Resources\Textures.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Textures\terrain_base.png
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Textures\terrain_base.png
+    projectPath: Assets\Resources\Textures\terrain_base.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Textures\terrain_base.png.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Textures\terrain_base.png.meta
+    projectPath: Assets\Resources\Textures\terrain_base.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Textures\terrain_hMap.png
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Textures\terrain_hMap.png
+    projectPath: Assets\Resources\Textures\terrain_hMap.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Textures\terrain_hMap.png.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Textures\terrain_hMap.png.meta
+    projectPath: Assets\Resources\Textures\terrain_hMap.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Textures\terrain_hMap_grayscale.png
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Textures\terrain_hMap_grayscale.png
+    projectPath: Assets\Resources\Textures\terrain_hMap_grayscale.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Textures\terrain_hMap_grayscale.png.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Resources\Textures\terrain_hMap_grayscale.png.meta
+    projectPath: Assets\Resources\Textures\terrain_hMap_grayscale.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Scenes\Terrain.unity
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Scenes\Terrain.unity
+    projectPath: Assets\Scenes\Terrain.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Terrain.unity.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Scenes\Terrain.unity.meta
+    projectPath: Assets\Scenes\Terrain.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Scripts.meta
+    projectPath: Assets\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\TerrainGenerator.cs
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Scripts\TerrainGenerator.cs
+    projectPath: Assets\Scripts\TerrainGenerator.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\TerrainGenerator.cs.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Scripts\TerrainGenerator.cs.meta
+    projectPath: Assets\Scripts\TerrainGenerator.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Shaders.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Shaders.meta
+    projectPath: Assets\Shaders.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Shaders\TerrainShader.shader
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Shaders\TerrainShader.shader
+    projectPath: Assets\Shaders\TerrainShader.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Shaders\TerrainShader.shader.meta
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Shaders\TerrainShader.shader.meta
+    projectPath: Assets\Shaders\TerrainShader.shader.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\Terrain.mat
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Terrain.mat
     projectPath: Assets\Terrain.mat
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Terrain.mat.meta
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Terrain.mat.meta
     projectPath: Assets\Terrain.mat.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Textures.meta
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures.meta
     projectPath: Assets\Textures.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Textures\terrain_base.png
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures\terrain_base.png
     projectPath: Assets\Textures\terrain_base.png
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Textures\terrain_base.png.meta
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures\terrain_base.png.meta
     projectPath: Assets\Textures\terrain_base.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Textures\terrain_height.png
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures\terrain_height.png
     projectPath: Assets\Textures\terrain_height.png
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Textures\terrain_height.png.meta
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Assets\Textures\terrain_height.png.meta
     projectPath: Assets\Textures\terrain_height.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\assetDatabase3
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: CS498VR_Fa2019_CITL.sln
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\CS498VR_Fa2019_CITL.sln
+    projectPath: CS498VR_Fa2019_CITL.sln
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\CurrentLayout.dwlt
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
+  - path: Library\assetDatabase3
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -81,27 +255,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\expandedItems
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -116,52 +272,124 @@ MonoBehaviour:
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gituser.yaml
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\17\17bbb771a5b98c84880ab14a6e10ee87
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\17\17bbb771a5b98c84880ab14a6e10ee87
+    projectPath: Library\metadata\17\17bbb771a5b98c84880ab14a6e10ee87
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\17\17bbb771a5b98c84880ab14a6e10ee87.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\17\17bbb771a5b98c84880ab14a6e10ee87.info
+    projectPath: Library\metadata\17\17bbb771a5b98c84880ab14a6e10ee87.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\29\29cfa94621067ee449365559aebb8287
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\29\29cfa94621067ee449365559aebb8287
+    projectPath: Library\metadata\29\29cfa94621067ee449365559aebb8287
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\29\29cfa94621067ee449365559aebb8287.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\29\29cfa94621067ee449365559aebb8287.info
+    projectPath: Library\metadata\29\29cfa94621067ee449365559aebb8287.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\metadata\39\39f0754eb61ca8842ba9431537f93466
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\39\39f0754eb61ca8842ba9431537f93466
     projectPath: Library\metadata\39\39f0754eb61ca8842ba9431537f93466
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\39\39f0754eb61ca8842ba9431537f93466.info
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\39\39f0754eb61ca8842ba9431537f93466.info
     projectPath: Library\metadata\39\39f0754eb61ca8842ba9431537f93466.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da
     projectPath: Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da.info
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da.info
     projectPath: Library\metadata\3f\3fe430c5d7ff27b4c8ff2fde861797da.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1
     projectPath: Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1.info
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1.info
     projectPath: Library\metadata\42\42f30553ba5cfa24e91f73ae6ff55be1.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\51\51220c267c7f66144af088239c9b3262
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\51\51220c267c7f66144af088239c9b3262
+    projectPath: Library\metadata\51\51220c267c7f66144af088239c9b3262
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\51\51220c267c7f66144af088239c9b3262.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\51\51220c267c7f66144af088239c9b3262.info
+    projectPath: Library\metadata\51\51220c267c7f66144af088239c9b3262.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5d\5d18d30f8590d444cbe498fb562fd8ce
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\5d\5d18d30f8590d444cbe498fb562fd8ce
+    projectPath: Library\metadata\5d\5d18d30f8590d444cbe498fb562fd8ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5d\5d18d30f8590d444cbe498fb562fd8ce.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\5d\5d18d30f8590d444cbe498fb562fd8ce.info
+    projectPath: Library\metadata\5d\5d18d30f8590d444cbe498fb562fd8ce.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\62\627ffb9162740f545bba103e4ac73b83
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\62\627ffb9162740f545bba103e4ac73b83
+    projectPath: Library\metadata\62\627ffb9162740f545bba103e4ac73b83
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\62\627ffb9162740f545bba103e4ac73b83.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\62\627ffb9162740f545bba103e4ac73b83.info
+    projectPath: Library\metadata\62\627ffb9162740f545bba103e4ac73b83.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6d\6da05b61125688d40a89d009c1bcfc2d
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\6d\6da05b61125688d40a89d009c1bcfc2d
+    projectPath: Library\metadata\6d\6da05b61125688d40a89d009c1bcfc2d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6d\6da05b61125688d40a89d009c1bcfc2d.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\6d\6da05b61125688d40a89d009c1bcfc2d.info
+    projectPath: Library\metadata\6d\6da05b61125688d40a89d009c1bcfc2d.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -169,59 +397,899 @@ MonoBehaviour:
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\75\758654f496af7f14caf92c02c2400e08
     projectPath: Library\metadata\75\758654f496af7f14caf92c02c2400e08
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\75\758654f496af7f14caf92c02c2400e08.info
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\75\758654f496af7f14caf92c02c2400e08.info
-    projectPath: Library\metadata\75\758654f496af7f14caf92c02c2400e08.info
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a5\a535b312eba3b8a468cf6bf5a5dee36f
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\a5\a535b312eba3b8a468cf6bf5a5dee36f
+    projectPath: Library\metadata\a5\a535b312eba3b8a468cf6bf5a5dee36f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\0\0c202803f4130f181eed576857d8b4ce.bin
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\0\0c202803f4130f181eed576857d8b4ce.bin
-    projectPath: Library\ShaderCache\0\0c202803f4130f181eed576857d8b4ce.bin
+  - path: Library\metadata\a5\a535b312eba3b8a468cf6bf5a5dee36f.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\a5\a535b312eba3b8a468cf6bf5a5dee36f.info
+    projectPath: Library\metadata\a5\a535b312eba3b8a468cf6bf5a5dee36f.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\1\1656c5e1c27822320dbfbde7546c8d83.bin
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\1656c5e1c27822320dbfbde7546c8d83.bin
-    projectPath: Library\ShaderCache\1\1656c5e1c27822320dbfbde7546c8d83.bin
+  - path: Library\metadata\a9\a91cd2bf433d2fb43b0ea300dc59b72d
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\a9\a91cd2bf433d2fb43b0ea300dc59b72d
+    projectPath: Library\metadata\a9\a91cd2bf433d2fb43b0ea300dc59b72d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\3\321ee39bb820c1c517693e1baa2e3e5b.bin
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\321ee39bb820c1c517693e1baa2e3e5b.bin
-    projectPath: Library\ShaderCache\3\321ee39bb820c1c517693e1baa2e3e5b.bin
+  - path: Library\metadata\a9\a91cd2bf433d2fb43b0ea300dc59b72d.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\a9\a91cd2bf433d2fb43b0ea300dc59b72d.info
+    projectPath: Library\metadata\a9\a91cd2bf433d2fb43b0ea300dc59b72d.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\3\3eb41ba0279c517036829c28ae9ea10a.bin
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\3eb41ba0279c517036829c28ae9ea10a.bin
-    projectPath: Library\ShaderCache\3\3eb41ba0279c517036829c28ae9ea10a.bin
+  - path: Library\metadata\b2\b2a21f17a6cabf34b8c690f2583f7f96
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\b2\b2a21f17a6cabf34b8c690f2583f7f96
+    projectPath: Library\metadata\b2\b2a21f17a6cabf34b8c690f2583f7f96
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\a\a92beed0086c3e4bef81d7259e2edd66.bin
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\a92beed0086c3e4bef81d7259e2edd66.bin
-    projectPath: Library\ShaderCache\a\a92beed0086c3e4bef81d7259e2edd66.bin
+  - path: Library\metadata\b2\b2a21f17a6cabf34b8c690f2583f7f96.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\b2\b2a21f17a6cabf34b8c690f2583f7f96.info
+    projectPath: Library\metadata\b2\b2a21f17a6cabf34b8c690f2583f7f96.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\a\aae106ad853ca9f689b5ad82493d0ea9.bin
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\aae106ad853ca9f689b5ad82493d0ea9.bin
-    projectPath: Library\ShaderCache\a\aae106ad853ca9f689b5ad82493d0ea9.bin
+  - path: Library\metadata\d1\d114658aa328a4d43bdc2cbb09d85e98
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\d1\d114658aa328a4d43bdc2cbb09d85e98
+    projectPath: Library\metadata\d1\d114658aa328a4d43bdc2cbb09d85e98
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\b\b861647f7ac142d7837817e885ce9759.bin
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\b861647f7ac142d7837817e885ce9759.bin
-    projectPath: Library\ShaderCache\b\b861647f7ac142d7837817e885ce9759.bin
+  - path: Library\metadata\d1\d114658aa328a4d43bdc2cbb09d85e98.info
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\metadata\d1\d114658aa328a4d43bdc2cbb09d85e98.info
+    projectPath: Library\metadata\d1\d114658aa328a4d43bdc2cbb09d85e98.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\d\d46092457fc813dad36b2d28cf9e0262.bin
-    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\d\d46092457fc813dad36b2d28cf9e0262.bin
-    projectPath: Library\ShaderCache\d\d46092457fc813dad36b2d28cf9e0262.bin
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ScriptMapper
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache.db
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache.db
+    projectPath: Library\ShaderCache.db
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\0\01b6b0eeaed95c75ae8e059ae3754382.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\0\01b6b0eeaed95c75ae8e059ae3754382.bin
+    projectPath: Library\ShaderCache\0\01b6b0eeaed95c75ae8e059ae3754382.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\031b7cc6aec071c43d667b3b775c597b.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\0\031b7cc6aec071c43d667b3b775c597b.bin
+    projectPath: Library\ShaderCache\0\031b7cc6aec071c43d667b3b775c597b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\03fde6be61679bfce34f471d09f59341.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\0\03fde6be61679bfce34f471d09f59341.bin
+    projectPath: Library\ShaderCache\0\03fde6be61679bfce34f471d09f59341.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0b79d3da958761644bfd81a8777b2284.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\0\0b79d3da958761644bfd81a8777b2284.bin
+    projectPath: Library\ShaderCache\0\0b79d3da958761644bfd81a8777b2284.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0d167420233ac85b51ccaf1e07031037.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\0\0d167420233ac85b51ccaf1e07031037.bin
+    projectPath: Library\ShaderCache\0\0d167420233ac85b51ccaf1e07031037.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0d47e9cdab2099515bdbbb9182583ed3.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\0\0d47e9cdab2099515bdbbb9182583ed3.bin
+    projectPath: Library\ShaderCache\0\0d47e9cdab2099515bdbbb9182583ed3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1114cc87ddcdf8f51ee950b5a7ed1545.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\1114cc87ddcdf8f51ee950b5a7ed1545.bin
+    projectPath: Library\ShaderCache\1\1114cc87ddcdf8f51ee950b5a7ed1545.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\13b9ef0415ef612dcf02ebfb6eab226d.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\13b9ef0415ef612dcf02ebfb6eab226d.bin
+    projectPath: Library\ShaderCache\1\13b9ef0415ef612dcf02ebfb6eab226d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\142e2eb3fb006a067b9673f6d0d9ed36.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\142e2eb3fb006a067b9673f6d0d9ed36.bin
+    projectPath: Library\ShaderCache\1\142e2eb3fb006a067b9673f6d0d9ed36.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\151b67ab51fd93d26262ebe64fada395.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\151b67ab51fd93d26262ebe64fada395.bin
+    projectPath: Library\ShaderCache\1\151b67ab51fd93d26262ebe64fada395.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1627126e0b770d9695527d1b986e5507.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\1627126e0b770d9695527d1b986e5507.bin
+    projectPath: Library\ShaderCache\1\1627126e0b770d9695527d1b986e5507.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1697178f61e2b603246355bb289cb8c2.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\1697178f61e2b603246355bb289cb8c2.bin
+    projectPath: Library\ShaderCache\1\1697178f61e2b603246355bb289cb8c2.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1817deef2c0434b5de30f7149fad0a8e.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\1817deef2c0434b5de30f7149fad0a8e.bin
+    projectPath: Library\ShaderCache\1\1817deef2c0434b5de30f7149fad0a8e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\18fb0d93061783de73ab3d27105ce1d0.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\18fb0d93061783de73ab3d27105ce1d0.bin
+    projectPath: Library\ShaderCache\1\18fb0d93061783de73ab3d27105ce1d0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1924e353120abd910796f6df8507e9ab.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\1924e353120abd910796f6df8507e9ab.bin
+    projectPath: Library\ShaderCache\1\1924e353120abd910796f6df8507e9ab.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1b2456688429996847d5ee2fde533719.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\1b2456688429996847d5ee2fde533719.bin
+    projectPath: Library\ShaderCache\1\1b2456688429996847d5ee2fde533719.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1d268998a3fad8ec813f0a0c13fcbc59.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\1\1d268998a3fad8ec813f0a0c13fcbc59.bin
+    projectPath: Library\ShaderCache\1\1d268998a3fad8ec813f0a0c13fcbc59.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\267dc998b8d6cfb7bd325b07d3ef1097.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\2\267dc998b8d6cfb7bd325b07d3ef1097.bin
+    projectPath: Library\ShaderCache\2\267dc998b8d6cfb7bd325b07d3ef1097.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\291f05c253deb3a82c95afc2d7581ee4.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\2\291f05c253deb3a82c95afc2d7581ee4.bin
+    projectPath: Library\ShaderCache\2\291f05c253deb3a82c95afc2d7581ee4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\2aaf3dad2c5f269b5536b5919eeec06a.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\2\2aaf3dad2c5f269b5536b5919eeec06a.bin
+    projectPath: Library\ShaderCache\2\2aaf3dad2c5f269b5536b5919eeec06a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\2b32324f72284b91fc8ceb136d3ec898.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\2\2b32324f72284b91fc8ceb136d3ec898.bin
+    projectPath: Library\ShaderCache\2\2b32324f72284b91fc8ceb136d3ec898.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\2b5fa633d6e00ebc4685cfa888919dca.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\2\2b5fa633d6e00ebc4685cfa888919dca.bin
+    projectPath: Library\ShaderCache\2\2b5fa633d6e00ebc4685cfa888919dca.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\2b75de94845027235cf20b2c514ffffc.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\2\2b75de94845027235cf20b2c514ffffc.bin
+    projectPath: Library\ShaderCache\2\2b75de94845027235cf20b2c514ffffc.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\2cefa8021ca0adc303659722a01f9314.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\2\2cefa8021ca0adc303659722a01f9314.bin
+    projectPath: Library\ShaderCache\2\2cefa8021ca0adc303659722a01f9314.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\32d52c32f23041bf629ab546d0802e6c.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\32d52c32f23041bf629ab546d0802e6c.bin
+    projectPath: Library\ShaderCache\3\32d52c32f23041bf629ab546d0802e6c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\345af84e9a035d5854ec045c210ed8d4.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\345af84e9a035d5854ec045c210ed8d4.bin
+    projectPath: Library\ShaderCache\3\345af84e9a035d5854ec045c210ed8d4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\35c5c4a4f925022b12b53d8ab30e2cdd.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\35c5c4a4f925022b12b53d8ab30e2cdd.bin
+    projectPath: Library\ShaderCache\3\35c5c4a4f925022b12b53d8ab30e2cdd.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3741a0157555a456d36a1a655a537f52.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\3741a0157555a456d36a1a655a537f52.bin
+    projectPath: Library\ShaderCache\3\3741a0157555a456d36a1a655a537f52.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\385cbf2a55e64cde8879fbfe992a9b26.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\385cbf2a55e64cde8879fbfe992a9b26.bin
+    projectPath: Library\ShaderCache\3\385cbf2a55e64cde8879fbfe992a9b26.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3da1dc11ec7295da7fee20e749491be6.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\3\3da1dc11ec7295da7fee20e749491be6.bin
+    projectPath: Library\ShaderCache\3\3da1dc11ec7295da7fee20e749491be6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4113a80b30cde2636c0291abffe07085.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\4113a80b30cde2636c0291abffe07085.bin
+    projectPath: Library\ShaderCache\4\4113a80b30cde2636c0291abffe07085.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\417f206fa4871421a0f4ba477aadbf71.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\417f206fa4871421a0f4ba477aadbf71.bin
+    projectPath: Library\ShaderCache\4\417f206fa4871421a0f4ba477aadbf71.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\41992ccb831e9ae0f0c1a6e952d67284.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\41992ccb831e9ae0f0c1a6e952d67284.bin
+    projectPath: Library\ShaderCache\4\41992ccb831e9ae0f0c1a6e952d67284.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4445dc679f4656f710b071e18a44fcc1.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\4445dc679f4656f710b071e18a44fcc1.bin
+    projectPath: Library\ShaderCache\4\4445dc679f4656f710b071e18a44fcc1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\469d468dd2059546de5e22f631e59201.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\469d468dd2059546de5e22f631e59201.bin
+    projectPath: Library\ShaderCache\4\469d468dd2059546de5e22f631e59201.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\47fc024748237ee91f0f2cf3823400f6.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\47fc024748237ee91f0f2cf3823400f6.bin
+    projectPath: Library\ShaderCache\4\47fc024748237ee91f0f2cf3823400f6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\492c858fa037113b9107732a97f422a9.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\492c858fa037113b9107732a97f422a9.bin
+    projectPath: Library\ShaderCache\4\492c858fa037113b9107732a97f422a9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4947793631f8c103d21aac53abe98d18.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\4947793631f8c103d21aac53abe98d18.bin
+    projectPath: Library\ShaderCache\4\4947793631f8c103d21aac53abe98d18.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\49b2b7afe411cd1b067dcd79ec8ac191.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\49b2b7afe411cd1b067dcd79ec8ac191.bin
+    projectPath: Library\ShaderCache\4\49b2b7afe411cd1b067dcd79ec8ac191.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4d04a1ddb9121e4d0bebb60ab01e1ef6.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\4d04a1ddb9121e4d0bebb60ab01e1ef6.bin
+    projectPath: Library\ShaderCache\4\4d04a1ddb9121e4d0bebb60ab01e1ef6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4d59b759dc34b8a5dcd9612f857ec35c.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\4d59b759dc34b8a5dcd9612f857ec35c.bin
+    projectPath: Library\ShaderCache\4\4d59b759dc34b8a5dcd9612f857ec35c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4d809c36ea79a8dc30fa3b26680d8053.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\4d809c36ea79a8dc30fa3b26680d8053.bin
+    projectPath: Library\ShaderCache\4\4d809c36ea79a8dc30fa3b26680d8053.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4f566ec15eb20e7f77ff2cb3e9d608fe.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\4f566ec15eb20e7f77ff2cb3e9d608fe.bin
+    projectPath: Library\ShaderCache\4\4f566ec15eb20e7f77ff2cb3e9d608fe.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4ff5fdcc88b4d3fb8bf3e47d582a273d.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\4\4ff5fdcc88b4d3fb8bf3e47d582a273d.bin
+    projectPath: Library\ShaderCache\4\4ff5fdcc88b4d3fb8bf3e47d582a273d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\52676ec9d7ebde1d3deafc5aa5342e49.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\5\52676ec9d7ebde1d3deafc5aa5342e49.bin
+    projectPath: Library\ShaderCache\5\52676ec9d7ebde1d3deafc5aa5342e49.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\53497ab1e0974a42438d3a222870d37f.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\5\53497ab1e0974a42438d3a222870d37f.bin
+    projectPath: Library\ShaderCache\5\53497ab1e0974a42438d3a222870d37f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\55765c0d0e5b8afd51767527812878b9.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\5\55765c0d0e5b8afd51767527812878b9.bin
+    projectPath: Library\ShaderCache\5\55765c0d0e5b8afd51767527812878b9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\58e168740a9e28298ecf82dc930e581f.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\5\58e168740a9e28298ecf82dc930e581f.bin
+    projectPath: Library\ShaderCache\5\58e168740a9e28298ecf82dc930e581f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\58e8ddc9c4878b30dbe6c3618e0bac48.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\5\58e8ddc9c4878b30dbe6c3618e0bac48.bin
+    projectPath: Library\ShaderCache\5\58e8ddc9c4878b30dbe6c3618e0bac48.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\5d754d63ac48e25a39d16003e28e017f.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\5\5d754d63ac48e25a39d16003e28e017f.bin
+    projectPath: Library\ShaderCache\5\5d754d63ac48e25a39d16003e28e017f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\5e9d089ffb880abd3abb22651b6914d6.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\5\5e9d089ffb880abd3abb22651b6914d6.bin
+    projectPath: Library\ShaderCache\5\5e9d089ffb880abd3abb22651b6914d6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\64a4832792ee5831f2e836b6fab0e3a0.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\6\64a4832792ee5831f2e836b6fab0e3a0.bin
+    projectPath: Library\ShaderCache\6\64a4832792ee5831f2e836b6fab0e3a0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\65a75c7b53f307f29fcaa8845eb164a9.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\6\65a75c7b53f307f29fcaa8845eb164a9.bin
+    projectPath: Library\ShaderCache\6\65a75c7b53f307f29fcaa8845eb164a9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\65e15289ef690560b95159f508af1d4c.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\6\65e15289ef690560b95159f508af1d4c.bin
+    projectPath: Library\ShaderCache\6\65e15289ef690560b95159f508af1d4c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\6672d7b3bd3f2045c93eabfa1ee8d7fa.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\6\6672d7b3bd3f2045c93eabfa1ee8d7fa.bin
+    projectPath: Library\ShaderCache\6\6672d7b3bd3f2045c93eabfa1ee8d7fa.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\6873144a26547cbad86fc9e02b814ed9.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\6\6873144a26547cbad86fc9e02b814ed9.bin
+    projectPath: Library\ShaderCache\6\6873144a26547cbad86fc9e02b814ed9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\68a02a1d8a54a3740ab75b89d32f67cf.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\6\68a02a1d8a54a3740ab75b89d32f67cf.bin
+    projectPath: Library\ShaderCache\6\68a02a1d8a54a3740ab75b89d32f67cf.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\68f515fbe422cf067294c6960e4f0237.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\6\68f515fbe422cf067294c6960e4f0237.bin
+    projectPath: Library\ShaderCache\6\68f515fbe422cf067294c6960e4f0237.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\6f81958f2ae6c185fbd26c70cfcb6b3e.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\6\6f81958f2ae6c185fbd26c70cfcb6b3e.bin
+    projectPath: Library\ShaderCache\6\6f81958f2ae6c185fbd26c70cfcb6b3e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\71d318daffca8fa6fadd6bcad58fc448.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\71d318daffca8fa6fadd6bcad58fc448.bin
+    projectPath: Library\ShaderCache\7\71d318daffca8fa6fadd6bcad58fc448.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\74d28f43d7aacbddb4c1b28cbff1654e.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\74d28f43d7aacbddb4c1b28cbff1654e.bin
+    projectPath: Library\ShaderCache\7\74d28f43d7aacbddb4c1b28cbff1654e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\75154676e517dcaa311d8e2e70f4fd41.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\75154676e517dcaa311d8e2e70f4fd41.bin
+    projectPath: Library\ShaderCache\7\75154676e517dcaa311d8e2e70f4fd41.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\79ad6b986ccced7af6985bea2babf4a2.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\79ad6b986ccced7af6985bea2babf4a2.bin
+    projectPath: Library\ShaderCache\7\79ad6b986ccced7af6985bea2babf4a2.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\79defaa3161fb0fca2c3249022eaccfd.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\79defaa3161fb0fca2c3249022eaccfd.bin
+    projectPath: Library\ShaderCache\7\79defaa3161fb0fca2c3249022eaccfd.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7ab27a2c1fd978d01958b8bd2c63977c.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\7ab27a2c1fd978d01958b8bd2c63977c.bin
+    projectPath: Library\ShaderCache\7\7ab27a2c1fd978d01958b8bd2c63977c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7cfff0929d18fb24ab3bc23957dabc87.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\7cfff0929d18fb24ab3bc23957dabc87.bin
+    projectPath: Library\ShaderCache\7\7cfff0929d18fb24ab3bc23957dabc87.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7d16a8d9538f7a066010d1dde3a650db.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\7d16a8d9538f7a066010d1dde3a650db.bin
+    projectPath: Library\ShaderCache\7\7d16a8d9538f7a066010d1dde3a650db.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7dbade163d54c185b73455a1c26f6dc5.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\7dbade163d54c185b73455a1c26f6dc5.bin
+    projectPath: Library\ShaderCache\7\7dbade163d54c185b73455a1c26f6dc5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7f21c0f4103184762347b8ff733876b5.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\7f21c0f4103184762347b8ff733876b5.bin
+    projectPath: Library\ShaderCache\7\7f21c0f4103184762347b8ff733876b5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7f2d72542599f053fd6fe5e9cfc59486.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\7\7f2d72542599f053fd6fe5e9cfc59486.bin
+    projectPath: Library\ShaderCache\7\7f2d72542599f053fd6fe5e9cfc59486.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8060aff66566ccca776c7d22baa139e6.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\8\8060aff66566ccca776c7d22baa139e6.bin
+    projectPath: Library\ShaderCache\8\8060aff66566ccca776c7d22baa139e6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\836d5bfa941ff37f78122cefa0d28ecd.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\8\836d5bfa941ff37f78122cefa0d28ecd.bin
+    projectPath: Library\ShaderCache\8\836d5bfa941ff37f78122cefa0d28ecd.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\84665eb700206a12a7933460f0979d7a.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\8\84665eb700206a12a7933460f0979d7a.bin
+    projectPath: Library\ShaderCache\8\84665eb700206a12a7933460f0979d7a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\86b629f1584043c6afcdc4eee63f5112.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\8\86b629f1584043c6afcdc4eee63f5112.bin
+    projectPath: Library\ShaderCache\8\86b629f1584043c6afcdc4eee63f5112.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8a322d550de39a9cc876b28e434aa769.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\8\8a322d550de39a9cc876b28e434aa769.bin
+    projectPath: Library\ShaderCache\8\8a322d550de39a9cc876b28e434aa769.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8bafb311ebbcdd1ecf8ba90c38ff2652.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\8\8bafb311ebbcdd1ecf8ba90c38ff2652.bin
+    projectPath: Library\ShaderCache\8\8bafb311ebbcdd1ecf8ba90c38ff2652.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\91fb80e6f86cb3ec007128df0bc34113.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\9\91fb80e6f86cb3ec007128df0bc34113.bin
+    projectPath: Library\ShaderCache\9\91fb80e6f86cb3ec007128df0bc34113.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\94c7179e564d45a5e6ac8fcd822381a5.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\9\94c7179e564d45a5e6ac8fcd822381a5.bin
+    projectPath: Library\ShaderCache\9\94c7179e564d45a5e6ac8fcd822381a5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9541594a07be92326eb64fc42ddc0f49.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\9\9541594a07be92326eb64fc42ddc0f49.bin
+    projectPath: Library\ShaderCache\9\9541594a07be92326eb64fc42ddc0f49.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\97e1f41f17b1fe81dd386ba9dad0dcbb.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\9\97e1f41f17b1fe81dd386ba9dad0dcbb.bin
+    projectPath: Library\ShaderCache\9\97e1f41f17b1fe81dd386ba9dad0dcbb.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9d49538b3268482753abaed327da0cba.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\9\9d49538b3268482753abaed327da0cba.bin
+    projectPath: Library\ShaderCache\9\9d49538b3268482753abaed327da0cba.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9ea1066b889a198ce58683f26dddcb24.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\9\9ea1066b889a198ce58683f26dddcb24.bin
+    projectPath: Library\ShaderCache\9\9ea1066b889a198ce58683f26dddcb24.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9eb3d1a439762777af48f215bd47aa45.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\9\9eb3d1a439762777af48f215bd47aa45.bin
+    projectPath: Library\ShaderCache\9\9eb3d1a439762777af48f215bd47aa45.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9ed5500fce141d4f5a08cf50ee6f70f9.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\9\9ed5500fce141d4f5a08cf50ee6f70f9.bin
+    projectPath: Library\ShaderCache\9\9ed5500fce141d4f5a08cf50ee6f70f9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9f236d76176ac6dbab1dc045dd19071a.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\9\9f236d76176ac6dbab1dc045dd19071a.bin
+    projectPath: Library\ShaderCache\9\9f236d76176ac6dbab1dc045dd19071a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a16128f40dfc3d008d1d1a587b49d7cd.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\a16128f40dfc3d008d1d1a587b49d7cd.bin
+    projectPath: Library\ShaderCache\a\a16128f40dfc3d008d1d1a587b49d7cd.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a2a667f37445eb2183a088e354031b7c.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\a2a667f37445eb2183a088e354031b7c.bin
+    projectPath: Library\ShaderCache\a\a2a667f37445eb2183a088e354031b7c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a789db48f53080f9992e45f0a28574ba.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\a789db48f53080f9992e45f0a28574ba.bin
+    projectPath: Library\ShaderCache\a\a789db48f53080f9992e45f0a28574ba.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a8a9a5772a8da54585db7a99edb9ffca.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\a8a9a5772a8da54585db7a99edb9ffca.bin
+    projectPath: Library\ShaderCache\a\a8a9a5772a8da54585db7a99edb9ffca.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a8ce3b73c2a81e1b77fac8786341cd32.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\a8ce3b73c2a81e1b77fac8786341cd32.bin
+    projectPath: Library\ShaderCache\a\a8ce3b73c2a81e1b77fac8786341cd32.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\aa13ce828e7947f2eb7a136b3aaacf29.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\aa13ce828e7947f2eb7a136b3aaacf29.bin
+    projectPath: Library\ShaderCache\a\aa13ce828e7947f2eb7a136b3aaacf29.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\ae5bec79cf38164e9578c95afcb37748.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\a\ae5bec79cf38164e9578c95afcb37748.bin
+    projectPath: Library\ShaderCache\a\ae5bec79cf38164e9578c95afcb37748.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b0d80e1a1a9a2aabd34da85e807f22de.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\b0d80e1a1a9a2aabd34da85e807f22de.bin
+    projectPath: Library\ShaderCache\b\b0d80e1a1a9a2aabd34da85e807f22de.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b161c8f056c7c406fbce3de02ff2de47.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\b161c8f056c7c406fbce3de02ff2de47.bin
+    projectPath: Library\ShaderCache\b\b161c8f056c7c406fbce3de02ff2de47.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b18d8b4558b1fe0123e277de11eb5ffd.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\b18d8b4558b1fe0123e277de11eb5ffd.bin
+    projectPath: Library\ShaderCache\b\b18d8b4558b1fe0123e277de11eb5ffd.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b680c5a2aa108c189b1e809b5af5c5f0.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\b680c5a2aa108c189b1e809b5af5c5f0.bin
+    projectPath: Library\ShaderCache\b\b680c5a2aa108c189b1e809b5af5c5f0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b7842b9a16af61231e90aba4b43dbd5f.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\b7842b9a16af61231e90aba4b43dbd5f.bin
+    projectPath: Library\ShaderCache\b\b7842b9a16af61231e90aba4b43dbd5f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b81d38bf45fe594e4ef862fd4787249f.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\b81d38bf45fe594e4ef862fd4787249f.bin
+    projectPath: Library\ShaderCache\b\b81d38bf45fe594e4ef862fd4787249f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b8da7efc0879f13eb5d6e023edf70326.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\b8da7efc0879f13eb5d6e023edf70326.bin
+    projectPath: Library\ShaderCache\b\b8da7efc0879f13eb5d6e023edf70326.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\bfc297edfc2def1f105dd15bfd6c620d.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\b\bfc297edfc2def1f105dd15bfd6c620d.bin
+    projectPath: Library\ShaderCache\b\bfc297edfc2def1f105dd15bfd6c620d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\c028729c88ce12b2327578b31e4e5f01.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\c\c028729c88ce12b2327578b31e4e5f01.bin
+    projectPath: Library\ShaderCache\c\c028729c88ce12b2327578b31e4e5f01.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\c79d96f1501ad120f28933cb8c5c281a.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\c\c79d96f1501ad120f28933cb8c5c281a.bin
+    projectPath: Library\ShaderCache\c\c79d96f1501ad120f28933cb8c5c281a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\c87a7e432cfddb90510659944ddd6fef.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\c\c87a7e432cfddb90510659944ddd6fef.bin
+    projectPath: Library\ShaderCache\c\c87a7e432cfddb90510659944ddd6fef.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\c90c306dc7043c82b639bd9e2ebd9640.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\c\c90c306dc7043c82b639bd9e2ebd9640.bin
+    projectPath: Library\ShaderCache\c\c90c306dc7043c82b639bd9e2ebd9640.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\c926acd551ea8779c9d48ca59b7ed4a6.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\c\c926acd551ea8779c9d48ca59b7ed4a6.bin
+    projectPath: Library\ShaderCache\c\c926acd551ea8779c9d48ca59b7ed4a6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\ce264c5fa1ae6258d80b4a58fc6996d0.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\c\ce264c5fa1ae6258d80b4a58fc6996d0.bin
+    projectPath: Library\ShaderCache\c\ce264c5fa1ae6258d80b4a58fc6996d0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d02206b23dc1abef79319331a26bc038.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\d\d02206b23dc1abef79319331a26bc038.bin
+    projectPath: Library\ShaderCache\d\d02206b23dc1abef79319331a26bc038.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d0739827cc9edcd1ca714c6456c085d0.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\d\d0739827cc9edcd1ca714c6456c085d0.bin
+    projectPath: Library\ShaderCache\d\d0739827cc9edcd1ca714c6456c085d0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d810e061f139c6e3542f8a8907b49073.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\d\d810e061f139c6e3542f8a8907b49073.bin
+    projectPath: Library\ShaderCache\d\d810e061f139c6e3542f8a8907b49073.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d9c65f457d074e8d0896fbe2ccadc998.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\d\d9c65f457d074e8d0896fbe2ccadc998.bin
+    projectPath: Library\ShaderCache\d\d9c65f457d074e8d0896fbe2ccadc998.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\db57763b68fcfa00c8d0ecc0275c1379.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\d\db57763b68fcfa00c8d0ecc0275c1379.bin
+    projectPath: Library\ShaderCache\d\db57763b68fcfa00c8d0ecc0275c1379.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\db67d269a46045a5be391d0bae69d188.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\d\db67d269a46045a5be391d0bae69d188.bin
+    projectPath: Library\ShaderCache\d\db67d269a46045a5be391d0bae69d188.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\df8dabee9ba6220e6aebdac7e819a9f4.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\d\df8dabee9ba6220e6aebdac7e819a9f4.bin
+    projectPath: Library\ShaderCache\d\df8dabee9ba6220e6aebdac7e819a9f4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e1aa50e4cbee2915012c11f413fa8f64.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\e\e1aa50e4cbee2915012c11f413fa8f64.bin
+    projectPath: Library\ShaderCache\e\e1aa50e4cbee2915012c11f413fa8f64.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e2e9bc44ea79aa9531e177fe2fe9a285.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\e\e2e9bc44ea79aa9531e177fe2fe9a285.bin
+    projectPath: Library\ShaderCache\e\e2e9bc44ea79aa9531e177fe2fe9a285.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e3407df9785013acfff2670135f72ba0.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\e\e3407df9785013acfff2670135f72ba0.bin
+    projectPath: Library\ShaderCache\e\e3407df9785013acfff2670135f72ba0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e57c96601edde63fe74c7483ec54abaf.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\e\e57c96601edde63fe74c7483ec54abaf.bin
+    projectPath: Library\ShaderCache\e\e57c96601edde63fe74c7483ec54abaf.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e748960cbb494777b9f3078f0d136f53.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\e\e748960cbb494777b9f3078f0d136f53.bin
+    projectPath: Library\ShaderCache\e\e748960cbb494777b9f3078f0d136f53.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e7b009c466a14946e4328ad7e715f3a9.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\e\e7b009c466a14946e4328ad7e715f3a9.bin
+    projectPath: Library\ShaderCache\e\e7b009c466a14946e4328ad7e715f3a9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e8422aba53bcac3393664fe611808710.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\e\e8422aba53bcac3393664fe611808710.bin
+    projectPath: Library\ShaderCache\e\e8422aba53bcac3393664fe611808710.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\ea6392f9298b7a5dd970c08948f695e9.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\e\ea6392f9298b7a5dd970c08948f695e9.bin
+    projectPath: Library\ShaderCache\e\ea6392f9298b7a5dd970c08948f695e9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\efc73127b9170916ec2382c066b5c774.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\e\efc73127b9170916ec2382c066b5c774.bin
+    projectPath: Library\ShaderCache\e\efc73127b9170916ec2382c066b5c774.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f0700b95ec340fa25bfbc64ae7023b6f.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\f0700b95ec340fa25bfbc64ae7023b6f.bin
+    projectPath: Library\ShaderCache\f\f0700b95ec340fa25bfbc64ae7023b6f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f0a462f0a1f9db46cadb5060ba3aa47e.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\f0a462f0a1f9db46cadb5060ba3aa47e.bin
+    projectPath: Library\ShaderCache\f\f0a462f0a1f9db46cadb5060ba3aa47e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f19e1e47cbc0630c615232041b4b9561.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\f19e1e47cbc0630c615232041b4b9561.bin
+    projectPath: Library\ShaderCache\f\f19e1e47cbc0630c615232041b4b9561.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f3060393afc639c0ca02a91e050b5019.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\f3060393afc639c0ca02a91e050b5019.bin
+    projectPath: Library\ShaderCache\f\f3060393afc639c0ca02a91e050b5019.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f52b3b1807a7e45f9a0a5ae3d9facc6c.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\f52b3b1807a7e45f9a0a5ae3d9facc6c.bin
+    projectPath: Library\ShaderCache\f\f52b3b1807a7e45f9a0a5ae3d9facc6c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f60298339f0882e6d8737f3846d79657.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\f60298339f0882e6d8737f3846d79657.bin
+    projectPath: Library\ShaderCache\f\f60298339f0882e6d8737f3846d79657.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f71b465f1502015af85c378f8ffe3b12.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\f71b465f1502015af85c378f8ffe3b12.bin
+    projectPath: Library\ShaderCache\f\f71b465f1502015af85c378f8ffe3b12.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f9bd3768538e77f542aaa9c1d3238a0a.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\f9bd3768538e77f542aaa9c1d3238a0a.bin
+    projectPath: Library\ShaderCache\f\f9bd3768538e77f542aaa9c1d3238a0a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\fc1667c5ef55dfd236fdc1e49e987c45.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\fc1667c5ef55dfd236fdc1e49e987c45.bin
+    projectPath: Library\ShaderCache\f\fc1667c5ef55dfd236fdc1e49e987c45.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\fc1e6fd01be1ec77c086c25ae878c51d.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\fc1e6fd01be1ec77c086c25ae878c51d.bin
+    projectPath: Library\ShaderCache\f\fc1e6fd01be1ec77c086c25ae878c51d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\fc7381cf9667c43ff18845bffd785488.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\fc7381cf9667c43ff18845bffd785488.bin
+    projectPath: Library\ShaderCache\f\fc7381cf9667c43ff18845bffd785488.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\fe1449219d832582079a1e31305f3387.bin
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Library\ShaderCache\f\fe1449219d832582079a1e31305f3387.bin
+    projectPath: Library\ShaderCache\f\fe1449219d832582079a1e31305f3387.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -231,15 +1299,189 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\build.force
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\obj\Debug\build.force
+    projectPath: obj\Debug\build.force
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\QualitySettings.asset
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\UnityConnectSettings.asset
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Assembly-CSharp.dll
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\Assembly-CSharp.dll
+    projectPath: Temp\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\Assembly-CSharp.dll.mdb
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\Assembly-CSharp.dll.mdb
+    projectPath: Temp\Assembly-CSharp.dll.mdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\ProcessJobs\e4d7cdea9e7b674007a994e68f178ef6.bakert
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\ProcessJobs\e4d7cdea9e7b674007a994e68f178ef6.bakert
     projectPath: Temp\ProcessJobs\e4d7cdea9e7b674007a994e68f178ef6.bakert
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\TarGZ\Terrain Generator
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\TarGZ\Terrain Generator
+    projectPath: Temp\TarGZ\Terrain Generator
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityLockfile
     fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1990c24280a13bc4b8a8144c6f27cf08
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-1990c24280a13bc4b8a8144c6f27cf08
+    projectPath: Temp\UnityTempFile-1990c24280a13bc4b8a8144c6f27cf08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3e3a03c0220f186438cb0ce1b8d62d08
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-3e3a03c0220f186438cb0ce1b8d62d08
+    projectPath: Temp\UnityTempFile-3e3a03c0220f186438cb0ce1b8d62d08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3ed55ec84ef771f48ab4d2fccd441c91
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-3ed55ec84ef771f48ab4d2fccd441c91
+    projectPath: Temp\UnityTempFile-3ed55ec84ef771f48ab4d2fccd441c91
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-49942d20a97d4a7439cd999cbf308317
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-49942d20a97d4a7439cd999cbf308317
+    projectPath: Temp\UnityTempFile-49942d20a97d4a7439cd999cbf308317
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4c6fae97e9e7d7141bfcc9cd2ca8aa2c
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-4c6fae97e9e7d7141bfcc9cd2ca8aa2c
+    projectPath: Temp\UnityTempFile-4c6fae97e9e7d7141bfcc9cd2ca8aa2c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-578ff0fbcf1676346834d41422f0f79f
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-578ff0fbcf1676346834d41422f0f79f
+    projectPath: Temp\UnityTempFile-578ff0fbcf1676346834d41422f0f79f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6bf72491204a1984d8f5e825d9b7cc3a
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-6bf72491204a1984d8f5e825d9b7cc3a
+    projectPath: Temp\UnityTempFile-6bf72491204a1984d8f5e825d9b7cc3a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-94d7d8c9f9d901b419afec4bf0773ea5
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-94d7d8c9f9d901b419afec4bf0773ea5
+    projectPath: Temp\UnityTempFile-94d7d8c9f9d901b419afec4bf0773ea5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-963b3e5d1600e5b47be647d8dd7b74bd
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-963b3e5d1600e5b47be647d8dd7b74bd
+    projectPath: Temp\UnityTempFile-963b3e5d1600e5b47be647d8dd7b74bd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9d07fe1844d865e47b1228a67b354a6e
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-9d07fe1844d865e47b1228a67b354a6e
+    projectPath: Temp\UnityTempFile-9d07fe1844d865e47b1228a67b354a6e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c34305858b7ef834fbce1f13440302e5
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-c34305858b7ef834fbce1f13440302e5
+    projectPath: Temp\UnityTempFile-c34305858b7ef834fbce1f13440302e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e45036eff6e4ba14d96dcda8efe82a20
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-e45036eff6e4ba14d96dcda8efe82a20
+    projectPath: Temp\UnityTempFile-e45036eff6e4ba14d96dcda8efe82a20
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-edc009fc70f4d1e489ae9c703d02ca0b
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-edc009fc70f4d1e489ae9c703d02ca0b
+    projectPath: Temp\UnityTempFile-edc009fc70f4d1e489ae9c703d02ca0b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f11490a7ad9c785449f55607a8f778b7
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-f11490a7ad9c785449f55607a8f778b7
+    projectPath: Temp\UnityTempFile-f11490a7ad9c785449f55607a8f778b7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ff34a61b0b1106c428269c304926212e
+    fullPath: D:\UIUC\CS498\CS498VR_Fa2019_CITL\Temp\UnityTempFile-ff34a61b0b1106c428269c304926212e
+    projectPath: Temp\UnityTempFile-ff34a61b0b1106c428269c304926212e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
