@@ -62,7 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\TerrainGenerator.cs" />
+    <None Include="Assets\Resources\Textures\hw_alps\license.txt" />
     <None Include="Assets\Shaders\TerrainShader.shader" />
+    <None Include="Assets\Resources\Textures\hw_alps\hw_alps.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/UIUC/CS498/CS498VR_Fa2019_CITL/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
