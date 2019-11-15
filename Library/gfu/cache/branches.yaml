@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-10-16T17:09:14.069-05:00
-  initializedAtString: 2019-10-16T17:09:14.054-05:00
+  lastUpdatedAtString: 2019-11-14T18:20:47.553-06:00
+  initializedAtString: 2019-11-14T18:20:47.509-06:00
   localBranches:
   - name: master
     tracking: origin/master
+  - name: Physics
+    tracking: 
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
@@ -31,12 +33,18 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
+    - Physics
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
       trackingBranch: master
+    - name: Physics
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
