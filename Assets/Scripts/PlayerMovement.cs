@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(-0.015f * Input.GetAxis("Vertical"), 0, 0.015f * Input.GetAxis("Horizontal"));
+        transform.position += new Vector3(-0.01f * Input.GetAxis("Vertical"), 0, 0.01f * Input.GetAxis("Horizontal"));
     }
 
     private void OnCollisionEnter(Collision collision)
