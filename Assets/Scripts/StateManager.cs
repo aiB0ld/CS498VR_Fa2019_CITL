@@ -34,11 +34,10 @@ public class StateManager : MonoBehaviour {
         stateCollList.Add(stateColl01);
         stateCollList.Add(stateColl02);
         stateCollList.Add(stateColl03);
-        for(int i = 0; i < 3; i++)
+        for(int i = 1; i < 3; i++)
         {
-            stateCollList[i].isTrigger = false;
+            stateCollList[i].enabled = false;
         }
-        stateCollList[0].isTrigger = true;
 
 	}
 	
@@ -69,8 +68,8 @@ public class StateManager : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Player") && CurrState < 3 && CurrState >= 0)
         {
-            stateCollList[CurrState-1].isTrigger = false;
-            stateCollList[CurrState].isTrigger = true;
+            stateCollList[CurrState-1].enabled = false;
+            stateCollList[CurrState].enabled = true;
             Debug.Log("Current State Number changes to: " + CurrState);
             StateList[CurrState-1].SetActive(false);
             StateList[CurrState].SetActive(true);
