@@ -6,9 +6,18 @@ using UnityEngine.Events;
 public class OVRGrabbableExtended : OVRGrabbable {
     public UnityEvent OnGrabBegin;
 
+    /*
     public override void GrabBegin(OVRGrabber hand, Collider grabPoint)
     {
-        base.GrabBegin(hand, grabPoint);
+        Debug.Log("Grab Begin");
         OnGrabBegin.Invoke();
+        base.GrabBegin(hand, grabPoint);
+        
+    }
+    **/
+    override public void GrabBegin(OVRGrabber hand, Collider grabPoint)
+    {
+        Debug.Log("Grab Begin");
+        base.GrabBegin(hand, grabPoint);
     }
 }

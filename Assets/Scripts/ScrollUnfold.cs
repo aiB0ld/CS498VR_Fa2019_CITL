@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ScrollUnfold : MonoBehaviour {
-    private OVRGrabbableExtended grabbable;
+    private OVRGrabbable grabbable;
 
     private void Awake()
     {
-        grabbable = GetComponent<OVRGrabbableExtended>();
+        grabbable = GetComponent<OVRGrabbable>();
         grabbable.OnGrabBegin.AddListener(OnGrabbed);
     }
 
