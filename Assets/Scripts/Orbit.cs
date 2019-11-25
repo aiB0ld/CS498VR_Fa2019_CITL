@@ -7,7 +7,7 @@ public class Orbit : MonoBehaviour {
     private GameObject OrbitCam;
 	// Use this for initialization
 	void Start () {
-        OrbitCam = GameObject.Find("OVRCameraRig");
+        OrbitCam = GameObject.Find("Cameraparents");
 	}
 	
 	// Update is called once per frame
