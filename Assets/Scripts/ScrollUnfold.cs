@@ -3,9 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ScrollUnfold : MonoBehaviour {
+    private OVRGrabbableExtended grabbable;
 
-	// Use this for initialization
-	void Start () {
+    private void Awake()
+    {
+        grabbable = GetComponent<OVRGrabbableExtended>();
+        grabbable.OnGrabBegin.AddListener(OnGrabbed);
+    }
+
+    public void OnGrabbed()
+    {
+        Debug.Log("Scroll Grabbed");
+    }
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	

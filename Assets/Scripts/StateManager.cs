@@ -46,13 +46,13 @@ public class StateManager : MonoBehaviour {
 	void Update () {
 		
 	}
-    void OnCollisionEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
+        Debug.Log("State Number before Entering:" + CurrState);
         if (CurrState < 2 && CurrState >= 0)
         {
             Debug.Log( "State Number before Entering:" + CurrState);
-            stateCollList[CurrState++].isTrigger = false;
-            stateCollList[CurrState].isTrigger = false;
+            CurrState++;
         }
         else if(CurrState == 3)
         {
@@ -64,10 +64,12 @@ public class StateManager : MonoBehaviour {
         }
     }
 
-    private void OnCollisionExit(Collision collision)
+    void OnTriggerExit(Collider other)
     {
         if (CurrState < 3 && CurrState >= 0)
         {
+            stateCollList[CurrState].isTrigger = true;
+            stateCollList[CurrState].isTrigger = false;
             Debug.Log("Current State Number changes to: " + CurrState);
             StateList[CurrState-1].SetActive(false);
             StateList[CurrState].SetActive(true);
