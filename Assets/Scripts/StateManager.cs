@@ -48,28 +48,29 @@ public class StateManager : MonoBehaviour {
 	}
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("State Number before Entering:" + CurrState);
-        if (CurrState < 2 && CurrState >= 0)
+       // Debug.Log("State Number before Entering:" + CurrState);
+        if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log( "State Number before Entering:" + CurrState);
-            CurrState++;
+            if (CurrState < 2 && CurrState >= 0)
+            {
+                Debug.Log( "State Number before Entering:" + CurrState);
+                CurrState++;
+            }
+            else if(CurrState == 2)
+            {
+                CurrState = 3;
+                Debug.Log("Welcome to the Cave.");
+            }
         }
-        else if(CurrState == 3)
-        {
-            Debug.Log("Welcome to the Cave.");
-        }
-        else
-        {
-            CurrState = 3;
-        }
+        
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (CurrState < 3 && CurrState >= 0)
+        if (other.gameObject.CompareTag("Player") && CurrState < 3 && CurrState >= 0)
         {
+            stateCollList[CurrState-1].isTrigger = false;
             stateCollList[CurrState].isTrigger = true;
-            stateCollList[CurrState].isTrigger = false;
             Debug.Log("Current State Number changes to: " + CurrState);
             StateList[CurrState-1].SetActive(false);
             StateList[CurrState].SetActive(true);
