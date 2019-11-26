@@ -14,6 +14,7 @@ public class ScrollUnfold : MonoBehaviour {
     public void OnGrabbed()
     {
         Debug.Log("Scroll Grabbed");
+
     }
 
     // Use this for initialization

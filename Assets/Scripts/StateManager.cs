@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StateManager : MonoBehaviour {
-    public int CurrState = 0;
+    public static int CurrState = 0;
     public GameObject State01;
     public GameObject State02;
     public GameObject State03;
