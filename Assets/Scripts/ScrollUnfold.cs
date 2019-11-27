@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ScrollUnfold : MonoBehaviour {
     private OVRGrabbable grabbable;
+    public GameObject PauseMenu;
+    public GameObject scro;
 
     private void Awake()
     {
@@ -14,6 +16,8 @@ public class ScrollUnfold : MonoBehaviour {
     public void OnGrabbed()
     {
         Debug.Log("Scroll Grabbed");
+        PauseMenu.SetActive(true);
+        scro.SetActive(false);
     }
 
     // Use this for initialization

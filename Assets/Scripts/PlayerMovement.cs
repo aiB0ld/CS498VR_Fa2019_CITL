@@ -20,6 +20,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("on collision with " + collision.collider.name);
+        Debug.Log("on collision with " + collision.GetComponent<Collider>().name);
     }
 }
