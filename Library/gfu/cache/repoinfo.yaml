@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-11-27T07:40:25.996-06:00
-  initializedAtString: 2019-11-27T07:40:25.996-06:00
+  lastUpdatedAtString: 2019-11-27T12:55:14.584-06:00
+  initializedAtString: 2019-11-27T12:55:14.584-06:00
   currentGitRemote:
     name: origin
     url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
