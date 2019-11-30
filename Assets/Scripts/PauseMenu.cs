@@ -8,6 +8,13 @@ public class PauseMenu : MonoBehaviour {
 
     public GameObject pausemenu;
     public GameObject map;
+    public GameObject map2;
+    public GameObject map3;
+    public GameObject arrow;
+    private double start_time = 0;
+    private double timer = 0;
+    private int flag = 0;
+    private int times = 0;
 
     public GameObject Done_1;
     public GameObject Done_2;
@@ -15,6 +22,8 @@ public class PauseMenu : MonoBehaviour {
     // Use this for initialization
     void Start () {
         pausemenu.SetActive(false);
+
+        //StartCoroutine(ExampleCoroutine());
     }
 	
 	// Update is called once per frame
@@ -46,13 +55,55 @@ public class PauseMenu : MonoBehaviour {
             
         }
 
-        if(StateManager.CurrState == 1)
+        if(ScrollUnfold.grab == 1)
         {
-            Done_1.SetActive(true);
+            //Done_1.SetActive(true);
+            //voideo
+            if (flag == 0)
+            {
+                start_time = Time.realtimeSinceStartup;
+                flag = 1;
+            }
+            if (Time.realtimeSinceStartup - start_time >= 5 && start_time != 0 && flag == 1)
+            {
+                map.SetActive(true);
+                flag = 2;
+            }
+            if (Time.realtimeSinceStartup - start_time >= 10 && start_time != 0 && flag == 2)
+            {
+                map.SetActive(false);
+                map2.SetActive(true);
+                flag = 3;
+            }
+            if (Time.realtimeSinceStartup - start_time >= 15 && start_time != 0 && flag == 3)
+            {
+                map2.SetActive(false);
+                map3.SetActive(true);
+                flag = 4;
+            }
+            if (Time.realtimeSinceStartup - start_time >= 20 && start_time != 0 && flag == 4)
+            {
+                map3.SetActive(false);
+                flag = 5;
+            }
+            ScrollUnfold.grab = 0;
         }
         else if(StateManager.CurrState == 2)
         {
             Done_2.SetActive(true);
+            timer += Time.deltaTime;
+            if (timer >= 1 && times < 3)
+            {
+                times++;
+                if (arrow.activeInHierarchy)
+                {
+                    arrow.SetActive(false);
+                } else
+                {
+                    arrow.SetActive(true);
+                }
+                timer = 0;
+            }
         }
         else if(StateManager.CurrState == 3)
         {

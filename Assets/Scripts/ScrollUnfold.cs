@@ -6,6 +6,9 @@ public class ScrollUnfold : MonoBehaviour {
     private OVRGrabbable grabbable;
     public GameObject PauseMenu;
     public GameObject scro;
+    public GameObject Done_1;
+    static public int grab = 0;
+  
 
     private void Awake()
     {
@@ -18,6 +21,11 @@ public class ScrollUnfold : MonoBehaviour {
         Debug.Log("Scroll Grabbed");
         PauseMenu.SetActive(true);
         scro.SetActive(false);
+        // correct sign active
+        Done_1.SetActive(true);
+        grab = 1;
+
+        
     }
 
     // Use this for initialization
@@ -32,5 +40,6 @@ public class ScrollUnfold : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
 	}
 }
