@@ -11,10 +11,6 @@ public class StateManager : MonoBehaviour {
     public Collider stateColl02;
     public Collider stateColl03;
 
-    public GameObject correctsign1;
-    public GameObject correctsign2;
-    public GameObject correctsign3;
-
     private List<GameObject> StateList;
     private List<Collider> stateCollList;
     // Use this for initialization
@@ -78,18 +74,6 @@ public class StateManager : MonoBehaviour {
             StateList[CurrState-1].SetActive(false);
             StateList[CurrState].SetActive(true);
             
-        }
-        if (CurrState == 1)
-        {
-            correctsign1.SetActive(true);
-        }
-        else if(CurrState == 2)
-        {
-            correctsign2.SetActive(true);
-        }
-        else
-        {
-            correctsign3.SetActive(true);
         }
     }
 }

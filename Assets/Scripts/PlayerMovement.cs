@@ -18,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
         transform.position += new Vector3(-0.01f * Input.GetAxis("Vertical"), 0, 0.01f * Input.GetAxis("Horizontal"));
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("on collision with " + collision.GetComponent<Collider>().name);
-    }
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    Debug.Log("on collision with " + collision.GetComponent<Collider>().name);
+    //}
 }
