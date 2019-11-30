@@ -57,6 +57,7 @@ public class PauseMenu : MonoBehaviour {
 
         if(ScrollUnfold.grab == 1)
         {
+            Debug.Log(ScrollUnfold.grab);
             //Done_1.SetActive(true);
             //voideo
             if (flag == 0)
@@ -85,14 +86,14 @@ public class PauseMenu : MonoBehaviour {
             {
                 map3.SetActive(false);
                 flag = 5;
+                ScrollUnfold.grab = 0;
             }
-            ScrollUnfold.grab = 0;
         }
         else if(StateManager.CurrState == 2)
         {
             Done_2.SetActive(true);
             timer += Time.deltaTime;
-            if (timer >= 1 && times < 3)
+            if (timer >= 0.8 && times < 6)
             {
                 times++;
                 if (arrow.activeInHierarchy)
