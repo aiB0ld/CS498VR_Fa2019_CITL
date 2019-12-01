@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 67
+  controlID: 116
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 519
     height: 1307
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 68
+  controlID: 117
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 69
+  controlID: 118
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,20 +323,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/buttons
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/buttons
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 421}
-    m_SelectedIDs: 00180100
-    m_LastClickedID: 71680
-    m_ExpandedIDs: 000000002c2f00004e30000014320000543200009a320000d4320000a8340000123500008a36000046370000bc370000ee370000d2380000b0390000083a00007a3b00000e3d00001e3d00008e3d0000884300008a4300008c4300008e430000904300009243000094430000964300009843000000ca9a3b
+    m_SelectedIDs: dc160000
+    m_LastClickedID: 5852
+    m_ExpandedIDs: 00000000120e0000340f0000fe1000003e11000084110000be11000094130000fe1300007615000032160000a8160000dc160000c4170000a2180000fa1800006c1a0000041c0000141c0000841c00001e43000020430000224300002443000026430000284300002a4300002c4300002e43000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c2f00004e30000014320000543200009a320000d4320000a8340000123500008a36000046370000bc370000d2380000b0390000083a00007a3b00000e3d00001e3d00008e3d0000884300008a4300008c4300008e4300009043000092430000944300009643000098430000
+    m_ExpandedIDs: 00000000120e0000340f0000fe1000003e11000084110000be11000094130000fe1300007615000032160000a8160000dc160000c4170000a2180000fa1800006c1a0000041c0000141c0000841c00001e43000020430000224300002443000026430000284300002a4300002c4300002e430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,9 +480,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e2f9ffff
-    m_LastClickedID: -1566
-    m_ExpandedIDs: 9267f7ff9467f7ffdaf9ffffdcf9ffffe2f9ffff58fbffff000000006e3f0000a83f00004a400000ca400000d24000000c410000184100002441000012420000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 52fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -559,21 +559,21 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
+      m_Target: 1
       speed: 2
-      m_Value: 0
+      m_Value: 1
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0051400866, y: 0.62606984, z: 0.004142126, w: -0.7797726}
+    m_Target: {x: -0.27379686, y: 0.48724926, z: -0.16412647, w: -0.8128583}
     speed: 2
-    m_Value: {x: 0.0051399525, y: 0.6260535, z: 0.004142018, w: -0.7797522}
+    m_Value: {x: -0.27378964, y: 0.4872364, z: -0.16412215, w: -0.8128369}
   m_Size:
-    m_Target: 15.533209
+    m_Target: 24.122597
     speed: 2
-    m_Value: 15.533209
+    m_Value: 24.122597
   m_Ortho:
     m_Target: 1
     speed: 2

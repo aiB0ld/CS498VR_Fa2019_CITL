@@ -19,6 +19,7 @@ public class RealpauseMenu : MonoBehaviour {
             Debug.Log("lalala");
             origin = player.transform.position;
             realPause.transform.position = origin + new Vector3(-1f, 0.0f, 0f);
+            realPause.transform.eulerAngles = player.transform.eulerAngles;
             realPause.SetActive(true);
         }
         if (realPause.activeInHierarchy)
