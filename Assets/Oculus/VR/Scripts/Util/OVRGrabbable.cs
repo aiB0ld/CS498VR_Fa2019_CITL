@@ -41,6 +41,8 @@ public class OVRGrabbable : MonoBehaviour
 
     // Customized
     public UnityEvent OnGrabBegin;
+    public UnityEvent onBookGrabBegin;
+    public UnityEvent onLidGrabBegin;
 
     /// <summary>
     /// If true, the object can currently be grabbed.
@@ -124,7 +126,18 @@ public class OVRGrabbable : MonoBehaviour
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
 
         Debug.Log("Grab Begin OG");
+
         OnGrabBegin.Invoke();
+
+        if (grabPoint.gameObject.CompareTag("Notebook"))
+        {
+            onBookGrabBegin.Invoke();
+        }
+        else if (grabPoint.gameObject.CompareTag("Lid"))
+        {
+            onLidGrabBegin.Invoke();
+        }
+        
     }
 
 	/// <summary>

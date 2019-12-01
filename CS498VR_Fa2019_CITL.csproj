@@ -610,16 +610,21 @@
     <Compile Include="Assets\Resources\Scripts\Shooting.cs" />
     <Compile Include="Assets\Resources\Scripts\TargetScript.cs" />
     <Compile Include="Assets\Scripts\GlowingCircle.cs" />
+    <Compile Include="Assets\Scripts\LidInspector.cs" />
+    <Compile Include="Assets\Scripts\materialChange.cs" />
+    <Compile Include="Assets\Scripts\Notebook.cs" />
     <Compile Include="Assets\Scripts\OVRGrabbableExtended.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerCameraSwitch.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ScrollUnfold.cs" />
     <Compile Include="Assets\Scripts\StateManager.cs" />
+    <Compile Include="Assets\Scripts\WaxSealed.cs" />
     <Compile Include="Assets\WorldSkies\Demo\Scripts\LookCamera.cs" />
     <Compile Include="Assets\WorldSkies\Demo\Scripts\SkyboxChanger.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Grimoire\ReadMe.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />

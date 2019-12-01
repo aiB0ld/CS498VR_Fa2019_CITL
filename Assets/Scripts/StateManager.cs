@@ -4,23 +4,24 @@ using UnityEngine;
 
 public class StateManager : MonoBehaviour {
     public static int CurrState = 0;
+
     public GameObject State01;
     public GameObject State02;
     public GameObject State03;
+
     public Collider stateColl01;
     public Collider stateColl02;
     public Collider stateColl03;
 
-    public GameObject correctsign1;
-    public GameObject correctsign2;
-    public GameObject correctsign3;
-
     private List<GameObject> StateList;
     private List<Collider> stateCollList;
+
+    private LidInspector inspector;
+
     // Use this for initialization
     void Start () {
 
-        Debug.Log("Welcome to Village.");
+        Debug.Log("Welcome to Cave.");
 
         //state gameobject initialization
         StateList = new List<GameObject>();
@@ -42,54 +43,56 @@ public class StateManager : MonoBehaviour {
         {
             stateCollList[i].enabled = false;
         }
-
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (LidInspector.OriGrabbed && LidInspector.OneGrabbed && LidInspector.TwoGrabbed && LidInspector.ThreeGrabbed)
+        {
+            if(CurrState == 0)
+            {
+                enterNextState();
+            }
+            
+        }
+        if(CurrState == 1 && Notebook.BookisGrabbed)
+        {
+            enterNextState();
+        }
 	}
+
     void OnTriggerEnter(Collider other)
     {
        // Debug.Log("State Number before Entering:" + CurrState);
         if (other.gameObject.CompareTag("Player"))
         {
-            if (CurrState < 2 && CurrState >= 0)
+            if (CurrState >= 0)
             {
                 Debug.Log( "State Number before Entering:" + CurrState);
-                CurrState++;
-            }
-            else if(CurrState == 2)
-            {   
-                CurrState = 3;
-                Debug.Log("Welcome to the Cave.");
+                
+                
+                
+                if(CurrState >= 2)
+                {
+                    CurrState = 3;
+                    Debug.Log("Welcome back to the tricky Village.");
+                    //loadscene;
+                }
+                
             }
         }
-        
+
+
     }
 
-    void OnTriggerExit(Collider other)
+    void enterNextState()
     {
-        if (other.gameObject.CompareTag("Player") && CurrState < 3 && CurrState >= 0)
-        {
-            stateCollList[CurrState-1].enabled = false;
-            stateCollList[CurrState].enabled = true;
-            Debug.Log("Current State Number changes to: " + CurrState);
-            StateList[CurrState-1].SetActive(false);
-            StateList[CurrState].SetActive(true);
-            
-        }
-        if (CurrState == 1)
-        {
-            correctsign1.SetActive(true);
-        }
-        else if(CurrState == 2)
-        {
-            correctsign2.SetActive(true);
-        }
-        else
-        {
-            correctsign3.SetActive(true);
-        }
+        CurrState++;
+        stateCollList[CurrState - 1].enabled = false;
+        stateCollList[CurrState].enabled = true;
+        Debug.Log("Current State Number changes to: " + CurrState);
+        StateList[CurrState - 1].SetActive(false);
+        StateList[CurrState].SetActive(true);
     }
 }

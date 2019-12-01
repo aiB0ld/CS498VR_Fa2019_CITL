@@ -12,15 +12,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-11-14T18:20:47.553-06:00
-  initializedAtString: 2019-11-14T18:20:47.509-06:00
+  lastUpdatedAtString: 2019-11-30T16:06:40.368-06:00
+  initializedAtString: 2019-11-30T16:06:37.116-06:00
   localBranches:
+  - name: Cave
+    tracking: origin/Cave
   - name: master
     tracking: origin/master
   - name: Physics
-    tracking: 
+    tracking: origin/Physics
   remoteBranches:
+  - name: origin/Cave
+    tracking: '[None]'
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/Physics
+    tracking: '[None]'
+  - name: origin/UI3.0
     tracking: '[None]'
   remotes:
   - name: origin
@@ -32,9 +40,15 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - Cave
     - master
     - Physics
     values:
+    - name: Cave
+      remote:
+        name: origin
+        url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
+      trackingBranch: Cave
     - name: master
       remote:
         name: origin
@@ -42,18 +56,36 @@ MonoBehaviour:
       trackingBranch: master
     - name: Physics
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
+      trackingBranch: Physics
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - Cave
       - HEAD
+      - Physics
+      - UI3.0
     subKeyValues:
     - Values:
+      - name: Cave
+        remote:
+          name: origin
+          url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
+        trackingBranch: 
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
+        trackingBranch: 
+      - name: Physics
+        remote:
+          name: origin
+          url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
+        trackingBranch: 
+      - name: UI3.0
         remote:
           name: origin
           url: https://github.com/FrogJin/CS498VR_Fa2019_CITL.git
