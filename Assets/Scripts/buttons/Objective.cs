@@ -9,6 +9,8 @@ public class Objective : MonoBehaviour
 
     //public GameObject target_1;
     public GameObject learnobj;
+    public GameObject realPause;
+    public GameObject todolist;
     // Use this for initialization
     void Start()
     {
@@ -18,6 +20,7 @@ public class Objective : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
 
     }
 
@@ -30,7 +33,9 @@ public class Objective : MonoBehaviour
                 learnobj.SetActive(false);
             } else
             {
+                todolist.SetActive(false);
                 learnobj.SetActive(true);
+                realPause.SetActive(false);
             }
         }
     }

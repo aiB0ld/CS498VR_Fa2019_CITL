@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Map : MonoBehaviour {
     public GameObject mapmap;
+    public GameObject realPause;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -26,6 +26,7 @@ public class Map : MonoBehaviour {
             else
             {
                 mapmap.SetActive(true);
+                realPause.SetActive(false);
             }
         }
     }

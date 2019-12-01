@@ -7,6 +7,7 @@ public class ScrollUnfold : MonoBehaviour {
     public GameObject PauseMenu;
     public GameObject scro;
     public GameObject Done_1;
+    public GameObject learnobj;
     static public int grab = 0;
     private double timer111 = 0;
 
@@ -20,6 +21,7 @@ public class ScrollUnfold : MonoBehaviour {
     public void OnGrabbed()
     {
         Debug.Log("Scroll Grabbed");
+        learnobj.SetActive(false);
         PauseMenu.SetActive(true);
         scro.SetActive(false);
         // correct sign active
