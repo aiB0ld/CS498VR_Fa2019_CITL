@@ -14,7 +14,6 @@ public class PauseMenu : MonoBehaviour {
     private double start_time = 0;
     private double timer = 0;
     private int flag = 0;
-    private int times = 0;
 
     public GameObject Done_1;
     public GameObject Done_2;
@@ -93,9 +92,8 @@ public class PauseMenu : MonoBehaviour {
         {
             Done_2.SetActive(true);
             timer += Time.deltaTime;
-            if (timer >= 0.8 && times < 6)
+            if (timer >= 0.8)
             {
-                times++;
                 if (arrow.activeInHierarchy)
                 {
                     arrow.SetActive(false);

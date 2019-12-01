@@ -8,7 +8,8 @@ public class ScrollUnfold : MonoBehaviour {
     public GameObject scro;
     public GameObject Done_1;
     static public int grab = 0;
-  
+    private double timer111 = 0;
+
 
     private void Awake()
     {
@@ -24,8 +25,6 @@ public class ScrollUnfold : MonoBehaviour {
         // correct sign active
         Done_1.SetActive(true);
         grab = 1;
-
-        
     }
 
     // Use this for initialization
@@ -40,6 +39,14 @@ public class ScrollUnfold : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
-	}
+        if (PauseMenu.activeInHierarchy)
+        {
+            timer111 += Time.deltaTime;
+            if (timer111 >= 4)
+            {
+                PauseMenu.SetActive(false);
+                timer111 = 0;
+            }
+        }
+    }
 }
