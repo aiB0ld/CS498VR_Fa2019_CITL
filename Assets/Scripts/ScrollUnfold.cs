@@ -50,5 +50,6 @@ public class ScrollUnfold : MonoBehaviour {
                 timer111 = 0;
             }
         }
+        transform.Rotate(0,1,0);
     }
 }
