@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCameraSwitch : MonoBehaviour {
+public class PlayerCameraSwitch : MonoBehaviour
+{
     public GameObject FirstPersonVP;
     public GameObject ThirdPersonVP;
     bool isFirstPersonVP;
@@ -11,8 +12,9 @@ public class PlayerCameraSwitch : MonoBehaviour {
     //public Vector3 firstPersonCamPosition;
     //public Vector3 thirdPersonCamPosition;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         isFirstPersonVP = false;
 
         //firstPersonCamPosition = new Vector3(0, 0, 0.5f);
@@ -20,8 +22,8 @@ public class PlayerCameraSwitch : MonoBehaviour {
 
         //ThirdPersonVP.SetActive(!isFirstPersonVP);
         //FirstPersonVP.SetActive(isFirstPersonVP);
-	}
-	
+    }
+
     void SwitchView()
     {
         isFirstPersonVP = !isFirstPersonVP;
@@ -39,16 +41,17 @@ public class PlayerCameraSwitch : MonoBehaviour {
         ThirdPersonVP.SetActive(!isFirstPersonVP);
         FirstPersonVP.SetActive(isFirstPersonVP);
     }
-    
+
     void DisableMovement()
     {
 
     }
-    
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         if (Input.GetKeyDown("x")) SwitchView();
 
         if (isFirstPersonVP) DisableMovement();
-	}
+    }
 }

@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlowingCircle : MonoBehaviour {
+public class GlowingCircle : MonoBehaviour
+{
     public Vector3 speed;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         transform.Rotate(speed * Time.deltaTime);
-	}
+    }
 }

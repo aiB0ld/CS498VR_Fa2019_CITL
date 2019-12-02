@@ -8,7 +8,10 @@ public class Notebook : MonoBehaviour {
     //public float speed = 5f;
     public GameObject Book;
     public GameObject Light;
+    public GameObject notebook;
     public static bool BookisGrabbed = false;
+    static public int grabnote = 0;
+    public GameObject Done2;
 
     private OVRGrabbable grabbable;
     void Start () {
@@ -25,6 +28,10 @@ public class Notebook : MonoBehaviour {
     {
         Debug.Log("Notebook Grabbed");
         BookisGrabbed = true;
+        notebook.SetActive(true);
+        grabnote = 1;
+        Done2.SetActive(true);
+
     }
 
     // Update is called once per frame

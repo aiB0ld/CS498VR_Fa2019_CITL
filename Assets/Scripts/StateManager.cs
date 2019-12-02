@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StateManager : MonoBehaviour {
+public class StateManager : MonoBehaviour
+{
     public static int CurrState = 0;
 
     public GameObject State01;
@@ -19,7 +20,8 @@ public class StateManager : MonoBehaviour {
     private LidInspector inspector;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
 
         Debug.Log("Welcome to Cave.");
 
@@ -28,7 +30,7 @@ public class StateManager : MonoBehaviour {
         StateList.Add(State01);
         StateList.Add(State02);
         StateList.Add(State03);
-        for( int i = 0; i < 3 ; i++ )
+        for (int i = 0; i < 3; i++)
         {
             StateList[i].SetActive(false);
         }
@@ -39,47 +41,48 @@ public class StateManager : MonoBehaviour {
         stateCollList.Add(stateColl01);
         stateCollList.Add(stateColl02);
         stateCollList.Add(stateColl03);
-        for(int i = 1; i < 3; i++)
+        for (int i = 1; i < 3; i++)
         {
             stateCollList[i].enabled = false;
         }
-        
+
     }
-	
-	// Update is called once per frame
-	void Update () {
-		if (LidInspector.OriGrabbed && LidInspector.OneGrabbed && LidInspector.TwoGrabbed && LidInspector.ThreeGrabbed)
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (LidInspector.OriGrabbed && LidInspector.OneGrabbed && LidInspector.TwoGrabbed && LidInspector.ThreeGrabbed)
         {
-            if(CurrState == 0)
+            if (CurrState == 0)
             {
                 enterNextState();
             }
-            
+
         }
-        if(CurrState == 1 && Notebook.BookisGrabbed)
+        if (CurrState == 1 && Notebook.BookisGrabbed)
         {
             enterNextState();
         }
-	}
+    }
 
     void OnTriggerEnter(Collider other)
     {
-       // Debug.Log("State Number before Entering:" + CurrState);
+        // Debug.Log("State Number before Entering:" + CurrState);
         if (other.gameObject.CompareTag("Player"))
         {
             if (CurrState >= 0)
             {
-                Debug.Log( "State Number before Entering:" + CurrState);
-                
-                
-                
-                if(CurrState >= 2)
+                Debug.Log("State Number before Entering:" + CurrState);
+
+
+
+                if (CurrState >= 2)
                 {
                     CurrState = 3;
                     Debug.Log("Welcome back to the tricky Village.");
                     //loadscene;
                 }
-                
+
             }
         }
 
