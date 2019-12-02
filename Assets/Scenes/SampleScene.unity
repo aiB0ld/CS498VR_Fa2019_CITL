@@ -418,7 +418,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 73342068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 653.3, y: -11.5, z: -0.01}
+  m_LocalPosition: {x: 576.7, y: -11.5, z: -0.01}
   m_LocalScale: {x: 17, y: 17, z: 0}
   m_Children: []
   m_Father: {fileID: 943615519}
@@ -856,7 +856,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1944,7 +1944,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 327124983}
   m_LocalRotation: {x: -0, y: -0, z: 0.0000000060535967, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 288593008}
@@ -18331,19 +18331,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd6d5dfd8e9aaa0478b671b031d9a5b2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.97298753
+      value: -0.989565
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd6d5dfd8e9aaa0478b671b031d9a5b2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.02563742
+      value: -0.006421581
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd6d5dfd8e9aaa0478b671b031d9a5b2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.13388829
+      value: 0.13616945
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd6d5dfd8e9aaa0478b671b031d9a5b2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.18631138
+      value: -0.046666652
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd6d5dfd8e9aaa0478b671b031d9a5b2, type: 3}
       propertyPath: m_RootOrder
@@ -18363,7 +18363,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd6d5dfd8e9aaa0478b671b031d9a5b2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -201.68
+      value: -185.4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd6d5dfd8e9aaa0478b671b031d9a5b2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -18555,7 +18555,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2. Look at down and find the notebook
+  m_Text: 2. Find the notebook and Grab it.
 --- !u!222 &943615522
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18978,7 +18978,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: decc9a0ec109fd7458ac2c25f720d30c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.002617907
+      value: 0.16384248
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: decc9a0ec109fd7458ac2c25f720d30c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -18986,11 +18986,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: decc9a0ec109fd7458ac2c25f720d30c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: decc9a0ec109fd7458ac2c25f720d30c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999966
+      value: 0.9864865
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: decc9a0ec109fd7458ac2c25f720d30c, type: 3}
       propertyPath: m_RootOrder
@@ -19010,7 +19010,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: decc9a0ec109fd7458ac2c25f720d30c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.3
+      value: 18.86
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: decc9a0ec109fd7458ac2c25f720d30c, type: 3}
@@ -23971,7 +23971,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -24649,7 +24649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1298734730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25515,6 +25515,72 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1383998112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1383998114}
+  - component: {fileID: 1383998113}
+  m_Layer: 0
+  m_Name: Environment Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1383998113
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1383998112}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 8
+  m_Range: 20
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1383998114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1383998112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1388926981
 Prefab:
   m_ObjectHideFlags: 0
@@ -25847,7 +25913,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3. Find the exit and explore
+  m_Text: 3. Exit the Cave and explore more.
 --- !u!222 &1445585805
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25889,31 +25955,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.01086
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.018
+      value: 0.0089
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0688
+      value: 0.06737
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.00000008146034
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
-      propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.59271616
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8054114
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
       propertyPath: m_RootOrder
@@ -25930,6 +25996,10 @@ Prefab:
     - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.083333336
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 72.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee4b6b86b99ad044aa07fcc576818d1, type: 3}
@@ -31648,7 +31718,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651882191}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 561.5, y: -18.55, z: -0.01}
+  m_LocalPosition: {x: 485.93, y: -8.3, z: -0.01}
   m_LocalScale: {x: 17, y: 17, z: 0}
   m_Children: []
   m_Father: {fileID: 2077829796}
@@ -33149,7 +33219,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1905614982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 710, y: -8, z: -0.01}
+  m_LocalPosition: {x: 637.4, y: -8, z: -0.01}
   m_LocalScale: {x: 17, y: 17, z: 0}
   m_Children: []
   m_Father: {fileID: 1445585802}
@@ -33343,7 +33413,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43162,7 +43232,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43267,7 +43337,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1. Go to check the urns and try opening them
+  m_Text: 1. Check and try opening ALL of the urns.
 --- !u!222 &2077829799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -43284,7 +43354,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: d08e784548bfa984680252ce819900f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.007816
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d08e784548bfa984680252ce819900f4, type: 3}
       propertyPath: m_LocalPosition.y
