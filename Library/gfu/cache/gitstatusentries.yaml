@@ -12,18 +12,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-29T19:35:28.003-06:00
-  initializedAtString: 2019-11-29T19:35:28.003-06:00
+  lastUpdatedAtString: 2019-12-03T16:43:26.564-06:00
+  initializedAtString: 2019-12-03T16:41:18.851-06:00
   entries:
-  - path: .vs\CS498VR_Fa2019_CITL\v15\.suo
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\.suo
-    projectPath: .vs\CS498VR_Fa2019_CITL\v15\.suo
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+  - path: CS498VR_Fa2019_CITL.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\CS498VR_Fa2019_CITL.csproj
+    projectPath: CS498VR_Fa2019_CITL.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: CS498VR_Fa2019_CITL.Editor.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\CS498VR_Fa2019_CITL.Editor.csproj
+    projectPath: CS498VR_Fa2019_CITL.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: CS498VR_Fa2019_CITL.Editor.Plugins.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\CS498VR_Fa2019_CITL.Editor.Plugins.csproj
+    projectPath: CS498VR_Fa2019_CITL.Editor.Plugins.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -33,189 +45,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\CrashedAssetImports.txt
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\EditorInstance.json
     fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\1c\1c41683ebcae73443a17f431ae93502d
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\1c\1c41683ebcae73443a17f431ae93502d
-    projectPath: Library\metadata\1c\1c41683ebcae73443a17f431ae93502d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\1c\1c41683ebcae73443a17f431ae93502d.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\1c\1c41683ebcae73443a17f431ae93502d.info
-    projectPath: Library\metadata\1c\1c41683ebcae73443a17f431ae93502d.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\40\4007730970f3ea842b55f05c3f55d266
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\40\4007730970f3ea842b55f05c3f55d266
-    projectPath: Library\metadata\40\4007730970f3ea842b55f05c3f55d266
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\40\4007730970f3ea842b55f05c3f55d266.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\40\4007730970f3ea842b55f05c3f55d266.info
-    projectPath: Library\metadata\40\4007730970f3ea842b55f05c3f55d266.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\48\48fc7a6ff4dcd384788d22ae06ec76dd
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\48\48fc7a6ff4dcd384788d22ae06ec76dd
-    projectPath: Library\metadata\48\48fc7a6ff4dcd384788d22ae06ec76dd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\48\48fc7a6ff4dcd384788d22ae06ec76dd.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\48\48fc7a6ff4dcd384788d22ae06ec76dd.info
-    projectPath: Library\metadata\48\48fc7a6ff4dcd384788d22ae06ec76dd.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4e\4e3a1c13c9ad5c847aa2a24830794b7e
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\4e\4e3a1c13c9ad5c847aa2a24830794b7e
-    projectPath: Library\metadata\4e\4e3a1c13c9ad5c847aa2a24830794b7e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4e\4e3a1c13c9ad5c847aa2a24830794b7e.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\4e\4e3a1c13c9ad5c847aa2a24830794b7e.info
-    projectPath: Library\metadata\4e\4e3a1c13c9ad5c847aa2a24830794b7e.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\73\73716e8954f5e084c83c13c1ab98c9ed
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\73\73716e8954f5e084c83c13c1ab98c9ed
-    projectPath: Library\metadata\73\73716e8954f5e084c83c13c1ab98c9ed
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\73\73716e8954f5e084c83c13c1ab98c9ed.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\73\73716e8954f5e084c83c13c1ab98c9ed.info
-    projectPath: Library\metadata\73\73716e8954f5e084c83c13c1ab98c9ed.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\77\776702b3a7424ae4daa81f93bc3b4f27
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\77\776702b3a7424ae4daa81f93bc3b4f27
-    projectPath: Library\metadata\77\776702b3a7424ae4daa81f93bc3b4f27
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\77\776702b3a7424ae4daa81f93bc3b4f27.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\77\776702b3a7424ae4daa81f93bc3b4f27.info
-    projectPath: Library\metadata\77\776702b3a7424ae4daa81f93bc3b4f27.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\77\7791866682176f1418b3e9f177b914b6
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\77\7791866682176f1418b3e9f177b914b6
-    projectPath: Library\metadata\77\7791866682176f1418b3e9f177b914b6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\77\7791866682176f1418b3e9f177b914b6.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\77\7791866682176f1418b3e9f177b914b6.info
-    projectPath: Library\metadata\77\7791866682176f1418b3e9f177b914b6.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\78\78e17c21bc632e24d8b9b23388f0690f
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\78\78e17c21bc632e24d8b9b23388f0690f
-    projectPath: Library\metadata\78\78e17c21bc632e24d8b9b23388f0690f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\78\78e17c21bc632e24d8b9b23388f0690f.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\78\78e17c21bc632e24d8b9b23388f0690f.info
-    projectPath: Library\metadata\78\78e17c21bc632e24d8b9b23388f0690f.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\95\953cf509f6b836e42a7d67fa723c7cd5
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\95\953cf509f6b836e42a7d67fa723c7cd5
-    projectPath: Library\metadata\95\953cf509f6b836e42a7d67fa723c7cd5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\95\953cf509f6b836e42a7d67fa723c7cd5.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\95\953cf509f6b836e42a7d67fa723c7cd5.info
-    projectPath: Library\metadata\95\953cf509f6b836e42a7d67fa723c7cd5.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\95\9552564ef0ed91647a764e954eaadb43
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\95\9552564ef0ed91647a764e954eaadb43
-    projectPath: Library\metadata\95\9552564ef0ed91647a764e954eaadb43
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\95\9552564ef0ed91647a764e954eaadb43.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\95\9552564ef0ed91647a764e954eaadb43.info
-    projectPath: Library\metadata\95\9552564ef0ed91647a764e954eaadb43.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\a4\a469b5ac0110d6f40bf74162c784da8c.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\a4\a469b5ac0110d6f40bf74162c784da8c.info
-    projectPath: Library\metadata\a4\a469b5ac0110d6f40bf74162c784da8c.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\a7\a755115cc57cd6945b63fd8d29951ad5
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\a7\a755115cc57cd6945b63fd8d29951ad5
-    projectPath: Library\metadata\a7\a755115cc57cd6945b63fd8d29951ad5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\a7\a755115cc57cd6945b63fd8d29951ad5.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\a7\a755115cc57cd6945b63fd8d29951ad5.info
-    projectPath: Library\metadata\a7\a755115cc57cd6945b63fd8d29951ad5.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\a8\a8f00079f3c6df54b893d4d79662f7d4
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\a8\a8f00079f3c6df54b893d4d79662f7d4
-    projectPath: Library\metadata\a8\a8f00079f3c6df54b893d4d79662f7d4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\a8\a8f00079f3c6df54b893d4d79662f7d4.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\a8\a8f00079f3c6df54b893d4d79662f7d4.info
-    projectPath: Library\metadata\a8\a8f00079f3c6df54b893d4d79662f7d4.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\bf\bff065b38e6bbcd4a8af88857106089e
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\bf\bff065b38e6bbcd4a8af88857106089e
-    projectPath: Library\metadata\bf\bff065b38e6bbcd4a8af88857106089e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\bf\bff065b38e6bbcd4a8af88857106089e.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\bf\bff065b38e6bbcd4a8af88857106089e.info
-    projectPath: Library\metadata\bf\bff065b38e6bbcd4a8af88857106089e.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\fa\fafa9630fdbb7b64cb52a565d8cde34b
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\fa\fafa9630fdbb7b64cb52a565d8cde34b
-    projectPath: Library\metadata\fa\fafa9630fdbb7b64cb52a565d8cde34b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\fa\fafa9630fdbb7b64cb52a565d8cde34b.info
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\fa\fafa9630fdbb7b64cb52a565d8cde34b.info
-    projectPath: Library\metadata\fa\fafa9630fdbb7b64cb52a565d8cde34b.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -225,9 +81,147 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\ProcessJobs\cdc29278696937fddde72e558089297a.bakert
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\cdc29278696937fddde72e558089297a.bakert
-    projectPath: Temp\ProcessJobs\cdc29278696937fddde72e558089297a.bakert
+  - path: Oculus.VR.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Oculus.VR.csproj
+    projectPath: Oculus.VR.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Oculus.VR.Editor.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Oculus.VR.Editor.csproj
+    projectPath: Oculus.VR.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Oculus.VR.Scripts.Editor.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Oculus.VR.Scripts.Editor.csproj
+    projectPath: Oculus.VR.Scripts.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\ProcessJobs\0b0f1883ab615fce3c7dfd41d955361b.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\0b0f1883ab615fce3c7dfd41d955361b.bakert
+    projectPath: Temp\ProcessJobs\0b0f1883ab615fce3c7dfd41d955361b.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\3f5ebcd0694bd88658a2638425a86f2a.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\3f5ebcd0694bd88658a2638425a86f2a.bakert
+    projectPath: Temp\ProcessJobs\3f5ebcd0694bd88658a2638425a86f2a.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\46aceb233b5f44f4b5bb358089d1b4c3.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\46aceb233b5f44f4b5bb358089d1b4c3.bakert
+    projectPath: Temp\ProcessJobs\46aceb233b5f44f4b5bb358089d1b4c3.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\4c6b677b4448b3806b351580bf133522.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\4c6b677b4448b3806b351580bf133522.bakert
+    projectPath: Temp\ProcessJobs\4c6b677b4448b3806b351580bf133522.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\580fc8f8db6b41b30fdd6fa08bcd3a63.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\580fc8f8db6b41b30fdd6fa08bcd3a63.bakert
+    projectPath: Temp\ProcessJobs\580fc8f8db6b41b30fdd6fa08bcd3a63.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\6d1bac7ae4628643f3e8157511fda6be.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\6d1bac7ae4628643f3e8157511fda6be.bakert
+    projectPath: Temp\ProcessJobs\6d1bac7ae4628643f3e8157511fda6be.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\74672239605441da4153229b0f891447.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\74672239605441da4153229b0f891447.bakert
+    projectPath: Temp\ProcessJobs\74672239605441da4153229b0f891447.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\7b77d4235e69727a40d5fd0ae0a1a79d.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\7b77d4235e69727a40d5fd0ae0a1a79d.bakert
+    projectPath: Temp\ProcessJobs\7b77d4235e69727a40d5fd0ae0a1a79d.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\85b359295d9a60bceae67ac1735e8d96.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\85b359295d9a60bceae67ac1735e8d96.bakert
+    projectPath: Temp\ProcessJobs\85b359295d9a60bceae67ac1735e8d96.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\91d479aad76f0d141c0d83a36c843ebf.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\91d479aad76f0d141c0d83a36c843ebf.bakert
+    projectPath: Temp\ProcessJobs\91d479aad76f0d141c0d83a36c843ebf.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\92723aebd3be11a2a8ac6e974948d3a3.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\92723aebd3be11a2a8ac6e974948d3a3.bakert
+    projectPath: Temp\ProcessJobs\92723aebd3be11a2a8ac6e974948d3a3.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\95c8184ee869840ffc5462eadd56419e.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\95c8184ee869840ffc5462eadd56419e.bakert
+    projectPath: Temp\ProcessJobs\95c8184ee869840ffc5462eadd56419e.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\a18d0be82117ac767ed27fa2a56106e9.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\a18d0be82117ac767ed27fa2a56106e9.bakert
+    projectPath: Temp\ProcessJobs\a18d0be82117ac767ed27fa2a56106e9.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\a5fb8387806c001418a3bd96db7e2f61.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\a5fb8387806c001418a3bd96db7e2f61.bakert
+    projectPath: Temp\ProcessJobs\a5fb8387806c001418a3bd96db7e2f61.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\bd88017cd00f6dea2958d706c17f0e03.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\bd88017cd00f6dea2958d706c17f0e03.bakert
+    projectPath: Temp\ProcessJobs\bd88017cd00f6dea2958d706c17f0e03.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\c2634f298c595b10ea2e602d76345a97.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\c2634f298c595b10ea2e602d76345a97.bakert
+    projectPath: Temp\ProcessJobs\c2634f298c595b10ea2e602d76345a97.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\c29d2250722bfe979288f9513b449af6.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\c29d2250722bfe979288f9513b449af6.bakert
+    projectPath: Temp\ProcessJobs\c29d2250722bfe979288f9513b449af6.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\c3bc7108a5be77bec6e81e4bd5033062.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\c3bc7108a5be77bec6e81e4bd5033062.bakert
+    projectPath: Temp\ProcessJobs\c3bc7108a5be77bec6e81e4bd5033062.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\d8da2aa0f676511cd3902b3ec9d84a9a.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\d8da2aa0f676511cd3902b3ec9d84a9a.bakert
+    projectPath: Temp\ProcessJobs\d8da2aa0f676511cd3902b3ec9d84a9a.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\f8a5fa4fe15e382a8b339b9fc865f3d4.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\f8a5fa4fe15e382a8b339b9fc865f3d4.bakert
+    projectPath: Temp\ProcessJobs\f8a5fa4fe15e382a8b339b9fc865f3d4.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\ffcfa0d35c0ac0565c6def90e2525b16.bakert
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\ffcfa0d35c0ac0565c6def90e2525b16.bakert
+    projectPath: Temp\ProcessJobs\ffcfa0d35c0ac0565c6def90e2525b16.bakert
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -237,3 +231,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Unity.PackageManagerUI.Editor.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Unity.PackageManagerUI.Editor.csproj
+    projectPath: Unity.PackageManagerUI.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.TextMeshPro.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Unity.TextMeshPro.csproj
+    projectPath: Unity.TextMeshPro.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.TextMeshPro.Editor.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Unity.TextMeshPro.Editor.csproj
+    projectPath: Unity.TextMeshPro.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: UnityEditor.StandardEvents.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\UnityEditor.StandardEvents.csproj
+    projectPath: UnityEditor.StandardEvents.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
