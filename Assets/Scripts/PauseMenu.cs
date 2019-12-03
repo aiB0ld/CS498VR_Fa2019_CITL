@@ -57,7 +57,7 @@ public class PauseMenu : MonoBehaviour {
         if(ScrollUnfold.grab == 1)
         {
             Debug.Log(ScrollUnfold.grab);
-            //Done_1.SetActive(true);
+            Done_1.SetActive(true);
             //voideo
             if (flag == 0)
             {
