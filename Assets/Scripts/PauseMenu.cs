@@ -91,7 +91,8 @@ public class PauseMenu : MonoBehaviour {
         else if(StateManager.CurrState == 2)
         {
             Done_2.SetActive(true);
-            timer += Time.deltaTime;
+            arrow.SetActive(true);
+            /*timer += Time.deltaTime;
             if (timer >= 0.8)
             {
                 if (arrow.activeInHierarchy)
@@ -102,7 +103,7 @@ public class PauseMenu : MonoBehaviour {
                     arrow.SetActive(true);
                 }
                 timer = 0;
-            }
+            }*/
         }
         else if(StateManager.CurrState == 3)
         {
