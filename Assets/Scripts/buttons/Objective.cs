@@ -10,7 +10,6 @@ public class Objective : MonoBehaviour
     //public GameObject target_1;
     public GameObject learnobj;
     public GameObject realPause;
-    public GameObject note_button;
     public GameObject todolist;
     // Use this for initialization
     void Start()
@@ -34,7 +33,6 @@ public class Objective : MonoBehaviour
                 learnobj.SetActive(false);
             } else
             {
-                note_button.SetActive(false);
                 todolist.SetActive(false);
                 learnobj.SetActive(true);
                 realPause.SetActive(false);

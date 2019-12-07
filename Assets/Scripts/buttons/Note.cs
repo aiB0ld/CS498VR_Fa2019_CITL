@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Note : MonoBehaviour {
-    public GameObject note_button;
+public class Map : MonoBehaviour {
+    public GameObject mapmap;
     public GameObject realPause;
-    public GameObject todolist;
-    public GameObject learnobj;
+
     // Use this for initialization
     void Start () {
 		
@@ -20,15 +19,13 @@ public class Note : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Hand"))
         {
-            if (note_button.activeInHierarchy)
+            if (mapmap.activeInHierarchy)
             {
-                note_button.SetActive(false);
+                mapmap.SetActive(false);
             }
             else
             {
-                todolist.SetActive(false);
-                learnobj.SetActive(false);
-                note_button.SetActive(true);
+                mapmap.SetActive(true);
                 realPause.SetActive(false);
             }
         }

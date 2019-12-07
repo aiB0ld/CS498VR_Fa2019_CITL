@@ -6,12 +6,10 @@ public class RealpauseMenu : MonoBehaviour {
 
     public GameObject realPause;
     public GameObject player;
-    public GameObject note_button;
+    public GameObject mapmap;
     public GameObject learnobj;
-    public GameObject todolist;
     private double timer111 = 0;
     private double timer222 = 0;
-    private double timer333 = 0;
     // public GameObject centereye;
     //private Vector3 origin;
     private Vector3 origin111;
@@ -22,7 +20,7 @@ public class RealpauseMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (OVRInput.GetDown(OVRInput.RawButton.X) && TODOLIST.lecture == 0)
+        if (OVRInput.GetDown(OVRInput.RawButton.X))
         {
             if (realPause.activeInHierarchy)
             {
@@ -41,36 +39,26 @@ public class RealpauseMenu : MonoBehaviour {
         {
             player.transform.position = origin111;
         }
-        //learning object
-        if (learnobj.activeInHierarchy)
+        //mapmap
+        if (mapmap.activeInHierarchy)
         {
+           // Debug.Log("mapmap");
             timer111 += Time.deltaTime;
             if (timer111 >= 4)
             {
-                learnobj.SetActive(false);
+                mapmap.SetActive(false);
                 timer111 = 0;
             }
         }
-        //todolist
-        if (todolist.activeInHierarchy)
+        //learning object
+        if (learnobj.activeInHierarchy)
         {
             timer222 += Time.deltaTime;
             if (timer222 >= 4)
             {
-                todolist.SetActive(false);
+                learnobj.SetActive(false);
                 timer222 = 0;
             }
         }
-        //todolist
-        if (note_button.activeInHierarchy)
-        {
-            timer333 += Time.deltaTime;
-            if (timer333 >= 4)
-            {
-                note_button.SetActive(false);
-                timer333 = 0;
-            }
-        }
-
     }
 }

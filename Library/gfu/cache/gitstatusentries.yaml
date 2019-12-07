@@ -12,9 +12,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-07T14:33:26.643-06:00
-  initializedAtString: 2019-12-07T14:33:26.643-06:00
+  lastUpdatedAtString: 2019-12-07T16:14:52.728-06:00
+  initializedAtString: 2019-12-07T16:14:43.066-06:00
   entries:
+  - path: .vs\CS498VR_Fa2019_CITL\v15\.suo
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\.suo
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: CS498VR_Fa2019_CITL.csproj
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\CS498VR_Fa2019_CITL.csproj
+    projectPath: CS498VR_Fa2019_CITL.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: CS498VR_Fa2019_CITL.Editor.csproj
     fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\CS498VR_Fa2019_CITL.Editor.csproj
     projectPath: CS498VR_Fa2019_CITL.Editor.csproj
@@ -39,9 +69,57 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\03\03445d88abd233849a279d71c1daf678
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\03\03445d88abd233849a279d71c1daf678
+    projectPath: Library\metadata\03\03445d88abd233849a279d71c1daf678
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\03\03445d88abd233849a279d71c1daf678.info
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\03\03445d88abd233849a279d71c1daf678.info
+    projectPath: Library\metadata\03\03445d88abd233849a279d71c1daf678.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\1d\1d67a50e81e39484e82d697af4821375
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\1d\1d67a50e81e39484e82d697af4821375
+    projectPath: Library\metadata\1d\1d67a50e81e39484e82d697af4821375
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\1d\1d67a50e81e39484e82d697af4821375.info
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\1d\1d67a50e81e39484e82d697af4821375.info
+    projectPath: Library\metadata\1d\1d67a50e81e39484e82d697af4821375.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\eb\eb08aeee86008ab4993cf1e3df0818d0
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\eb\eb08aeee86008ab4993cf1e3df0818d0
+    projectPath: Library\metadata\eb\eb08aeee86008ab4993cf1e3df0818d0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\eb\eb08aeee86008ab4993cf1e3df0818d0.info
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\eb\eb08aeee86008ab4993cf1e3df0818d0.info
+    projectPath: Library\metadata\eb\eb08aeee86008ab4993cf1e3df0818d0.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -81,15 +159,69 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-31ec7fa739344344a896e8838382b349
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-31ec7fa739344344a896e8838382b349
-    projectPath: Temp\UnityTempFile-31ec7fa739344344a896e8838382b349
+  - path: Temp\UnityVS_obj\Debug\CS498VR_Fa2019_CITL.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\CS498VR_Fa2019_CITL.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\CS498VR_Fa2019_CITL.csproj.CoreCompileInputs.cache
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3b8fd63e3d28aa540a16815c0335bc18
-    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-3b8fd63e3d28aa540a16815c0335bc18
-    projectPath: Temp\UnityTempFile-3b8fd63e3d28aa540a16815c0335bc18
+  - path: Temp\UnityVS_obj\Debug\CS498VR_Fa2019_CITL.Editor.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\CS498VR_Fa2019_CITL.Editor.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\CS498VR_Fa2019_CITL.Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityVS_obj\Debug\CS498VR_Fa2019_CITL.Editor.Plugins.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\CS498VR_Fa2019_CITL.Editor.Plugins.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\CS498VR_Fa2019_CITL.Editor.Plugins.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityVS_obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: Temp\UnityVS_obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityVS_obj\Debug\Oculus.VR.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\Oculus.VR.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\Oculus.VR.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityVS_obj\Debug\Oculus.VR.Editor.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\Oculus.VR.Editor.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\Oculus.VR.Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityVS_obj\Debug\Oculus.VR.Scripts.Editor.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\Oculus.VR.Scripts.Editor.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\Oculus.VR.Scripts.Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityVS_obj\Debug\Unity.PackageManagerUI.Editor.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\Unity.PackageManagerUI.Editor.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\Unity.PackageManagerUI.Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityVS_obj\Debug\Unity.TextMeshPro.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\Unity.TextMeshPro.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\Unity.TextMeshPro.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityVS_obj\Debug\Unity.TextMeshPro.Editor.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\Unity.TextMeshPro.Editor.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\Unity.TextMeshPro.Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityVS_obj\Debug\UnityEditor.StandardEvents.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\haoyuz7\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityVS_obj\Debug\UnityEditor.StandardEvents.csproj.CoreCompileInputs.cache
+    projectPath: Temp\UnityVS_obj\Debug\UnityEditor.StandardEvents.csproj.CoreCompileInputs.cache
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

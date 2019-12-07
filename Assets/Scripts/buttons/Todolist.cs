@@ -7,9 +7,8 @@ public class Todolist : MonoBehaviour {
     public GameObject todolist;
     public GameObject realPause;
     public GameObject learn;
-    public GameObject note_button;
-    // Use this for initialization
-    void Start () {
+	// Use this for initialization
+	void Start () {
 		
 	}
 	
@@ -28,7 +27,6 @@ public class Todolist : MonoBehaviour {
             }
             else
             {
-                note_button.SetActive(false);
                 learn.SetActive(false);
                 todolist.SetActive(true);
                 realPause.SetActive(false);
