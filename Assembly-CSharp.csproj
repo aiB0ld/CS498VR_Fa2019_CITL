@@ -359,13 +359,10 @@
     <Compile Include="Assets\Scripts\buttons\Start_Menu.cs" />
     <Compile Include="Assets\Scripts\buttons\Todolist.cs" />
     <Compile Include="Assets\Scripts\CaveRealpause.cs" />
-    <Compile Include="Assets\Scripts\DisableTrack.cs" />
     <Compile Include="Assets\Scripts\GlowingCircle.cs" />
     <Compile Include="Assets\Scripts\LidInspector.cs" />
     <Compile Include="Assets\Scripts\materialChange.cs" />
-    <Compile Include="Assets\Scripts\MenuStart.cs" />
     <Compile Include="Assets\Scripts\Notebook.cs" />
-    <Compile Include="Assets\Scripts\Orbit.cs" />
     <Compile Include="Assets\Scripts\OVRGrabbableExtended.cs" />
     <Compile Include="Assets\Scripts\PlayerCameraSwitch.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
@@ -400,7 +397,6 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_SingleComponentExpressive.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
-    <None Include="Assets\Material\Blur.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
