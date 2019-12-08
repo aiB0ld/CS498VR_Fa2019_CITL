@@ -25,7 +25,7 @@ public class ScrollUnfold : MonoBehaviour {
         PauseMenu.SetActive(true);
         scro.SetActive(false);
         // correct sign active
-        Done_1.SetActive(true);
+        //Done_1.SetActive(true);
         grab = 1;
     }
 

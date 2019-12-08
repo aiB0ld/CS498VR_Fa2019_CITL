@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class WaxSealed : MonoBehaviour {
     public UnityEvent onLidGrabBegin;
+    static public int sealtouch = 0;
 
     // Use this for initialization
     void Start () {
@@ -22,6 +23,7 @@ public class WaxSealed : MonoBehaviour {
         {
             Debug.Log("DISPLAY WAX SEALED MESSAGE!");
             LidInspector.OriGrabbed = true;
+            sealtouch = 1;
         }
     }
 }

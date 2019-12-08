@@ -11,6 +11,7 @@ public class Objective : MonoBehaviour
     public GameObject learnobj;
     public GameObject realPause;
     public GameObject todolist;
+    public GameObject mapmap;
     // Use this for initialization
     void Start()
     {
@@ -33,6 +34,7 @@ public class Objective : MonoBehaviour
                 learnobj.SetActive(false);
             } else
             {
+                mapmap.SetActive(false);
                 todolist.SetActive(false);
                 learnobj.SetActive(true);
                 realPause.SetActive(false);

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Todolist : MonoBehaviour {
 
     public GameObject todolist;
+    public GameObject mapmap;
     public GameObject realPause;
     public GameObject learn;
 	// Use this for initialization
@@ -27,6 +28,7 @@ public class Todolist : MonoBehaviour {
             }
             else
             {
+                mapmap.SetActive(false);
                 learn.SetActive(false);
                 todolist.SetActive(true);
                 realPause.SetActive(false);
