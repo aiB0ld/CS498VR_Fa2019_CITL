@@ -18457,7 +18457,7 @@ GameObject:
   - component: {fileID: 1231822390}
   - component: {fileID: 1231822389}
   - component: {fileID: 1231822387}
-  - component: {fileID: 1231822393}
+  - component: {fileID: 1231822388}
   m_Layer: 5
   m_Name: starmenu
   m_TagString: Untagged
@@ -18496,6 +18496,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 100, y: 180, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1231822388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231822385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cdffb3e225fa28439383baea446c833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  learnobj: {fileID: 1840171575}
+  realPause: {fileID: 1768530977}
+  todolist: {fileID: 1366722767}
+  mapmap: {fileID: 1142357604}
+  onTouchColor: {r: 1, g: 0.6, b: 0.6, a: 1}
+  grabBegin: 0.05
+  grabEnd: 0.05
 --- !u!54 &1231822389
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18586,17 +18604,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1231822385}
   m_CullTransparentMesh: 0
---- !u!114 &1231822393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1231822385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56cd7ef715446854796978e1a2e0cd64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1256540514
 GameObject:
   m_ObjectHideFlags: 0
@@ -19126,8 +19133,8 @@ GameObject:
   - component: {fileID: 1371559024}
   - component: {fileID: 1371559023}
   - component: {fileID: 1371559021}
-  - component: {fileID: 1371559020}
   - component: {fileID: 1371559022}
+  - component: {fileID: 1371559020}
   m_Layer: 5
   m_Name: learningobjectives
   m_TagString: Untagged
@@ -19162,13 +19169,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1371559018}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eeffa603ae8414d4eb8e3a989683d517, type: 3}
+  m_Script: {fileID: 11500000, guid: 2cdffb3e225fa28439383baea446c833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   learnobj: {fileID: 1840171575}
   realPause: {fileID: 1768530977}
   todolist: {fileID: 1366722767}
   mapmap: {fileID: 1142357604}
+  onTouchColor: {r: 1, g: 0.6, b: 0.6, a: 1}
+  grabBegin: 0.05
+  grabEnd: 0.05
 --- !u!54 &1371559021
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19589,8 +19599,8 @@ GameObject:
   - component: {fileID: 1540872587}
   - component: {fileID: 1540872586}
   - component: {fileID: 1540872585}
-  - component: {fileID: 1540872584}
   - component: {fileID: 1540872583}
+  - component: {fileID: 1540872584}
   m_Layer: 5
   m_Name: map
   m_TagString: Untagged
@@ -19637,13 +19647,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1540872581}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2ef5cac016bf35449d76ece5b1cb4a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 2cdffb3e225fa28439383baea446c833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapmap: {fileID: 1142357604}
+  learnobj: {fileID: 1840171575}
   realPause: {fileID: 1768530977}
   todolist: {fileID: 1366722767}
-  learnobj: {fileID: 1840171575}
+  mapmap: {fileID: 1142357604}
+  onTouchColor: {r: 1, g: 0.6, b: 0.6, a: 1}
+  grabBegin: 0.05
+  grabEnd: 0.05
 --- !u!54 &1540872585
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26113,7 +26126,7 @@ GameObject:
   - component: {fileID: 2018450844}
   - component: {fileID: 2018450843}
   - component: {fileID: 2018450841}
-  - component: {fileID: 2018450847}
+  - component: {fileID: 2018450842}
   m_Layer: 5
   m_Name: todolist
   m_TagString: Untagged
@@ -26152,6 +26165,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 100, y: 180, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2018450842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018450839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cdffb3e225fa28439383baea446c833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  learnobj: {fileID: 1840171575}
+  realPause: {fileID: 1768530977}
+  todolist: {fileID: 1366722767}
+  mapmap: {fileID: 1142357604}
+  onTouchColor: {r: 1, g: 0.6, b: 0.6, a: 1}
+  grabBegin: 0.05
+  grabEnd: 0.05
 --- !u!54 &2018450843
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26242,21 +26273,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018450839}
   m_CullTransparentMesh: 0
---- !u!114 &2018450847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2018450839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c563d7caf2e9cee4d8522faa62ec476e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  todolist: {fileID: 1366722767}
-  mapmap: {fileID: 1142357604}
-  realPause: {fileID: 1768530977}
-  learn: {fileID: 1840171575}
 --- !u!1 &2025495309
 GameObject:
   m_ObjectHideFlags: 0
