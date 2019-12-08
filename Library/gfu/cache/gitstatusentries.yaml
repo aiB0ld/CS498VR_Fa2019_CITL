@@ -12,325 +12,144 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-08T13:28:16.357-06:00
-  initializedAtString: 2019-12-08T12:46:39.181-06:00
+  lastUpdatedAtString: 2019-12-08T13:37:30.563-06:00
+  initializedAtString: 2019-12-08T13:35:54.807-06:00
   entries:
-  - path: .vs\CS498VR_Fa2019_CITL\v15\.suo
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\.suo
-    projectPath: .vs\CS498VR_Fa2019_CITL\v15\.suo
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-shm
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-shm
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-wal
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-wal
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp-Editor.csproj
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Model\Button_Press_1208.fbx
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Model\Button_Press_1208.fbx
-    projectPath: Assets\Model\Button_Press_1208.fbx
+  - path: Assets\Image.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Image.meta
+    projectPath: Assets\Image.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Model\Button_Press_1208.fbx.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Model\Button_Press_1208.fbx.meta
-    projectPath: Assets\Model\Button_Press_1208.fbx.meta
+  - path: Assets\Image\CorrectSign.png
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Image\CorrectSign.png
+    projectPath: Assets\Image\CorrectSign.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Models.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models.meta
-    projectPath: Assets\Models.meta
+  - path: Assets\Image\CorrectSign.png.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Image\CorrectSign.png.meta
+    projectPath: Assets\Image\CorrectSign.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Material\Blur.mat
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Material\Blur.mat
+    projectPath: Assets\Material\Blur.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Material\Blur.mat.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Material\Blur.mat.meta
+    projectPath: Assets\Material\Blur.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Material\Blur.shader
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Material\Blur.shader
+    projectPath: Assets\Material\Blur.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Material\Blur.shader.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Material\Blur.shader.meta
+    projectPath: Assets\Material\Blur.shader.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Material\Village.mat
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Material\Village.mat
+    projectPath: Assets\Material\Village.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Material\Village.mat.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Material\Village.mat.meta
+    projectPath: Assets\Material\Village.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Oculus\Spatializer\Plugins\x86.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\Spatializer\Plugins\x86.meta
+    projectPath: Assets\Oculus\Spatializer\Plugins\x86.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll
+    projectPath: Assets\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll.meta
+    projectPath: Assets\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Oculus\Spatializer\Plugins\x86_64.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\Spatializer\Plugins\x86_64.meta
+    projectPath: Assets\Oculus\Spatializer\Plugins\x86_64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll
+    projectPath: Assets\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll.meta
+    projectPath: Assets\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Oculus\VR\Plugins\1.42.0\Android\OVRPlugin.aar.disabled.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\VR\Plugins\1.42.0\Android\OVRPlugin.aar.disabled.meta
+    projectPath: Assets\Oculus\VR\Plugins\1.42.0\Android\OVRPlugin.aar.disabled.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies.meta
-    projectPath: Assets\Models\School Supplies.meta
+    workTreeStatus: 3
+  - path: Assets\Oculus\VR\Plugins\1.42.0\AndroidUniversal\OVRPlugin.aar.disabled.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\VR\Plugins\1.42.0\AndroidUniversal\OVRPlugin.aar.disabled.meta
+    projectPath: Assets\Oculus\VR\Plugins\1.42.0\AndroidUniversal\OVRPlugin.aar.disabled.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Demo Scene.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Demo
-      Scene.meta
-    projectPath: Assets\Models\School Supplies\Demo Scene.meta
+    workTreeStatus: 3
+  - path: Assets\Oculus\VR\Plugins\1.42.0\Win\OVRPlugin.dll.disabled.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\VR\Plugins\1.42.0\Win\OVRPlugin.dll.disabled.meta
+    projectPath: Assets\Oculus\VR\Plugins\1.42.0\Win\OVRPlugin.dll.disabled.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Demo Scene\demo.unity
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Demo
-      Scene\demo.unity
-    projectPath: Assets\Models\School Supplies\Demo Scene\demo.unity
+    workTreeStatus: 3
+  - path: Assets\Oculus\VR\Plugins\1.42.0\Win64\OVRPlugin.dll.disabled.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\VR\Plugins\1.42.0\Win64\OVRPlugin.dll.disabled.meta
+    projectPath: Assets\Oculus\VR\Plugins\1.42.0\Win64\OVRPlugin.dll.disabled.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Demo Scene\demo.unity.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Demo
-      Scene\demo.unity.meta
-    projectPath: Assets\Models\School Supplies\Demo Scene\demo.unity.meta
+    workTreeStatus: 3
+  - path: Assets\Oculus\VR\Scripts\Util\OVRGrabbable.cs
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\VR\Scripts\Util\OVRGrabbable.cs
+    projectPath: Assets\Oculus\VR\Scripts\Util\OVRGrabbable.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Demo Scene\showroom.mat
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Demo
-      Scene\showroom.mat
-    projectPath: Assets\Models\School Supplies\Demo Scene\showroom.mat
+    workTreeStatus: 3
+  - path: Assets\Oculus\VR\Scripts\Util\OVRPlayerController.cs
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Oculus\VR\Scripts\Util\OVRPlayerController.cs
+    projectPath: Assets\Oculus\VR\Scripts\Util\OVRPlayerController.cs
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Demo Scene\showroom.mat.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Demo
-      Scene\showroom.mat.meta
-    projectPath: Assets\Models\School Supplies\Demo Scene\showroom.mat.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Demo Scene\showroom.obj
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Demo
-      Scene\showroom.obj
-    projectPath: Assets\Models\School Supplies\Demo Scene\showroom.obj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Demo Scene\showroom.obj.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Demo
-      Scene\showroom.obj.meta
-    projectPath: Assets\Models\School Supplies\Demo Scene\showroom.obj.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Eraser.prefab
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Eraser.prefab
-    projectPath: Assets\Models\School Supplies\Eraser.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Eraser.prefab.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Eraser.prefab.meta
-    projectPath: Assets\Models\School Supplies\Eraser.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models.meta
-    projectPath: Assets\Models\School Supplies\Models.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\eraser.fbx
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\eraser.fbx
-    projectPath: Assets\Models\School Supplies\Models\eraser.fbx
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\eraser.fbx.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\eraser.fbx.meta
-    projectPath: Assets\Models\School Supplies\Models\eraser.fbx.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Materials.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Materials.meta
-    projectPath: Assets\Models\School Supplies\Models\Materials.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Materials\notepad.mat
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Materials\notepad.mat
-    projectPath: Assets\Models\School Supplies\Models\Materials\notepad.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Materials\notepad.mat.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Materials\notepad.mat.meta
-    projectPath: Assets\Models\School Supplies\Models\Materials\notepad.mat.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser.mat
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser.mat
-    projectPath: Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser.mat.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser.mat.meta
-    projectPath: Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser.mat.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser_alpha.mat
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser_alpha.mat
-    projectPath: Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser_alpha.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser_alpha.mat.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser_alpha.mat.meta
-    projectPath: Assets\Models\School Supplies\Models\Materials\pen_pencil_eraser_alpha.mat.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\notepad.fbx
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\notepad.fbx
-    projectPath: Assets\Models\School Supplies\Models\notepad.fbx
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\notepad.fbx.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\notepad.fbx.meta
-    projectPath: Assets\Models\School Supplies\Models\notepad.fbx.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\pen.fbx
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\pen.fbx
-    projectPath: Assets\Models\School Supplies\Models\pen.fbx
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\pen.fbx.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\pen.fbx.meta
-    projectPath: Assets\Models\School Supplies\Models\pen.fbx.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\pencil.fbx
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\pencil.fbx
-    projectPath: Assets\Models\School Supplies\Models\pencil.fbx
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\pencil.fbx.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\pencil.fbx.meta
-    projectPath: Assets\Models\School Supplies\Models\pencil.fbx.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Textures.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Textures.meta
-    projectPath: Assets\Models\School Supplies\Models\Textures.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Textures\notepad.tga
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Textures\notepad.tga
-    projectPath: Assets\Models\School Supplies\Models\Textures\notepad.tga
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Textures\notepad.tga.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Textures\notepad.tga.meta
-    projectPath: Assets\Models\School Supplies\Models\Textures\notepad.tga.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Textures\notepad_metallic.tga
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Textures\notepad_metallic.tga
-    projectPath: Assets\Models\School Supplies\Models\Textures\notepad_metallic.tga
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Textures\notepad_metallic.tga.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Textures\notepad_metallic.tga.meta
-    projectPath: Assets\Models\School Supplies\Models\Textures\notepad_metallic.tga.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser.tga
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser.tga
-    projectPath: Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser.tga
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser.tga.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser.tga.meta
-    projectPath: Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser.tga.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser_metallic.tga
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser_metallic.tga
-    projectPath: Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser_metallic.tga
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser_metallic.tga.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser_metallic.tga.meta
-    projectPath: Assets\Models\School Supplies\Models\Textures\pen_pencil_eraser_metallic.tga.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Notepad.prefab
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Notepad.prefab
-    projectPath: Assets\Models\School Supplies\Notepad.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Notepad.prefab.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Notepad.prefab.meta
-    projectPath: Assets\Models\School Supplies\Notepad.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Pen.prefab
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Pen.prefab
-    projectPath: Assets\Models\School Supplies\Pen.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Pen.prefab.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Pen.prefab.meta
-    projectPath: Assets\Models\School Supplies\Pen.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Pencil.prefab
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Pencil.prefab
-    projectPath: Assets\Models\School Supplies\Pencil.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Models\School Supplies\Pencil.prefab.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Models\School Supplies\Pencil.prefab.meta
-    projectPath: Assets\Models\School Supplies\Pencil.prefab.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Resources\OVRBuildConfig.asset
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Resources\OVRBuildConfig.asset
-    projectPath: Assets\Resources\OVRBuildConfig.asset
+    workTreeStatus: 3
+  - path: Assets\Resources\ONSPSettings.asset.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Resources\ONSPSettings.asset.meta
+    projectPath: Assets\Resources\ONSPSettings.asset.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -340,138 +159,86 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\CaveScene.unity
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scenes\CaveScene.unity
-    projectPath: Assets\Scenes\CaveScene.unity
+  - path: Assets\Scenes\island_1119.fbx
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scenes\island_1119.fbx
+    projectPath: Assets\Scenes\island_1119.fbx
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\island_1119.fbx.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scenes\island_1119.fbx.meta
+    projectPath: Assets\Scenes\island_1119.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\Scenes\VillageScene.unity
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scenes\VillageScene.unity
     projectPath: Assets\Scenes\VillageScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\buttons\map.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\buttons\map.cs
-    projectPath: Assets\Scripts\buttons\map.cs
+  - path: Assets\Scripts\DisableTrack.cs
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\DisableTrack.cs
+    projectPath: Assets\Scripts\DisableTrack.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\buttons\map.cs.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\buttons\map.cs.meta
-    projectPath: Assets\Scripts\buttons\map.cs.meta
+  - path: Assets\Scripts\DisableTrack.cs.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\DisableTrack.cs.meta
+    projectPath: Assets\Scripts\DisableTrack.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\buttons\Note.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\buttons\Note.cs
-    projectPath: Assets\Scripts\buttons\Note.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\buttons\Objective.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\buttons\Objective.cs
-    projectPath: Assets\Scripts\buttons\Objective.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\buttons\Todolist.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\buttons\Todolist.cs
-    projectPath: Assets\Scripts\buttons\Todolist.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\CaveRealpause.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\CaveRealpause.cs
-    projectPath: Assets\Scripts\CaveRealpause.cs
+  - path: Assets\Scripts\MenuStart.cs
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\MenuStart.cs
+    projectPath: Assets\Scripts\MenuStart.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\CaveRealpause.cs.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\CaveRealpause.cs.meta
-    projectPath: Assets\Scripts\CaveRealpause.cs.meta
+  - path: Assets\Scripts\MenuStart.cs.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\MenuStart.cs.meta
+    projectPath: Assets\Scripts\MenuStart.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\RealpauseMenu.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\RealpauseMenu.cs
-    projectPath: Assets\Scripts\RealpauseMenu.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\reminder.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\reminder.cs
-    projectPath: Assets\Scripts\reminder.cs
+  - path: Assets\Scripts\Orbit.cs
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\Orbit.cs
+    projectPath: Assets\Scripts\Orbit.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\reminder.cs.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\reminder.cs.meta
-    projectPath: Assets\Scripts\reminder.cs.meta
+  - path: Assets\Scripts\Orbit.cs.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\Orbit.cs.meta
+    projectPath: Assets\Scripts\Orbit.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\ScrollUnfold.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\ScrollUnfold.cs
-    projectPath: Assets\Scripts\ScrollUnfold.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\TODOLIST.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\TODOLIST.cs
-    projectPath: Assets\Scripts\TODOLIST.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\TODOLIST2222.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\TODOLIST2222.cs
-    projectPath: Assets\Scripts\TODOLIST2222.cs
+  - path: Assets\WorldSkies\Textures\New Material.mat
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\WorldSkies\Textures\New
+      Material.mat
+    projectPath: Assets\WorldSkies\Textures\New Material.mat
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\TODOLIST2222.cs.meta
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\TODOLIST2222.cs.meta
-    projectPath: Assets\Scripts\TODOLIST2222.cs.meta
+  - path: Assets\WorldSkies\Textures\New Material.mat.meta
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\WorldSkies\Textures\New
+      Material.mat.meta
+    projectPath: Assets\WorldSkies\Textures\New Material.mat.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scripts\WaxSealed.cs
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Assets\Scripts\WaxSealed.cs
-    projectPath: Assets\Scripts\WaxSealed.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CS498VR_Fa2019_CITL.sln
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\CS498VR_Fa2019_CITL.sln
-    projectPath: CS498VR_Fa2019_CITL.sln
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\assetDatabase3
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\CrashedAssetImports.txt
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\EditorInstance.json
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -490,834 +257,246 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\metadata\02\02d61468f8b77ae4b92c344bc9a600fb
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\02\02d61468f8b77ae4b92c344bc9a600fb
+    projectPath: Library\metadata\02\02d61468f8b77ae4b92c344bc9a600fb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\00\00931e932c93cef48ae2d8cc87408c66
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\00\00931e932c93cef48ae2d8cc87408c66
-    projectPath: Library\metadata\00\00931e932c93cef48ae2d8cc87408c66
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\00\00931e932c93cef48ae2d8cc87408c66.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\00\00931e932c93cef48ae2d8cc87408c66.info
-    projectPath: Library\metadata\00\00931e932c93cef48ae2d8cc87408c66.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\02\02480fb0d0ba6564e9c66dbdb5908114
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\02\02480fb0d0ba6564e9c66dbdb5908114
-    projectPath: Library\metadata\02\02480fb0d0ba6564e9c66dbdb5908114
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\04\04f970f25d911df43a6fc4fd0f618674
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\04\04f970f25d911df43a6fc4fd0f618674
-    projectPath: Library\metadata\04\04f970f25d911df43a6fc4fd0f618674
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\04\04f970f25d911df43a6fc4fd0f618674.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\04\04f970f25d911df43a6fc4fd0f618674.info
-    projectPath: Library\metadata\04\04f970f25d911df43a6fc4fd0f618674.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\07\072450ffed31fe545a60f71f33f53916
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\07\072450ffed31fe545a60f71f33f53916
-    projectPath: Library\metadata\07\072450ffed31fe545a60f71f33f53916
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\0b\0bc9f3e0b20fe984697b880329a181fd
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\0b\0bc9f3e0b20fe984697b880329a181fd
-    projectPath: Library\metadata\0b\0bc9f3e0b20fe984697b880329a181fd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\0b\0bc9f3e0b20fe984697b880329a181fd.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\0b\0bc9f3e0b20fe984697b880329a181fd.info
-    projectPath: Library\metadata\0b\0bc9f3e0b20fe984697b880329a181fd.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\0d\0d3bb855445e36e479c85976fc88383a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\0d\0d3bb855445e36e479c85976fc88383a
-    projectPath: Library\metadata\0d\0d3bb855445e36e479c85976fc88383a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\10\1061f817a710076498c1694bc569263e
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\10\1061f817a710076498c1694bc569263e
-    projectPath: Library\metadata\10\1061f817a710076498c1694bc569263e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\10\1061f817a710076498c1694bc569263e.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\10\1061f817a710076498c1694bc569263e.info
-    projectPath: Library\metadata\10\1061f817a710076498c1694bc569263e.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\12\125a0b18e3087b24185bb20a2ad348bc
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\12\125a0b18e3087b24185bb20a2ad348bc
-    projectPath: Library\metadata\12\125a0b18e3087b24185bb20a2ad348bc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
-    projectPath: Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\16\1638f3415e6a8594ba9323f0ba3c5acf
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\16\1638f3415e6a8594ba9323f0ba3c5acf
-    projectPath: Library\metadata\16\1638f3415e6a8594ba9323f0ba3c5acf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\19\19ead9387dc9ef14fad0436a846268f7
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\19\19ead9387dc9ef14fad0436a846268f7
-    projectPath: Library\metadata\19\19ead9387dc9ef14fad0436a846268f7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
-    projectPath: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\1b\1baa65a541dbb5f43b8454d30928e265
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\1b\1baa65a541dbb5f43b8454d30928e265
-    projectPath: Library\metadata\1b\1baa65a541dbb5f43b8454d30928e265
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\1b\1baa65a541dbb5f43b8454d30928e265.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\1b\1baa65a541dbb5f43b8454d30928e265.info
-    projectPath: Library\metadata\1b\1baa65a541dbb5f43b8454d30928e265.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
-    projectPath: Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\1e\1e931f4ff3666774ca5e1359eea1e3f2
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\1e\1e931f4ff3666774ca5e1359eea1e3f2
-    projectPath: Library\metadata\1e\1e931f4ff3666774ca5e1359eea1e3f2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\1e\1e931f4ff3666774ca5e1359eea1e3f2.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\1e\1e931f4ff3666774ca5e1359eea1e3f2.info
-    projectPath: Library\metadata\1e\1e931f4ff3666774ca5e1359eea1e3f2.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\1e\1e9452c2e358b30408e6165e6d56053d
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\1e\1e9452c2e358b30408e6165e6d56053d
-    projectPath: Library\metadata\1e\1e9452c2e358b30408e6165e6d56053d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\1e\1e9452c2e358b30408e6165e6d56053d.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\1e\1e9452c2e358b30408e6165e6d56053d.info
-    projectPath: Library\metadata\1e\1e9452c2e358b30408e6165e6d56053d.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\20\204a570cd0814334ba2fd79718030cc0
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\20\204a570cd0814334ba2fd79718030cc0
-    projectPath: Library\metadata\20\204a570cd0814334ba2fd79718030cc0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
-    projectPath: Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\26\2628fa167f5e6004ab534cc36d6fee17
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\26\2628fa167f5e6004ab534cc36d6fee17
-    projectPath: Library\metadata\26\2628fa167f5e6004ab534cc36d6fee17
+  - path: Library\metadata\08\08cfceeb8a0af76409eaeb6bbd906e6d
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\08\08cfceeb8a0af76409eaeb6bbd906e6d
+    projectPath: Library\metadata\08\08cfceeb8a0af76409eaeb6bbd906e6d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\26\2628fa167f5e6004ab534cc36d6fee17.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\26\2628fa167f5e6004ab534cc36d6fee17.info
-    projectPath: Library\metadata\26\2628fa167f5e6004ab534cc36d6fee17.info
+  - path: Library\metadata\08\08cfceeb8a0af76409eaeb6bbd906e6d.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\08\08cfceeb8a0af76409eaeb6bbd906e6d.info
+    projectPath: Library\metadata\08\08cfceeb8a0af76409eaeb6bbd906e6d.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485
-    projectPath: Library\metadata\26\2642008eb81683d4dbc7cd4ad6a2c485
+  - path: Library\metadata\09\0950df82e7936c84983497630bde5b54
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\09\0950df82e7936c84983497630bde5b54
+    projectPath: Library\metadata\09\0950df82e7936c84983497630bde5b54
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\26\2682a692a2be7e14e901a738c7806da0
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\26\2682a692a2be7e14e901a738c7806da0
-    projectPath: Library\metadata\26\2682a692a2be7e14e901a738c7806da0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5
-    projectPath: Library\metadata\2f\2fe3476eabbbb6c448e6b55a2cc471f5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\31\319bbdd590a4e7c4fa96f3e0725c14d8
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\31\319bbdd590a4e7c4fa96f3e0725c14d8
-    projectPath: Library\metadata\31\319bbdd590a4e7c4fa96f3e0725c14d8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\32\32188fd89022c154c81befa2f0e00be0
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\32\32188fd89022c154c81befa2f0e00be0
-    projectPath: Library\metadata\32\32188fd89022c154c81befa2f0e00be0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\32\328cc881519068e4eb7db4bb907ad2d9
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\32\328cc881519068e4eb7db4bb907ad2d9
-    projectPath: Library\metadata\32\328cc881519068e4eb7db4bb907ad2d9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\33\336ee213cb4c5b742bc7953a2c8cfa7a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\33\336ee213cb4c5b742bc7953a2c8cfa7a
-    projectPath: Library\metadata\33\336ee213cb4c5b742bc7953a2c8cfa7a
+  - path: Library\metadata\13\13eecc53792e0584d84724672e068adc
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\13\13eecc53792e0584d84724672e068adc
+    projectPath: Library\metadata\13\13eecc53792e0584d84724672e068adc
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\metadata\33\336ee213cb4c5b742bc7953a2c8cfa7a.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\33\336ee213cb4c5b742bc7953a2c8cfa7a.info
-    projectPath: Library\metadata\33\336ee213cb4c5b742bc7953a2c8cfa7a.info
+  - path: Library\metadata\13\13eecc53792e0584d84724672e068adc.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\13\13eecc53792e0584d84724672e068adc.info
+    projectPath: Library\metadata\13\13eecc53792e0584d84724672e068adc.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\metadata\34\34cafb584795f804d96bf575665056c9
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\34\34cafb584795f804d96bf575665056c9
-    projectPath: Library\metadata\34\34cafb584795f804d96bf575665056c9
+  - path: Library\metadata\20\20e920a40c5686d4d8841c794d882c71
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\20\20e920a40c5686d4d8841c794d882c71
+    projectPath: Library\metadata\20\20e920a40c5686d4d8841c794d882c71
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\20\20e920a40c5686d4d8841c794d882c71.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\20\20e920a40c5686d4d8841c794d882c71.info
+    projectPath: Library\metadata\20\20e920a40c5686d4d8841c794d882c71.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf
+    projectPath: Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf.info
+    projectPath: Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\39\3953bd58e7b935a4f80af374a9dcec4d
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\39\3953bd58e7b935a4f80af374a9dcec4d
+    projectPath: Library\metadata\39\3953bd58e7b935a4f80af374a9dcec4d
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\metadata\34\34cafb584795f804d96bf575665056c9.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\34\34cafb584795f804d96bf575665056c9.info
-    projectPath: Library\metadata\34\34cafb584795f804d96bf575665056c9.info
+  - path: Library\metadata\39\3953bd58e7b935a4f80af374a9dcec4d.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\39\3953bd58e7b935a4f80af374a9dcec4d.info
+    projectPath: Library\metadata\39\3953bd58e7b935a4f80af374a9dcec4d.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
-    projectPath: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+  - path: Library\metadata\48\480901c56123de44ea2b96839e90c215
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\48\480901c56123de44ea2b96839e90c215
+    projectPath: Library\metadata\48\480901c56123de44ea2b96839e90c215
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
-    projectPath: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\48\480901c56123de44ea2b96839e90c215.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\48\480901c56123de44ea2b96839e90c215.info
+    projectPath: Library\metadata\48\480901c56123de44ea2b96839e90c215.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
-    projectPath: Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\56\56446f27c7d9b064790861d196e27776
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\56\56446f27c7d9b064790861d196e27776
+    projectPath: Library\metadata\56\56446f27c7d9b064790861d196e27776
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
-    projectPath: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\56\56446f27c7d9b064790861d196e27776.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\56\56446f27c7d9b064790861d196e27776.info
+    projectPath: Library\metadata\56\56446f27c7d9b064790861d196e27776.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\40\405b9b51bb344a128608d968297df79c
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\40\405b9b51bb344a128608d968297df79c
-    projectPath: Library\metadata\40\405b9b51bb344a128608d968297df79c
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\59\598e93c004f19b5449645b8ee0508256
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\59\598e93c004f19b5449645b8ee0508256
+    projectPath: Library\metadata\59\598e93c004f19b5449645b8ee0508256
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
-    projectPath: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\59\598e93c004f19b5449645b8ee0508256.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\59\598e93c004f19b5449645b8ee0508256.info
+    projectPath: Library\metadata\59\598e93c004f19b5449645b8ee0508256.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\46\46098a81a64a45c5b756320e10a22f13
-    projectPath: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\61\615aaa5a2f88aa04f907ea94f2569ddf
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\61\615aaa5a2f88aa04f907ea94f2569ddf
+    projectPath: Library\metadata\61\615aaa5a2f88aa04f907ea94f2569ddf
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677
-    projectPath: Library\metadata\49\49f5766d0d4954f44b85d4bbd7131677
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\61\615aaa5a2f88aa04f907ea94f2569ddf.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\61\615aaa5a2f88aa04f907ea94f2569ddf.info
+    projectPath: Library\metadata\61\615aaa5a2f88aa04f907ea94f2569ddf.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
-    projectPath: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7c\7c5911dd695ac3c47921152a716de7fd
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\7c\7c5911dd695ac3c47921152a716de7fd
+    projectPath: Library\metadata\7c\7c5911dd695ac3c47921152a716de7fd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4a\4a813084baf34314aa7b09881c317646
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\4a\4a813084baf34314aa7b09881c317646
-    projectPath: Library\metadata\4a\4a813084baf34314aa7b09881c317646
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7c\7c5911dd695ac3c47921152a716de7fd.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\7c\7c5911dd695ac3c47921152a716de7fd.info
+    projectPath: Library\metadata\7c\7c5911dd695ac3c47921152a716de7fd.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4a\4af5569a7c5e3fb4ab50244ce2cb2f1d
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\4a\4af5569a7c5e3fb4ab50244ce2cb2f1d
-    projectPath: Library\metadata\4a\4af5569a7c5e3fb4ab50244ce2cb2f1d
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7e\7e6b14174a2cab24da2312567bf8e532
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\7e\7e6b14174a2cab24da2312567bf8e532
+    projectPath: Library\metadata\7e\7e6b14174a2cab24da2312567bf8e532
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\4a\4af5569a7c5e3fb4ab50244ce2cb2f1d.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\4a\4af5569a7c5e3fb4ab50244ce2cb2f1d.info
-    projectPath: Library\metadata\4a\4af5569a7c5e3fb4ab50244ce2cb2f1d.info
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7e\7e6b14174a2cab24da2312567bf8e532.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\7e\7e6b14174a2cab24da2312567bf8e532.info
+    projectPath: Library\metadata\7e\7e6b14174a2cab24da2312567bf8e532.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    projectPath: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4d\4d64205430999a04981dab6f259b6e44
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\4d\4d64205430999a04981dab6f259b6e44
-    projectPath: Library\metadata\4d\4d64205430999a04981dab6f259b6e44
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\51\517af1b5b81b93b43b9745d58f017562
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\51\517af1b5b81b93b43b9745d58f017562
-    projectPath: Library\metadata\51\517af1b5b81b93b43b9745d58f017562
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\52\5265f9bb46ba7304e9d300f0891d52ba
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\52\5265f9bb46ba7304e9d300f0891d52ba
-    projectPath: Library\metadata\52\5265f9bb46ba7304e9d300f0891d52ba
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\52\5265f9bb46ba7304e9d300f0891d52ba.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\52\5265f9bb46ba7304e9d300f0891d52ba.info
-    projectPath: Library\metadata\52\5265f9bb46ba7304e9d300f0891d52ba.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    projectPath: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\54\549e87c5a868af84eb47f6a36e71037d
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\54\549e87c5a868af84eb47f6a36e71037d
-    projectPath: Library\metadata\54\549e87c5a868af84eb47f6a36e71037d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\54\549e87c5a868af84eb47f6a36e71037d.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\54\549e87c5a868af84eb47f6a36e71037d.info
-    projectPath: Library\metadata\54\549e87c5a868af84eb47f6a36e71037d.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
-    projectPath: Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\5e\5e27b1dcd46fbfb459fd62aef1d20f07
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\5e\5e27b1dcd46fbfb459fd62aef1d20f07
-    projectPath: Library\metadata\5e\5e27b1dcd46fbfb459fd62aef1d20f07
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
-    projectPath: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\61\6181e5935b089d74ab03f4f2542dba85
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\61\6181e5935b089d74ab03f4f2542dba85
-    projectPath: Library\metadata\61\6181e5935b089d74ab03f4f2542dba85
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\61\6181e5935b089d74ab03f4f2542dba85.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\61\6181e5935b089d74ab03f4f2542dba85.info
-    projectPath: Library\metadata\61\6181e5935b089d74ab03f4f2542dba85.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\64\6416c33b0bf58844fa4cc6d5182f23cb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\64\6416c33b0bf58844fa4cc6d5182f23cb
-    projectPath: Library\metadata\64\6416c33b0bf58844fa4cc6d5182f23cb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\64\642ac6d675d2202439c1d9507bacb64a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\64\642ac6d675d2202439c1d9507bacb64a
-    projectPath: Library\metadata\64\642ac6d675d2202439c1d9507bacb64a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\64\642ac6d675d2202439c1d9507bacb64a.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\64\642ac6d675d2202439c1d9507bacb64a.info
-    projectPath: Library\metadata\64\642ac6d675d2202439c1d9507bacb64a.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\69\6981461fe431401459211818212a29cf
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\69\6981461fe431401459211818212a29cf
-    projectPath: Library\metadata\69\6981461fe431401459211818212a29cf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
-    projectPath: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
-    projectPath: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
-    projectPath: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\74\74101c7619674b24d82777e7458e0977
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\74\74101c7619674b24d82777e7458e0977
-    projectPath: Library\metadata\74\74101c7619674b24d82777e7458e0977
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\75\75799de484ac4f4cadc268d2cbea830a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\75\75799de484ac4f4cadc268d2cbea830a
-    projectPath: Library\metadata\75\75799de484ac4f4cadc268d2cbea830a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
-    projectPath: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\7d\7d5eed7726604d242947a41ad7fb329c
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\7d\7d5eed7726604d242947a41ad7fb329c
-    projectPath: Library\metadata\7d\7d5eed7726604d242947a41ad7fb329c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\7d\7d5eed7726604d242947a41ad7fb329c.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\7d\7d5eed7726604d242947a41ad7fb329c.info
-    projectPath: Library\metadata\7d\7d5eed7726604d242947a41ad7fb329c.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
-    projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
-    projectPath: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390
-    projectPath: Library\metadata\84\84ca94c19f25ae14d83aa41bb3654390
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\metadata\85\857bdaf3abd323b4599d9f3893db478e
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\85\857bdaf3abd323b4599d9f3893db478e
     projectPath: Library\metadata\85\857bdaf3abd323b4599d9f3893db478e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\85\857bdaf3abd323b4599d9f3893db478e.info
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\85\857bdaf3abd323b4599d9f3893db478e.info
     projectPath: Library\metadata\85\857bdaf3abd323b4599d9f3893db478e.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\86\86b4425c38d309a428a3e9d49108b180
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\86\86b4425c38d309a428a3e9d49108b180
-    projectPath: Library\metadata\86\86b4425c38d309a428a3e9d49108b180
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\86\86b4425c38d309a428a3e9d49108b180.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\86\86b4425c38d309a428a3e9d49108b180.info
-    projectPath: Library\metadata\86\86b4425c38d309a428a3e9d49108b180.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
-    projectPath: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\8e\8e7066e382b0fc749b25dbb1a3004dfe
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\8e\8e7066e382b0fc749b25dbb1a3004dfe
-    projectPath: Library\metadata\8e\8e7066e382b0fc749b25dbb1a3004dfe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\90\9078b7128e594410d9b89e5b24cffd01
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\90\9078b7128e594410d9b89e5b24cffd01
-    projectPath: Library\metadata\90\9078b7128e594410d9b89e5b24cffd01
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\90\90e10d8b84ddada4f9973c821dac53ce
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\90\90e10d8b84ddada4f9973c821dac53ce
-    projectPath: Library\metadata\90\90e10d8b84ddada4f9973c821dac53ce
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\90\90e10d8b84ddada4f9973c821dac53ce.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\90\90e10d8b84ddada4f9973c821dac53ce.info
-    projectPath: Library\metadata\90\90e10d8b84ddada4f9973c821dac53ce.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\90\90e7b33988731de488c67b97e8b8f3be
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\90\90e7b33988731de488c67b97e8b8f3be
-    projectPath: Library\metadata\90\90e7b33988731de488c67b97e8b8f3be
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\90\90e7b33988731de488c67b97e8b8f3be.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\90\90e7b33988731de488c67b97e8b8f3be.info
-    projectPath: Library\metadata\90\90e7b33988731de488c67b97e8b8f3be.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\92\92bb03973ac23b549ac2d7390fa5a2cf
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\92\92bb03973ac23b549ac2d7390fa5a2cf
-    projectPath: Library\metadata\92\92bb03973ac23b549ac2d7390fa5a2cf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\92\92bb03973ac23b549ac2d7390fa5a2cf.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\92\92bb03973ac23b549ac2d7390fa5a2cf.info
-    projectPath: Library\metadata\92\92bb03973ac23b549ac2d7390fa5a2cf.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\9b\9b3a918d590e4e1459441f9ead225410
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\9b\9b3a918d590e4e1459441f9ead225410
-    projectPath: Library\metadata\9b\9b3a918d590e4e1459441f9ead225410
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\a6\a624e7fb276018b44a5b63b3c72c0304
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\a6\a624e7fb276018b44a5b63b3c72c0304
-    projectPath: Library\metadata\a6\a624e7fb276018b44a5b63b3c72c0304
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\aa\aa2083952c228ce409569f5d690c4dd9
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\aa\aa2083952c228ce409569f5d690c4dd9
-    projectPath: Library\metadata\aa\aa2083952c228ce409569f5d690c4dd9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ac\ac7861f590ec6f64b9856603ddaa79c2
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ac\ac7861f590ec6f64b9856603ddaa79c2
-    projectPath: Library\metadata\ac\ac7861f590ec6f64b9856603ddaa79c2
+  - path: Library\metadata\94\94ad68ad04fece24c95ce6150206e848
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\94\94ad68ad04fece24c95ce6150206e848
+    projectPath: Library\metadata\94\94ad68ad04fece24c95ce6150206e848
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\ac\ac7861f590ec6f64b9856603ddaa79c2.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ac\ac7861f590ec6f64b9856603ddaa79c2.info
-    projectPath: Library\metadata\ac\ac7861f590ec6f64b9856603ddaa79c2.info
+  - path: Library\metadata\94\94ad68ad04fece24c95ce6150206e848.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\94\94ad68ad04fece24c95ce6150206e848.info
+    projectPath: Library\metadata\94\94ad68ad04fece24c95ce6150206e848.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\ac\acd1035e6037f5340b25cdc9d4460022
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ac\acd1035e6037f5340b25cdc9d4460022
-    projectPath: Library\metadata\ac\acd1035e6037f5340b25cdc9d4460022
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\ac\acd1035e6037f5340b25cdc9d4460022.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ac\acd1035e6037f5340b25cdc9d4460022.info
-    projectPath: Library\metadata\ac\acd1035e6037f5340b25cdc9d4460022.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\ad\ad3539a1bf7ab2c41ba07a9f67559f6e
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ad\ad3539a1bf7ab2c41ba07a9f67559f6e
-    projectPath: Library\metadata\ad\ad3539a1bf7ab2c41ba07a9f67559f6e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ad\ad49c4ac85e71c74a87192f50dfae7af
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ad\ad49c4ac85e71c74a87192f50dfae7af
-    projectPath: Library\metadata\ad\ad49c4ac85e71c74a87192f50dfae7af
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\ad\ad49c4ac85e71c74a87192f50dfae7af.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ad\ad49c4ac85e71c74a87192f50dfae7af.info
-    projectPath: Library\metadata\ad\ad49c4ac85e71c74a87192f50dfae7af.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
-    projectPath: Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\b0\b065703cfbf00f74bb12dd5fc273ec59
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\b0\b065703cfbf00f74bb12dd5fc273ec59
-    projectPath: Library\metadata\b0\b065703cfbf00f74bb12dd5fc273ec59
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
-    projectPath: Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
-    projectPath: Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\b5\b5da970776034f77a070d99423d68791
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\b5\b5da970776034f77a070d99423d68791
-    projectPath: Library\metadata\b5\b5da970776034f77a070d99423d68791
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
-    projectPath: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\c5\c563d7caf2e9cee4d8522faa62ec476e
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\c5\c563d7caf2e9cee4d8522faa62ec476e
-    projectPath: Library\metadata\c5\c563d7caf2e9cee4d8522faa62ec476e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\d0\d05b96cee66e14240838de167097537a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\d0\d05b96cee66e14240838de167097537a
-    projectPath: Library\metadata\d0\d05b96cee66e14240838de167097537a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\d2\d291a63a41033e14ab5dd4dbffa04ce0
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\d2\d291a63a41033e14ab5dd4dbffa04ce0
-    projectPath: Library\metadata\d2\d291a63a41033e14ab5dd4dbffa04ce0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\d2\d291a63a41033e14ab5dd4dbffa04ce0.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\d2\d291a63a41033e14ab5dd4dbffa04ce0.info
-    projectPath: Library\metadata\d2\d291a63a41033e14ab5dd4dbffa04ce0.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\d2\d2ef5cac016bf35449d76ece5b1cb4a2
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\d2\d2ef5cac016bf35449d76ece5b1cb4a2
-    projectPath: Library\metadata\d2\d2ef5cac016bf35449d76ece5b1cb4a2
+  - path: Library\metadata\b5\b5f915e70b8f67f47a8d2322b1974df3
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\b5\b5f915e70b8f67f47a8d2322b1974df3
+    projectPath: Library\metadata\b5\b5f915e70b8f67f47a8d2322b1974df3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\d2\d2ef5cac016bf35449d76ece5b1cb4a2.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\d2\d2ef5cac016bf35449d76ece5b1cb4a2.info
-    projectPath: Library\metadata\d2\d2ef5cac016bf35449d76ece5b1cb4a2.info
+  - path: Library\metadata\b5\b5f915e70b8f67f47a8d2322b1974df3.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\b5\b5f915e70b8f67f47a8d2322b1974df3.info
+    projectPath: Library\metadata\b5\b5f915e70b8f67f47a8d2322b1974df3.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
-    projectPath: Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\d9\d91035c548f23744c9bfb107348ed1c0
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\d9\d91035c548f23744c9bfb107348ed1c0
-    projectPath: Library\metadata\d9\d91035c548f23744c9bfb107348ed1c0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\da\dae1529b4f1bca448b5a692f14997345
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\da\dae1529b4f1bca448b5a692f14997345
-    projectPath: Library\metadata\da\dae1529b4f1bca448b5a692f14997345
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\da\dae1529b4f1bca448b5a692f14997345.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\da\dae1529b4f1bca448b5a692f14997345.info
-    projectPath: Library\metadata\da\dae1529b4f1bca448b5a692f14997345.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c
-    projectPath: Library\metadata\db\db2c1ccad7abc5945acd3342facc4e4c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
-    projectPath: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\dd\dd720b6485cf9ae459afbac9992f5bb9
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\dd\dd720b6485cf9ae459afbac9992f5bb9
-    projectPath: Library\metadata\dd\dd720b6485cf9ae459afbac9992f5bb9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\dd\dd720b6485cf9ae459afbac9992f5bb9.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\dd\dd720b6485cf9ae459afbac9992f5bb9.info
-    projectPath: Library\metadata\dd\dd720b6485cf9ae459afbac9992f5bb9.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\e1\e1007cd261c84053beb0c3537782908d
-    projectPath: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743
-    projectPath: Library\metadata\e3\e33383ce3afd26c41a6994f0af6a6743
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
-    projectPath: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
-    projectPath: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
-    projectPath: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ee\eeffa603ae8414d4eb8e3a989683d517
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ee\eeffa603ae8414d4eb8e3a989683d517
-    projectPath: Library\metadata\ee\eeffa603ae8414d4eb8e3a989683d517
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
-    projectPath: Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\fa\fa44927c56e21f94cbfc710ccf77745d
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\fa\fa44927c56e21f94cbfc710ccf77745d
-    projectPath: Library\metadata\fa\fa44927c56e21f94cbfc710ccf77745d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\fb\fb24250b65378fb449f6d565356ae3b9
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\fb\fb24250b65378fb449f6d565356ae3b9
-    projectPath: Library\metadata\fb\fb24250b65378fb449f6d565356ae3b9
+  - path: Library\metadata\bb\bbdaa1cfb58e9124c8f1a8a921fbc54c
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\bb\bbdaa1cfb58e9124c8f1a8a921fbc54c
+    projectPath: Library\metadata\bb\bbdaa1cfb58e9124c8f1a8a921fbc54c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\fb\fb24250b65378fb449f6d565356ae3b9.info
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\fb\fb24250b65378fb449f6d565356ae3b9.info
-    projectPath: Library\metadata\fb\fb24250b65378fb449f6d565356ae3b9.info
+  - path: Library\metadata\bb\bbdaa1cfb58e9124c8f1a8a921fbc54c.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\bb\bbdaa1cfb58e9124c8f1a8a921fbc54c.info
+    projectPath: Library\metadata\bb\bbdaa1cfb58e9124c8f1a8a921fbc54c.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+  - path: Library\metadata\d0\d02373d93b4b79e41af291b26708f322
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\d0\d02373d93b4b79e41af291b26708f322
+    projectPath: Library\metadata\d0\d02373d93b4b79e41af291b26708f322
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d0\d02373d93b4b79e41af291b26708f322.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\d0\d02373d93b4b79e41af291b26708f322.info
+    projectPath: Library\metadata\d0\d02373d93b4b79e41af291b26708f322.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e2\e2def4f2371249a45bf4d83e410e7b8f
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\e2\e2def4f2371249a45bf4d83e410e7b8f
+    projectPath: Library\metadata\e2\e2def4f2371249a45bf4d83e410e7b8f
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e2\e2def4f2371249a45bf4d83e410e7b8f.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\e2\e2def4f2371249a45bf4d83e410e7b8f.info
+    projectPath: Library\metadata\e2\e2def4f2371249a45bf4d83e410e7b8f.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ef\ef9d8e87da1e34346b7371f0ed5f8432
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ef\ef9d8e87da1e34346b7371f0ed5f8432
+    projectPath: Library\metadata\ef\ef9d8e87da1e34346b7371f0ed5f8432
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ef\ef9d8e87da1e34346b7371f0ed5f8432.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\ef\ef9d8e87da1e34346b7371f0ed5f8432.info
+    projectPath: Library\metadata\ef\ef9d8e87da1e34346b7371f0ed5f8432.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\f8\f8b64ee187bd74446a9ceccbdd082b89
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\f8\f8b64ee187bd74446a9ceccbdd082b89
+    projectPath: Library\metadata\f8\f8b64ee187bd74446a9ceccbdd082b89
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\f8\f8b64ee187bd74446a9ceccbdd082b89.info
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\metadata\f8\f8b64ee187bd74446a9ceccbdd082b89.info
+    projectPath: Library\metadata\f8\f8b64ee187bd74446a9ceccbdd082b89.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ScriptAssemblies\Assembly-UnityScript.dll
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-UnityScript.dll
     projectPath: Library\ScriptAssemblies\Assembly-UnityScript.dll
@@ -1330,165 +509,81 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ScriptAssemblies\Oculus.VR.dll
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Oculus.VR.dll
+    projectPath: Library\ScriptAssemblies\Oculus.VR.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Oculus.VR.dll.mdb
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Oculus.VR.dll.mdb
     projectPath: Library\ScriptAssemblies\Oculus.VR.dll.mdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Oculus.VR.Editor.dll.mdb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Oculus.VR.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Oculus.VR.Editor.dll.mdb
+  - path: Library\ScriptMapper
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll.mdb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Oculus.VR.Scripts.Editor.dll.mdb
+  - path: Library\ShaderCache\3\3ff3034dee59147d43bb9b53b9d6c39a.bin
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ShaderCache\3\3ff3034dee59147d43bb9b53b9d6c39a.bin
+    projectPath: Library\ShaderCache\3\3ff3034dee59147d43bb9b53b9d6c39a.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\90451fa39d0e87fd0fae8807591f043c.bin
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ShaderCache\9\90451fa39d0e87fd0fae8807591f043c.bin
+    projectPath: Library\ShaderCache\9\90451fa39d0e87fd0fae8807591f043c.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll.mdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\ae7be8a98a552327874bc9bc9ef19bf0.bin
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ShaderCache\a\ae7be8a98a552327874bc9bc9ef19bf0.bin
+    projectPath: Library\ShaderCache\a\ae7be8a98a552327874bc9bc9ef19bf0.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll.mdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\bd62a16b62b3517270356b54c6563db4.bin
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ShaderCache\b\bd62a16b62b3517270356b54c6563db4.bin
+    projectPath: Library\ShaderCache\b\bd62a16b62b3517270356b54c6563db4.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\ea586c07f93ffe3dab416dc15d91f201.bin
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ShaderCache\e\ea586c07f93ffe3dab416dc15d91f201.bin
+    projectPath: Library\ShaderCache\e\ea586c07f93ffe3dab416dc15d91f201.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\ff7dec967bad03da33b0ea382b7d2c17.bin
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\ShaderCache\f\ff7dec967bad03da33b0ea382b7d2c17.bin
+    projectPath: Library\ShaderCache\f\ff7dec967bad03da33b0ea382b7d2c17.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Oculus.VR.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Oculus.VR.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Oculus.VR.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Oculus.VR.csprojAssemblyReference.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Oculus.VR.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Oculus.VR.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Oculus.VR.Editor.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Oculus.VR.Editor.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Oculus.VR.Editor.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Oculus.VR.Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Oculus.VR.Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Oculus.VR.Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Oculus.VR.Scripts.Editor.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Oculus.VR.Scripts.Editor.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Oculus.VR.Scripts.Editor.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Oculus.VR.Scripts.Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\obj\Debug\Oculus.VR.Scripts.Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Oculus.VR.Scripts.Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Oculus.VR.csproj
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Oculus.VR.csproj
-    projectPath: Oculus.VR.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Oculus.VR.Editor.csproj
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Oculus.VR.Editor.csproj
-    projectPath: Oculus.VR.Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Oculus.VR.Scripts.Editor.csproj
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Oculus.VR.Scripts.Editor.csproj
-    projectPath: Oculus.VR.Scripts.Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\ProcessJobs\85b359295d9a60bceae67ac1735e8d96.bakert
     fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\ProcessJobs\85b359295d9a60bceae67ac1735e8d96.bakert
     projectPath: Temp\ProcessJobs\85b359295d9a60bceae67ac1735e8d96.bakert
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\ProcessJobs\cdc29278696937fddde72e558089297a.bakert
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\ProcessJobs\cdc29278696937fddde72e558089297a.bakert
-    projectPath: Temp\ProcessJobs\cdc29278696937fddde72e558089297a.bakert
+  - path: Temp\TarGZ\archtemp.tar
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\TarGZ\archtemp.tar
+    projectPath: Temp\TarGZ\archtemp.tar
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1498,117 +593,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-02fa4e0c6a6040241a9711c75b540328
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-02fa4e0c6a6040241a9711c75b540328
-    projectPath: Temp\UnityTempFile-02fa4e0c6a6040241a9711c75b540328
+  - path: Temp\UnityTempFile-42ce546cfa8ac194aa97726d129811dc
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-42ce546cfa8ac194aa97726d129811dc
+    projectPath: Temp\UnityTempFile-42ce546cfa8ac194aa97726d129811dc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0a9d81da43a31dd4daf8f73c3c8b722f
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-0a9d81da43a31dd4daf8f73c3c8b722f
-    projectPath: Temp\UnityTempFile-0a9d81da43a31dd4daf8f73c3c8b722f
+  - path: Temp\UnityTempFile-4627e31094df3024ebe4e1229a9c2406
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-4627e31094df3024ebe4e1229a9c2406
+    projectPath: Temp\UnityTempFile-4627e31094df3024ebe4e1229a9c2406
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-140ea7885b93d1c4082ab4b12b4fea6e
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-140ea7885b93d1c4082ab4b12b4fea6e
-    projectPath: Temp\UnityTempFile-140ea7885b93d1c4082ab4b12b4fea6e
+  - path: Temp\UnityTempFile-55306c2e5d40f4d4fb0055ae466e8646
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-55306c2e5d40f4d4fb0055ae466e8646
+    projectPath: Temp\UnityTempFile-55306c2e5d40f4d4fb0055ae466e8646
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-19966ffb0c4931e4bbb1d2549b70f6bd
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-19966ffb0c4931e4bbb1d2549b70f6bd
-    projectPath: Temp\UnityTempFile-19966ffb0c4931e4bbb1d2549b70f6bd
+  - path: Temp\UnityTempFile-5d80881d219eb4449ac83660f2435a7d
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-5d80881d219eb4449ac83660f2435a7d
+    projectPath: Temp\UnityTempFile-5d80881d219eb4449ac83660f2435a7d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-332dad19d6286f142b20345793130004
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-332dad19d6286f142b20345793130004
-    projectPath: Temp\UnityTempFile-332dad19d6286f142b20345793130004
+  - path: Temp\UnityTempFile-783710105927cc34391f6f834889a4aa
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-783710105927cc34391f6f834889a4aa
+    projectPath: Temp\UnityTempFile-783710105927cc34391f6f834889a4aa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-371954ac553e9a3468cf287d18324ece
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-371954ac553e9a3468cf287d18324ece
-    projectPath: Temp\UnityTempFile-371954ac553e9a3468cf287d18324ece
+  - path: Temp\UnityTempFile-a68ecb85a9097be47ac73c69c28c010c
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-a68ecb85a9097be47ac73c69c28c010c
+    projectPath: Temp\UnityTempFile-a68ecb85a9097be47ac73c69c28c010c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4603895e5598c83439b55176cfa26360
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-4603895e5598c83439b55176cfa26360
-    projectPath: Temp\UnityTempFile-4603895e5598c83439b55176cfa26360
+  - path: Temp\UnityTempFile-dee76826bc754fe47879bd8a16b07f68
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-dee76826bc754fe47879bd8a16b07f68
+    projectPath: Temp\UnityTempFile-dee76826bc754fe47879bd8a16b07f68
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-484ab02a02e71c649974fde401ec770d
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-484ab02a02e71c649974fde401ec770d
-    projectPath: Temp\UnityTempFile-484ab02a02e71c649974fde401ec770d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4ac374f09aa9dd9499c97b1ccb1bfb83
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-4ac374f09aa9dd9499c97b1ccb1bfb83
-    projectPath: Temp\UnityTempFile-4ac374f09aa9dd9499c97b1ccb1bfb83
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4adfdad7dad6eb8449ad18cf03f6ed3a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-4adfdad7dad6eb8449ad18cf03f6ed3a
-    projectPath: Temp\UnityTempFile-4adfdad7dad6eb8449ad18cf03f6ed3a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-52ccb572d3316834cbec23348a0fb618
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-52ccb572d3316834cbec23348a0fb618
-    projectPath: Temp\UnityTempFile-52ccb572d3316834cbec23348a0fb618
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-61e8540d1e2320447b1af81971e4625c
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-61e8540d1e2320447b1af81971e4625c
-    projectPath: Temp\UnityTempFile-61e8540d1e2320447b1af81971e4625c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-764fff1d73a3ce24db694be12fe1e774
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-764fff1d73a3ce24db694be12fe1e774
-    projectPath: Temp\UnityTempFile-764fff1d73a3ce24db694be12fe1e774
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-935f6ebdff96c5a43a50757e578f938f
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-935f6ebdff96c5a43a50757e578f938f
-    projectPath: Temp\UnityTempFile-935f6ebdff96c5a43a50757e578f938f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-96e0263123fda2d4f8ff3907b6a999d2
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-96e0263123fda2d4f8ff3907b6a999d2
-    projectPath: Temp\UnityTempFile-96e0263123fda2d4f8ff3907b6a999d2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b36256e09f10d144f9554a31dacd4266
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-b36256e09f10d144f9554a31dacd4266
-    projectPath: Temp\UnityTempFile-b36256e09f10d144f9554a31dacd4266
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c321976216de66e4b8e6fd51b5a8f7d4
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-c321976216de66e4b8e6fd51b5a8f7d4
-    projectPath: Temp\UnityTempFile-c321976216de66e4b8e6fd51b5a8f7d4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e377906a1326ee44aa588f1ce6b9da6a
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-e377906a1326ee44aa588f1ce6b9da6a
-    projectPath: Temp\UnityTempFile-e377906a1326ee44aa588f1ce6b9da6a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e71de35f0d96323499af6894b169481e
-    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-e71de35f0d96323499af6894b169481e
-    projectPath: Temp\UnityTempFile-e71de35f0d96323499af6894b169481e
+  - path: Temp\UnityTempFile-e80860e328ced8741af7dc96c355d8ba
+    fullPath: C:\Users\xuehaow2\Desktop\CS498VR_Fa2019_CITL\Temp\UnityTempFile-e80860e328ced8741af7dc96c355d8ba
+    projectPath: Temp\UnityTempFile-e80860e328ced8741af7dc96c355d8ba
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
