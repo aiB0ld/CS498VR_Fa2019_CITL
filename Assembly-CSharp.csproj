@@ -359,10 +359,13 @@
     <Compile Include="Assets\Scripts\buttons\Start_Menu.cs" />
     <Compile Include="Assets\Scripts\buttons\Todolist.cs" />
     <Compile Include="Assets\Scripts\CaveRealpause.cs" />
+    <Compile Include="Assets\Scripts\DisableTrack.cs" />
     <Compile Include="Assets\Scripts\GlowingCircle.cs" />
     <Compile Include="Assets\Scripts\LidInspector.cs" />
     <Compile Include="Assets\Scripts\materialChange.cs" />
+    <Compile Include="Assets\Scripts\MenuStart.cs" />
     <Compile Include="Assets\Scripts\Notebook.cs" />
+    <Compile Include="Assets\Scripts\Orbit.cs" />
     <Compile Include="Assets\Scripts\OVRGrabbableExtended.cs" />
     <Compile Include="Assets\Scripts\PlayerCameraSwitch.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
