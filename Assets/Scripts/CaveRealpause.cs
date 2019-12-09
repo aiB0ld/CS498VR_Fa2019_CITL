@@ -27,7 +27,7 @@ public class CaveRealpause : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.RawButton.X) && TODOLIST.lecture == 0)
+        if (OVRInput.GetDown(OVRInput.RawButton.Start) && TODOLIST.lecture == 0)
         {
             if (realPause.activeInHierarchy)
             {
