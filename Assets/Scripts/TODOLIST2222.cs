@@ -7,13 +7,16 @@ using UnityEngine.SceneManagement;
 public class TODOLIST2222 : MonoBehaviour {
 
     //public GameObject pausemenu;
+    public GameObject lecture_object;
     public GameObject map;
     public GameObject map2;
     public GameObject map3;
+    public GameObject map4;
     public GameObject arrow;
     private double start_time = 0;
     private double timer = 0;
     private int flag = 0;
+    private bool check = false;
     static public int lectureVillage = 0;
 
     public GameObject Done_1;
@@ -60,6 +63,15 @@ public class TODOLIST2222 : MonoBehaviour {
             }
 
         }*/
+        // learning objectives
+        if (Time.realtimeSinceStartup - 0.0 >= 48)
+        {
+            lecture_object.SetActive(false);
+        } 
+        else if (Time.realtimeSinceStartup - 0.0 >= 30)
+        {
+            lecture_object.SetActive(true);
+        }
 
         if (ScrollUnfold.grab == 1)
         {
@@ -94,8 +106,15 @@ public class TODOLIST2222 : MonoBehaviour {
             }
             if (Time.realtimeSinceStartup - start_time >= 27 && start_time != 0 && flag == 4)
             {
+
                 map3.SetActive(false);
+                map4.SetActive(true);
                 flag = 5;
+            }
+            if (Time.realtimeSinceStartup - start_time >= 52 && start_time != 0 && flag == 5)
+            {
+                map4.SetActive(false);
+                flag = 6;
                 Done_1.SetActive(true);
                 lectureVillage = 0;
                 ScrollUnfold.grab = 0;
@@ -104,7 +123,11 @@ public class TODOLIST2222 : MonoBehaviour {
         else if (StateManager.CurrState == 2)
         {
             MusicSource.clip = JarClip;
-            MusicSource.Play();
+            if (! check)
+            {
+                MusicSource.Play();
+                check = true;
+            }
             Done_2.SetActive(true);
             arrow.SetActive(true);
             /*timer += Time.deltaTime;

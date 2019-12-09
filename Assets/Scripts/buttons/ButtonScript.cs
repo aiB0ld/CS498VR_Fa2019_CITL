@@ -15,7 +15,8 @@ public class ButtonScript : MonoBehaviour
     private Button learnobjBtn;
     public float grabBegin = 0.05f;
     public float grabEnd = 0.05f;
-    private float m_prevFlex;
+    private float l_flex;
+    private float r_flex;
 
     // Use this for initialization
     void Start()
@@ -29,9 +30,9 @@ public class ButtonScript : MonoBehaviour
 
     }
 
-    private bool CheckForGrabOrRelease(float prevFlex)
+    private bool CheckForGrabOrRelease(float flex, float prevFlex)
     {
-        if ((m_prevFlex >= grabBegin) && (prevFlex < grabBegin))
+        if ((flex >= grabBegin) && (prevFlex < grabBegin))
         {
             return true;
         }
@@ -54,11 +55,13 @@ public class ButtonScript : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        float prevFlex = m_prevFlex;
-        m_prevFlex = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch);
+        float l_prevFlex = l_flex;
+        l_flex = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.LTouch);
+        float r_prevFlex = r_flex;
+        r_flex = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
         if (other.gameObject.CompareTag("Hand"))
         {
-            if (CheckForGrabOrRelease(prevFlex))
+            if (CheckForGrabOrRelease(l_flex, l_prevFlex) || CheckForGrabOrRelease(r_flex, r_prevFlex))
             {
                 learnobjBtn = gameObject.GetComponent<Button>();
                 var colors = learnobjBtn.colors;
