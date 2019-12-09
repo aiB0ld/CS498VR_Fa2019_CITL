@@ -346,13 +346,8 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
-    <Compile Include="Assets\Resources\Scripts\AirplaneController.cs" />
-    <Compile Include="Assets\Resources\Scripts\Collision.cs" />
-    <Compile Include="Assets\Resources\Scripts\MenuSceneHandler.cs" />
-    <Compile Include="Assets\Resources\Scripts\PlayMode.cs" />
-    <Compile Include="Assets\Resources\Scripts\Shooting.cs" />
-    <Compile Include="Assets\Resources\Scripts\TargetScript.cs" />
     <Compile Include="Assets\Scripts\arrowRotate.cs" />
+    <Compile Include="Assets\Scripts\Audio.cs" />
     <Compile Include="Assets\Scripts\buttons\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\buttons\map.cs" />
     <Compile Include="Assets\Scripts\buttons\Note.cs" />

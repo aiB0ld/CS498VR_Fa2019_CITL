@@ -19,12 +19,16 @@ public class TODOLIST2222 : MonoBehaviour {
     public GameObject Done_1;
     public GameObject Done_2;
     public GameObject Done_3;
+
+    public AudioClip MapClip;
+    public AudioClip JarClip;
+    public AudioSource MusicSource;
     // Use this for initialization
     void Start()
     {
-        //pausemenu.SetActive(false);
-
-        //StartCoroutine(ExampleCoroutine());
+        //MapClip = Resources.Load<AudioClip>("audio/audioMap");
+        //JarClip = Resources.Load<AudioClip>("audio/audioJar");
+        //MusicSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -63,6 +67,7 @@ public class TODOLIST2222 : MonoBehaviour {
             lectureVillage = 1;
             //Done_1.SetActive(true);
             //voideo
+
             if (flag == 0)
             {
                 start_time = Time.realtimeSinceStartup;
@@ -70,22 +75,24 @@ public class TODOLIST2222 : MonoBehaviour {
             }
             if (Time.realtimeSinceStartup - start_time >= 5 && start_time != 0 && flag == 1)
             {
+                MusicSource.clip = MapClip;
+                MusicSource.Play();
                 map.SetActive(true);
                 flag = 2;
             }
-            if (Time.realtimeSinceStartup - start_time >= 10 && start_time != 0 && flag == 2)
+            if (Time.realtimeSinceStartup - start_time >= 14 && start_time != 0 && flag == 2)
             {
                 map.SetActive(false);
                 map2.SetActive(true);
                 flag = 3;
             }
-            if (Time.realtimeSinceStartup - start_time >= 15 && start_time != 0 && flag == 3)
+            if (Time.realtimeSinceStartup - start_time >= 20 && start_time != 0 && flag == 3)
             {
                 map2.SetActive(false);
                 map3.SetActive(true);
                 flag = 4;
             }
-            if (Time.realtimeSinceStartup - start_time >= 20 && start_time != 0 && flag == 4)
+            if (Time.realtimeSinceStartup - start_time >= 27 && start_time != 0 && flag == 4)
             {
                 map3.SetActive(false);
                 flag = 5;
@@ -96,6 +103,8 @@ public class TODOLIST2222 : MonoBehaviour {
         }
         else if (StateManager.CurrState == 2)
         {
+            MusicSource.clip = JarClip;
+            MusicSource.Play();
             Done_2.SetActive(true);
             arrow.SetActive(true);
             /*timer += Time.deltaTime;
