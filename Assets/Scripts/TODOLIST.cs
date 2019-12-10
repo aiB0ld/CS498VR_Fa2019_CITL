@@ -15,6 +15,14 @@ public class TODOLIST : MonoBehaviour
     private double start_time = 0;
     private double timer = 0;
     private int flag = 0;
+    private bool check_1 = false;
+    private bool check_2 = false;
+    public GameObject urnCanves;
+
+    public AudioClip UrnClip;
+    public AudioClip NoteClip;
+    public AudioSource MusicSource_cave;
+
     // Use this for initialization
     void Start()
     {
@@ -26,27 +34,40 @@ public class TODOLIST : MonoBehaviour
         if (StateManager.CurrState == 1)
         {
             Done_1.SetActive(true);
+            urnCanves.SetActive(true);
+            if (!check_1)
+            {
+                MusicSource_cave.Play();
+                check_1 = true;
+            }
         }
         else if (Notebook.grabnote == 1)
         {
+            urnCanves.SetActive(false);
             lecture = 1;
+            if (!check_2)
+            {
+                MusicSource_cave.clip = NoteClip;
+                MusicSource_cave.Play();
+                check_2 = true;
+            }
             if (flag == 0)
             {
                 start_time = Time.realtimeSinceStartup;
                 flag = 1;
             }
-            if (Time.realtimeSinceStartup - start_time >= 5 && start_time != 0 && flag == 1)
+            if (Time.realtimeSinceStartup - start_time >= 1 && start_time != 0 && flag == 1)
             {
                 note.SetActive(true);
                 flag = 2;
             }
-            if (Time.realtimeSinceStartup - start_time >= 10 && start_time != 0 && flag == 2)
+            if (Time.realtimeSinceStartup - start_time >= 26 && start_time != 0 && flag == 2)
             {
                 note.SetActive(false);
                 note2.SetActive(true);
                 flag = 3;
             }
-            if (Time.realtimeSinceStartup - start_time >= 15 && start_time != 0 && flag == 3)
+            if (Time.realtimeSinceStartup - start_time >= 49 && start_time != 0 && flag == 3)
             {
                 note2.SetActive(false);
                 flag = 4;
