@@ -12,7 +12,7 @@ public class materialChange : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(StateManager.CurrState == 2)
+		if(stateManager2.CurrState == 2)
         {
             GetComponent<Renderer>().material = NewMat;
         }

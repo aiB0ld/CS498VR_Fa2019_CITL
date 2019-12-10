@@ -9,6 +9,7 @@ public class LidInspector : MonoBehaviour
     public static bool OneGrabbed;
     public static bool TwoGrabbed;
     public static bool ThreeGrabbed;
+    //private bool hasGrabbed = false;
 
     public static UnityEvent OnLidAllInspected;
     public OVRGrabbable grabbable;
@@ -33,7 +34,10 @@ public class LidInspector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //if (!hasGrabbed)
+        //{
+        //    transform.localPosition = new Vector3(0.01559997f, -0.005100012f, 0.002333364f);
+        //}
     }
 
     public void ChangeParent()
@@ -46,7 +50,7 @@ public class LidInspector : MonoBehaviour
 
     public void OnLidGrabbed()
     {
-
+        //hasGrabbed = true;
         Debug.Log("Lid Inspector: grabbed " + this.name);
         ChangeParent();
         if (this.name == "Lid_One_1126")

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StateManager : MonoBehaviour {
     public static int CurrState = 0;
@@ -59,6 +60,7 @@ public class StateManager : MonoBehaviour {
             {   
                 CurrState = 3;
                 Debug.Log("Welcome to the Cave.");
+                SceneManager.LoadScene("CaveScene");
             }
         }
         

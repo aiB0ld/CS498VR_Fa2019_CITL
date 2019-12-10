@@ -13,6 +13,7 @@ public class TODOLIST2222 : MonoBehaviour {
     public GameObject map3;
     public GameObject map4;
     public GameObject arrow;
+    //public GameObject welcometext;
     private double start_time = 0;
     private double timer = 0;
     private int flag = 0;
@@ -27,6 +28,7 @@ public class TODOLIST2222 : MonoBehaviour {
     public AudioClip JarClip;
     public AudioSource MusicSource;
     // Use this for initialization
+
     void Start()
     {
         //MapClip = Resources.Load<AudioClip>("audio/audioMap");

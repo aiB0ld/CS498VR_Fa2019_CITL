@@ -38,7 +38,7 @@ public class Notebook : MonoBehaviour {
     void Update () {
         //RockMove();
         transform.Rotate(0, 1, 0);
-        if(StateManager.CurrState == 1)
+        if(stateManager2.CurrState == 1)
         {
             
             Book.SetActive(true);

@@ -31,9 +31,9 @@ public class TODOLIST : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (StateManager.CurrState == 1)
+
+        if (stateManager2.CurrState == 0 && stateManager2.isInStateOne)
         {
-            Done_1.SetActive(true);
             urnCanves.SetActive(true);
             if (!check_1)
             {
@@ -41,9 +41,14 @@ public class TODOLIST : MonoBehaviour
                 check_1 = true;
             }
         }
+        else if(stateManager2.CurrState == 1)
+        {
+            Done_1.SetActive(true);
+            urnCanves.SetActive(false);
+        }
         else if (Notebook.grabnote == 1)
         {
-            urnCanves.SetActive(false);
+            
             lecture = 1;
             if (!check_2)
             {
@@ -75,7 +80,7 @@ public class TODOLIST : MonoBehaviour
                 lecture = 0;
             }
         }
-        else if (StateManager.CurrState == 3)
+        else if (stateManager2.CurrState == 3)
         {
             Done_3.SetActive(true);
         }

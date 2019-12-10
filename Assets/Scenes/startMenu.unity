@@ -496,7 +496,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4820239689956586, guid: 76657ee725480b74dbefed1f4a6d2a62, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.1682348
+      value: -1.64
       objectReference: {fileID: 0}
     - target: {fileID: 4820239689956586, guid: 76657ee725480b74dbefed1f4a6d2a62, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1041,7 +1041,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4023398875987208, guid: ffd43e9e2647d674a8abcae38483115e, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.8042357
+      value: -0.27600074
       objectReference: {fileID: 0}
     - target: {fileID: 4023398875987208, guid: ffd43e9e2647d674a8abcae38483115e, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2079,7 +2079,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4787581606949750, guid: 25b7095a6df049c468ca6e5ca2d63af4, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2.105235
+      value: -1.5770001
       objectReference: {fileID: 0}
     - target: {fileID: 4787581606949750, guid: 25b7095a6df049c468ca6e5ca2d63af4, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2836,7 +2836,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4328033527015456, guid: 10a4b7b1359186d449f593c3f853f7dc, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -3.0252357
+      value: -2.4970007
       objectReference: {fileID: 0}
     - target: {fileID: 4328033527015456, guid: 10a4b7b1359186d449f593c3f853f7dc, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4274,7 +4274,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4328033527015456, guid: 10a4b7b1359186d449f593c3f853f7dc, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1.2002358
+      value: -0.6720009
       objectReference: {fileID: 0}
     - target: {fileID: 4328033527015456, guid: 10a4b7b1359186d449f593c3f853f7dc, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4383,7 +4383,7 @@ MonoBehaviour:
   EnableLinearMovement: 1
   EnableRotation: 1
   RotationEitherThumbstick: 0
-  MoveScaleMultiplier: 0.8
+  MoveScaleMultiplier: 0.5
   RotationScaleMultiplier: 1
 --- !u!143 &2001127215
 CharacterController:
