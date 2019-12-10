@@ -12,6 +12,360 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-09T18:38:57.589-06:00
-  initializedAtString: 2019-12-09T18:38:27.785-06:00
-  entries: []
+  lastUpdatedAtString: 2019-12-09T19:44:04.663-06:00
+  initializedAtString: 2019-12-09T19:35:05.378-06:00
+  entries:
+  - path: .vs\CS498VR_Fa2019_CITL\v15\.suo
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\.suo
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\.vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\CS498VR_Fa2019_CITL\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\startMenu.unity
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scenes\startMenu.unity
+    projectPath: Assets\Scenes\startMenu.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\buttons\ButtonScriptStart.cs
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\buttons\ButtonScriptStart.cs
+    projectPath: Assets\Scripts\buttons\ButtonScriptStart.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\buttons\ButtonScriptStart.cs.meta
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\buttons\ButtonScriptStart.cs.meta
+    projectPath: Assets\Scripts\buttons\ButtonScriptStart.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\MenuStart.cs
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\MenuStart.cs
+    projectPath: Assets\Scripts\MenuStart.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\MenuStart.cs.meta
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\MenuStart.cs.meta
+    projectPath: Assets\Scripts\MenuStart.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Orbit.cs
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\Orbit.cs
+    projectPath: Assets\Scripts\Orbit.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\Orbit.cs.meta
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\Orbit.cs.meta
+    projectPath: Assets\Scripts\Orbit.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\startmenu.meta
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\startmenu.meta
+    projectPath: Assets\Scripts\startmenu.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\startmenu\MenuStart.cs
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\startmenu\MenuStart.cs
+    projectPath: Assets\Scripts\startmenu\MenuStart.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\startmenu\MenuStart.cs.meta
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\startmenu\MenuStart.cs.meta
+    projectPath: Assets\Scripts\startmenu\MenuStart.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\startmenu\Orbit.cs
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\startmenu\Orbit.cs
+    projectPath: Assets\Scripts\startmenu\Orbit.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\startmenu\Orbit.cs.meta
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Assets\Scripts\startmenu\Orbit.cs.meta
+    projectPath: Assets\Scripts\startmenu\Orbit.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\1b\1bf68c31d2952344a94f5014ca9cd3a3
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\1b\1bf68c31d2952344a94f5014ca9cd3a3
+    projectPath: Library\metadata\1b\1bf68c31d2952344a94f5014ca9cd3a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\1b\1bf68c31d2952344a94f5014ca9cd3a3.info
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\1b\1bf68c31d2952344a94f5014ca9cd3a3.info
+    projectPath: Library\metadata\1b\1bf68c31d2952344a94f5014ca9cd3a3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\1f\1f15b8dcc070ba0438363c0705829df3
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\1f\1f15b8dcc070ba0438363c0705829df3
+    projectPath: Library\metadata\1f\1f15b8dcc070ba0438363c0705829df3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\1f\1f15b8dcc070ba0438363c0705829df3.info
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\1f\1f15b8dcc070ba0438363c0705829df3.info
+    projectPath: Library\metadata\1f\1f15b8dcc070ba0438363c0705829df3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\20\20e920a40c5686d4d8841c794d882c71
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\20\20e920a40c5686d4d8841c794d882c71
+    projectPath: Library\metadata\20\20e920a40c5686d4d8841c794d882c71
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\20\20e920a40c5686d4d8841c794d882c71.info
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\20\20e920a40c5686d4d8841c794d882c71.info
+    projectPath: Library\metadata\20\20e920a40c5686d4d8841c794d882c71.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf
+    projectPath: Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf.info
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf.info
+    projectPath: Library\metadata\31\317ca6d2b033cbe4298558d04f98fcdf.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-UnityScript.dll
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-UnityScript.dll
+    projectPath: Library\ScriptAssemblies\Assembly-UnityScript.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-UnityScript.dll.mdb
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\ScriptAssemblies\Assembly-UnityScript.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-UnityScript.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\2\2276df2816510459440b268b52ec0a8d.bin
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\ShaderCache\2\2276df2816510459440b268b52ec0a8d.bin
+    projectPath: Library\ShaderCache\2\2276df2816510459440b268b52ec0a8d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\98ed9495b9ca9a3d14d5917fecdfdfe6.bin
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\ShaderCache\9\98ed9495b9ca9a3d14d5917fecdfdfe6.bin
+    projectPath: Library\ShaderCache\9\98ed9495b9ca9a3d14d5917fecdfdfe6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\1ca48ecf266370f0ad47d7197353a93b.bakert
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\1ca48ecf266370f0ad47d7197353a93b.bakert
+    projectPath: Temp\ProcessJobs\1ca48ecf266370f0ad47d7197353a93b.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\85b359295d9a60bceae67ac1735e8d96.bakert
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\85b359295d9a60bceae67ac1735e8d96.bakert
+    projectPath: Temp\ProcessJobs\85b359295d9a60bceae67ac1735e8d96.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\ProcessJobs\cdc29278696937fddde72e558089297a.bakert
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\ProcessJobs\cdc29278696937fddde72e558089297a.bakert
+    projectPath: Temp\ProcessJobs\cdc29278696937fddde72e558089297a.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityLockfile
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-0127e429b5f01a94ba873e077a0ca9ca
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-0127e429b5f01a94ba873e077a0ca9ca
+    projectPath: Temp\UnityTempFile-0127e429b5f01a94ba873e077a0ca9ca
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-405c5f903380e2a4ba94959dbce8e0c0
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-405c5f903380e2a4ba94959dbce8e0c0
+    projectPath: Temp\UnityTempFile-405c5f903380e2a4ba94959dbce8e0c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5602815de038d384698ea6eeea56948c
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-5602815de038d384698ea6eeea56948c
+    projectPath: Temp\UnityTempFile-5602815de038d384698ea6eeea56948c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5b5ef885efdf5c6409f687648e8cd583
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-5b5ef885efdf5c6409f687648e8cd583
+    projectPath: Temp\UnityTempFile-5b5ef885efdf5c6409f687648e8cd583
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-74c9a16e260ab704bba771ca33f8cc56
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-74c9a16e260ab704bba771ca33f8cc56
+    projectPath: Temp\UnityTempFile-74c9a16e260ab704bba771ca33f8cc56
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8115a19701c0c2d47b68157d65ff661d
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-8115a19701c0c2d47b68157d65ff661d
+    projectPath: Temp\UnityTempFile-8115a19701c0c2d47b68157d65ff661d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9c1a9108296d4fb4c93422fdb7cdd6cf
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-9c1a9108296d4fb4c93422fdb7cdd6cf
+    projectPath: Temp\UnityTempFile-9c1a9108296d4fb4c93422fdb7cdd6cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a1832ba34d13ef944b7574bc385bacec
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-a1832ba34d13ef944b7574bc385bacec
+    projectPath: Temp\UnityTempFile-a1832ba34d13ef944b7574bc385bacec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a95a61904ebb6a34ca867519e96a06fa
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-a95a61904ebb6a34ca867519e96a06fa
+    projectPath: Temp\UnityTempFile-a95a61904ebb6a34ca867519e96a06fa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ce8dcdc8e3d08b540a4e7ea96cb5e1ed
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-ce8dcdc8e3d08b540a4e7ea96cb5e1ed
+    projectPath: Temp\UnityTempFile-ce8dcdc8e3d08b540a4e7ea96cb5e1ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d0c32ab5eff33c4408a7bd9e32a28fd9
+    fullPath: C:\Users\xuehaow2\Documents\GitHub\CS498VR_Fa2019_CITL\Temp\UnityTempFile-d0c32ab5eff33c4408a7bd9e32a28fd9
+    projectPath: Temp\UnityTempFile-d0c32ab5eff33c4408a7bd9e32a28fd9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1

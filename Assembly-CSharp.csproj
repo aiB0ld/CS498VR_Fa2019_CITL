@@ -351,6 +351,7 @@
     <Compile Include="Assets\Scripts\Audio.cs" />
     <Compile Include="Assets\Scripts\buttons\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\buttons\ButtonScript_Cave.cs" />
+    <Compile Include="Assets\Scripts\buttons\ButtonScriptStart.cs" />
     <Compile Include="Assets\Scripts\buttons\map.cs" />
     <Compile Include="Assets\Scripts\buttons\Note.cs" />
     <Compile Include="Assets\Scripts\buttons\Objective.cs" />
@@ -361,15 +362,15 @@
     <Compile Include="Assets\Scripts\GlowingCircle.cs" />
     <Compile Include="Assets\Scripts\LidInspector.cs" />
     <Compile Include="Assets\Scripts\materialChange.cs" />
-    <Compile Include="Assets\Scripts\MenuStart.cs" />
     <Compile Include="Assets\Scripts\Notebook.cs" />
-    <Compile Include="Assets\Scripts\Orbit.cs" />
     <Compile Include="Assets\Scripts\OVRGrabbableExtended.cs" />
     <Compile Include="Assets\Scripts\PlayerCameraSwitch.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\RealpauseMenu.cs" />
     <Compile Include="Assets\Scripts\reminder.cs" />
     <Compile Include="Assets\Scripts\ScrollUnfold.cs" />
+    <Compile Include="Assets\Scripts\startmenu\MenuStart.cs" />
+    <Compile Include="Assets\Scripts\startmenu\Orbit.cs" />
     <Compile Include="Assets\Scripts\StateManager.cs" />
     <Compile Include="Assets\Scripts\TODOLIST.cs" />
     <Compile Include="Assets\Scripts\TODOLIST2222.cs" />
