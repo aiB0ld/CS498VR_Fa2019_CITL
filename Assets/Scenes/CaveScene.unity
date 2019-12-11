@@ -489,7 +489,9 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -65.24
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6400000, guid: 464de89c2f8ca6343a1b3363367b2f57, type: 3}
+    - {fileID: 6400002, guid: 464de89c2f8ca6343a1b3363367b2f57, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 464de89c2f8ca6343a1b3363367b2f57, type: 3}
   m_IsPrefabAsset: 0
 --- !u!4 &51514191 stripped
@@ -26406,7 +26408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2b530dfcb47d484dbf0089cb846d145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabbable: {fileID: 0}
+  urn: {fileID: 2126676808}
 --- !u!65 &516623525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26542,7 +26544,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -26569,7 +26571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2b530dfcb47d484dbf0089cb846d145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabbable: {fileID: 0}
+  urn: {fileID: 1888777051}
 --- !u!1 &555520950 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 1c41683ebcae73443a17f431ae93502d,
@@ -26629,7 +26631,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -26644,7 +26646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2b530dfcb47d484dbf0089cb846d145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabbable: {fileID: 0}
+  urn: {fileID: 1735669231}
 --- !u!4 &555520955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1c41683ebcae73443a17f431ae93502d,
@@ -42988,7 +42990,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1141515506}
   - component: {fileID: 1141515507}
-  - component: {fileID: 1141515512}
   - component: {fileID: 1141515508}
   - component: {fileID: 1141515509}
   - component: {fileID: 1141515511}
@@ -43087,18 +43088,6 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 2
   m_Center: {x: -1.1, y: 1.94, z: -4.45}
---- !u!114 &1141515512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1141515505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2b530dfcb47d484dbf0089cb846d145, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabbable: {fileID: 0}
 --- !u!1 &1144135869
 GameObject:
   m_ObjectHideFlags: 0
@@ -51441,7 +51430,9 @@ GameObject:
   - component: {fileID: 1735669235}
   - component: {fileID: 1735669233}
   - component: {fileID: 1735669234}
+  - component: {fileID: 1735669238}
   - component: {fileID: 1735669232}
+  - component: {fileID: 1735669237}
   m_Layer: 0
   m_Name: Urn_One_1126
   m_TagString: Urn
@@ -51552,6 +51543,34 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1735669231}
   m_Mesh: {fileID: 4300000, guid: 4007730970f3ea842b55f05c3f55d266, type: 3}
+--- !u!65 &1735669237
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735669231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020313343, y: 0.0033666294, z: 0.020259202}
+  m_Center: {x: 0.0009668271, y: 0.050748836, z: 0.05369805}
+--- !u!114 &1735669238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735669231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc0963083e5ba344a1e42e4d891436f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLidOpened:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1767558915
 GameObject:
   m_ObjectHideFlags: 0
@@ -52406,20 +52425,34 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!64 &1888777055
-MeshCollider:
+--- !u!65 &1888777055
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1888777051}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 953cf509f6b836e42a7d67fa723c7cd5, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.022720179, y: 0.005002658, z: 0.022954505}
+  m_Center: {x: -0.000005880992, y: 0.050649066, z: 0.053868644}
+--- !u!114 &1888777056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1888777051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc0963083e5ba344a1e42e4d891436f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLidOpened:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!4 &1890237544 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 953cf509f6b836e42a7d67fa723c7cd5,
@@ -62782,15 +62815,43 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2126676812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2126676808}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.022146683, y: 0.0057611465, z: 0.022499016}
+  m_Center: {x: -0.00033082505, y: 0.050768852, z: 0.05378529}
 --- !u!4 &2126676814 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 776702b3a7424ae4daa81f93bc3b4f27,
     type: 3}
   m_PrefabInternal: {fileID: 9512749}
+--- !u!114 &2126676816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2126676808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc0963083e5ba344a1e42e4d891436f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLidOpened:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!4 &2139370414 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4723311408647812, guid: bbd8ff8aaf3bc6e46a355534c8982de2,

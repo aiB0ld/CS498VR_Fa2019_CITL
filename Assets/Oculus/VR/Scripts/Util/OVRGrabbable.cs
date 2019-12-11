@@ -128,10 +128,7 @@ public class OVRGrabbable : MonoBehaviour
         Debug.Log("Grab Begin OG");
         OnGrabBegin.Invoke();
 
-        if (grabPoint.gameObject.CompareTag("Lid"))
-        {
-            onLidGrabBegin.Invoke();
-        } else if (grabPoint.gameObject.CompareTag("Notebook"))
+        if (grabPoint.gameObject.CompareTag("Notebook"))
         {
             onBookGrabBegin.Invoke();
         }

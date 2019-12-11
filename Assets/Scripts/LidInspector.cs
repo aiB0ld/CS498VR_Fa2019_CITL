@@ -9,10 +9,11 @@ public class LidInspector : MonoBehaviour
     public static bool OneGrabbed;
     public static bool TwoGrabbed;
     public static bool ThreeGrabbed;
-    //private bool hasGrabbed = false;
+
+    public GameObject urn;
 
     public static UnityEvent OnLidAllInspected;
-    public OVRGrabbable grabbable;
+    //public OVRGrabbable grabbable;
 
     // Use this for initialization
     void Start()
@@ -26,33 +27,19 @@ public class LidInspector : MonoBehaviour
 
     private void Awake()
     {
-        grabbable = GetComponent<OVRGrabbable>();
-        grabbable.onLidGrabBegin.AddListener(OnLidGrabbed);
-
+        LidClose lidCloseDetector = urn.GetComponent<LidClose>();
+        lidCloseDetector.onLidOpened.AddListener(OnLidGrabbed);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if (!hasGrabbed)
-        //{
-        //    transform.localPosition = new Vector3(0.01559997f, -0.005100012f, 0.002333364f);
-        //}
-    }
-
-    public void ChangeParent()
-    {
-        if (this.transform.parent != null && this.transform.parent.CompareTag("Urn"))
-        {
-            this.transform.parent = this.transform.parent.transform.parent;
-        }
     }
 
     public void OnLidGrabbed()
     {
-        //hasGrabbed = true;
         Debug.Log("Lid Inspector: grabbed " + this.name);
-        ChangeParent();
+        //ChangeParent();
         if (this.name == "Lid_One_1126")
         {
             OneGrabbed = true;
