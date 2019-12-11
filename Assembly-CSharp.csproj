@@ -375,6 +375,7 @@
     <Compile Include="Assets\Scripts\startmenu\Orbit.cs" />
     <Compile Include="Assets\Scripts\StateManager.cs" />
     <Compile Include="Assets\Scripts\stateManager2.cs" />
+    <Compile Include="Assets\Scripts\stateManager3.cs" />
     <Compile Include="Assets\Scripts\TODOLIST.cs" />
     <Compile Include="Assets\Scripts\TODOLIST2222.cs" />
     <Compile Include="Assets\Scripts\TriggerSwitch.cs" />
