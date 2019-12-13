@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 7cbe084aff8785c4bb9b1d30387f5106
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Archeologist
+    100002: Armature
+    100004: Bone
+    100006: Chest
+    100008: ElbowPoint.L
+    100010: ElbowPoint.L_end
+    100012: ElbowPoint.R
+    100014: ElbowPoint.R_end
+    100016: Foot.L
+    100018: Foot.L_end
+    100020: Foot.R
+    100022: Foot.R_end
+    100024: Hand.Control.L
+    100026: Hand.Control.L_end
+    100028: Hand.Control.R
+    100030: Hand.Control.R_end
+    100032: Hand.L
+    100034: Hand.L_end
+    100036: Hand.R
+    100038: Hand.R_end
+    100040: Head
+    100042: Head_end
+    100044: Hips
+    100046: Hips.Control
+    100048: KneePoint.L
+    100050: KneePoint.L_end
+    100052: KneePoint.R
+    100054: KneePoint.R_end
+    100056: LowerArm.L
+    100058: LowerArm.R
+    100060: LowerLeg.Control.L
+    100062: LowerLeg.Control.R
+    100064: LowerLeg.L
+    100066: LowerLeg.R
+    100068: //RootNode
+    100070: Neck
+    100072: Shoulder.L
+    100074: Shoulder.R
+    100076: UpperArm.L
+    100078: UpperArm.R
+    100080: UpperLeg.L
+    100082: UpperLeg.R
+    100084: Waist
+    400000: Archeologist
+    400002: Armature
+    400004: Bone
+    400006: Chest
+    400008: ElbowPoint.L
+    400010: ElbowPoint.L_end
+    400012: ElbowPoint.R
+    400014: ElbowPoint.R_end
+    400016: Foot.L
+    400018: Foot.L_end
+    400020: Foot.R
+    400022: Foot.R_end
+    400024: Hand.Control.L
+    400026: Hand.Control.L_end
+    400028: Hand.Control.R
+    400030: Hand.Control.R_end
+    400032: Hand.L
+    400034: Hand.L_end
+    400036: Hand.R
+    400038: Hand.R_end
+    400040: Head
+    400042: Head_end
+    400044: Hips
+    400046: Hips.Control
+    400048: KneePoint.L
+    400050: KneePoint.L_end
+    400052: KneePoint.R
+    400054: KneePoint.R_end
+    400056: LowerArm.L
+    400058: LowerArm.R
+    400060: LowerLeg.Control.L
+    400062: LowerLeg.Control.R
+    400064: LowerLeg.L
+    400066: LowerLeg.R
+    400068: //RootNode
+    400070: Neck
+    400072: Shoulder.L
+    400074: Shoulder.R
+    400076: UpperArm.L
+    400078: UpperArm.R
+    400080: UpperLeg.L
+    400082: UpperLeg.R
+    400084: Waist
+    2100000: Hair
+    2100002: Body
+    2100004: Cloth
+    2100006: Trousers
+    2100008: Shoes
+    2100010: Mouth
+    2100012: Pupil
+    2100014: Sclera
+    4300000: Archeologist
+    7400000: Armature|Idle
+    9500000: //RootNode
+    13700000: Archeologist
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

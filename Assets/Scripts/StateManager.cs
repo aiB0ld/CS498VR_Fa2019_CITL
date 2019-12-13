@@ -66,7 +66,7 @@ public class StateManager : MonoBehaviour {
                 {
                     isInState2 = true;
 
-                    if(!TODOLIST2222.audioIsPlayings)
+                    if(!TODOLIST2222.audioIsPlaying)
                     {
                          enterNextState();
                     }
