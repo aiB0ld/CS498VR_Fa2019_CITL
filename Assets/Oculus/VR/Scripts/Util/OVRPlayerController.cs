@@ -140,7 +140,7 @@ public class OVRPlayerController : MonoBehaviour
 	private float FallSpeed = 0.0f;
 	private OVRPose? InitialPose;
 	public float InitialYRotation { get; private set; }
-	public float MoveScaleMultiplier = 1.0f;
+	static public float MoveScaleMultiplier = 0.6f;
 	public float RotationScaleMultiplier = 1.0f;
 	private bool SkipMouseRotation = true; // It is rare to want to use mouse movement in VR, so ignore the mouse by default.
 	private bool HaltUpdateMovement = false;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScrollUnfold : MonoBehaviour {
     private OVRGrabbable grabbable;
-    public GameObject PauseMenu;
+    public GameObject TODOLIST;
     public GameObject scro;
     public GameObject Done_1;
     public GameObject learnobj;
@@ -22,7 +22,7 @@ public class ScrollUnfold : MonoBehaviour {
     {
         Debug.Log("Scroll Grabbed");
         learnobj.SetActive(false);
-        PauseMenu.SetActive(true);
+        TODOLIST.SetActive(true);
         scro.SetActive(false);
         // correct sign active
         //Done_1.SetActive(true);
@@ -41,12 +41,12 @@ public class ScrollUnfold : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        if (PauseMenu.activeInHierarchy)
+        if (TODOLIST.activeInHierarchy)
         {
             timer111 += Time.deltaTime;
-            if (timer111 >= 4)
+            if (timer111 >= 6)
             {
-                PauseMenu.SetActive(false);
+                TODOLIST.SetActive(false);
                 timer111 = 0;
             }
         }

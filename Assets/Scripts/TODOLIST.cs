@@ -17,11 +17,15 @@ public class TODOLIST : MonoBehaviour
     private int flag = 0;
     private bool check_1 = false;
     private bool check_2 = false;
+    private float timer_note = 0;
     public GameObject urnCanves;
 
     public AudioClip UrnClip;
     public AudioClip NoteClip;
     public AudioSource MusicSource_cave;
+
+    public GameObject todocaveReminder;
+    public GameObject findnoteReminder;
 
     // Use this for initialization
     void Start()
@@ -32,19 +36,40 @@ public class TODOLIST : MonoBehaviour
     void Update()
     {
 
+        if (Time.realtimeSinceStartup - StateManager.cave_timer >= 6)
+        {
+            todocaveReminder.SetActive(false);
+        }
+        else if (Time.realtimeSinceStartup - StateManager.cave_timer >= 1)
+        {
+            todocaveReminder.SetActive(true);
+        }
+
         if (stateManager2.CurrState == 0 && stateManager2.isInStateOne)
         {
             urnCanves.SetActive(true);
+            OVRPlayerController.MoveScaleMultiplier = 0;
             if (!check_1)
             {
                 MusicSource_cave.Play();
                 check_1 = true;
+            }
+            if (! MusicSource_cave.isPlaying)
+            {
+                OVRPlayerController.MoveScaleMultiplier = 0.6f;
             }
         }
         else if(stateManager2.CurrState == 1)
         {
             Done_1.SetActive(true);
             urnCanves.SetActive(false);
+            findnoteReminder.SetActive(true);
+            timer_note += Time.deltaTime;
+            if(timer_note == 4)
+            {
+                findnoteReminder.SetActive(false);
+                timer_note = 0;
+            }
         }
         else if (Notebook.grabnote == 1)
         {
@@ -54,6 +79,7 @@ public class TODOLIST : MonoBehaviour
             {
                 MusicSource_cave.clip = NoteClip;
                 MusicSource_cave.Play();
+                OVRPlayerController.MoveScaleMultiplier = 0;
                 check_2 = true;
             }
             if (flag == 0)
@@ -75,6 +101,7 @@ public class TODOLIST : MonoBehaviour
             if (Time.realtimeSinceStartup - start_time >= 49 && start_time != 0 && flag == 3)
             {
                 note2.SetActive(false);
+                OVRPlayerController.MoveScaleMultiplier = 0.6f;
                 flag = 4;
                 Notebook.grabnote = 0;
                 lecture = 0;

@@ -11,6 +11,7 @@ public class StateManager : MonoBehaviour {
     public Collider stateColl01;
     public Collider stateColl02;
     public Collider stateColl03;
+    static public float cave_timer;
 
     private List<GameObject> StateList;
     private List<Collider> stateCollList;
@@ -61,6 +62,7 @@ public class StateManager : MonoBehaviour {
                 CurrState = 3;
                 Debug.Log("Welcome to the Cave.");
                 SceneManager.LoadScene("CaveScene");
+                cave_timer = Time.realtimeSinceStartup;
             }
         }
         

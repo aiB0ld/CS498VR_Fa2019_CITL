@@ -11,16 +11,21 @@ public class ButtonScript : MonoBehaviour
     public GameObject realPause;
     public GameObject todolist;
     public GameObject mapmap;
-    public Color onTouchColor;
+    //public Color onTouchColor;
+    private Image btnImage;
+    public Sprite originalSprite;
+    public Sprite onTouchSprite;
     private Button learnobjBtn;
     public float grabBegin = 0.05f;
     public float grabEnd = 0.05f;
     private float l_flex;
     private float r_flex;
+    public GameObject todoreminder;
 
     // Use this for initialization
     void Start()
     {
+        btnImage = gameObject.GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -46,10 +51,7 @@ public class ButtonScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Hand"))
         {
-            learnobjBtn = gameObject.GetComponent<Button>();
-            var colors = learnobjBtn.colors;
-            colors.normalColor = onTouchColor;
-            learnobjBtn.colors = colors;
+            btnImage.sprite = onTouchSprite;
         }
     }
 
@@ -63,10 +65,7 @@ public class ButtonScript : MonoBehaviour
         {
             if (CheckForGrabOrRelease(l_flex, l_prevFlex) || CheckForGrabOrRelease(r_flex, r_prevFlex))
             {
-                learnobjBtn = gameObject.GetComponent<Button>();
-                var colors = learnobjBtn.colors;
-                colors.normalColor = Color.white;
-                learnobjBtn.colors = colors;
+                btnImage.sprite = originalSprite;
 
                 if (gameObject.name == "learningobjectives")
                 {
@@ -76,6 +75,7 @@ public class ButtonScript : MonoBehaviour
                     }
                     else
                     {
+                        todoreminder.SetActive(false);
                         mapmap.SetActive(false);
                         todolist.SetActive(false);
                         learnobj.SetActive(true);
@@ -90,6 +90,7 @@ public class ButtonScript : MonoBehaviour
                     }
                     else
                     {
+                        todoreminder.SetActive(false);
                         todolist.SetActive(false);
                         learnobj.SetActive(false);
                         mapmap.SetActive(true);
@@ -99,6 +100,7 @@ public class ButtonScript : MonoBehaviour
                 else if (gameObject.name == "starmenu")
                 {
                     SceneManager.LoadScene("StartMenu");
+                    OVRPlayerController.MoveScaleMultiplier = 0;
                 }
                 else if (gameObject.name == "todolist")
                 {
@@ -108,6 +110,7 @@ public class ButtonScript : MonoBehaviour
                     }
                     else
                     {
+                        todoreminder.SetActive(false);
                         mapmap.SetActive(false);
                         learnobj.SetActive(false);
                         todolist.SetActive(true);
@@ -122,10 +125,7 @@ public class ButtonScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Hand"))
         {
-            learnobjBtn = gameObject.GetComponent<Button>();
-            var colors = learnobjBtn.colors;
-            colors.normalColor = Color.white;
-            learnobjBtn.colors = colors;
+            btnImage.sprite = originalSprite;
         }
     }
 }

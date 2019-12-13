@@ -17,7 +17,8 @@ public class TODOLIST2222 : MonoBehaviour {
     private double start_time = 0;
     private double timer = 0;
     private int flag = 0;
-    private bool check = false;
+    private bool check_1 = false;
+    private bool check_2 = false;
     static public int lectureVillage = 0;
 
     public GameObject Done_1;
@@ -27,6 +28,9 @@ public class TODOLIST2222 : MonoBehaviour {
     public AudioClip MapClip;
     public AudioClip JarClip;
     public AudioSource MusicSource;
+
+    public GameObject todoreminder;
+    public GameObject grabreminder;
     // Use this for initialization
 
     void Start()
@@ -66,13 +70,39 @@ public class TODOLIST2222 : MonoBehaviour {
 
         }*/
         // learning objectives
-        if (Time.realtimeSinceStartup - 0.0 >= 48)
+        if (Time.realtimeSinceStartup - ButtonScriptStart.xuehao >= (48 + 19))
+        {
+            grabreminder.SetActive(false);
+        }
+        else if (Time.realtimeSinceStartup - ButtonScriptStart.xuehao >= (48 + 15))
+        {
+            grabreminder.SetActive(true);
+            OVRPlayerController.MoveScaleMultiplier = 0.6f;
+        }
+        else if (Time.realtimeSinceStartup - ButtonScriptStart.xuehao >= (48 + 12))
         {
             lecture_object.SetActive(false);
         } 
-        else if (Time.realtimeSinceStartup - 0.0 >= 30)
+        else if (Time.realtimeSinceStartup - ButtonScriptStart.xuehao >= (30 + 12))
         {
             lecture_object.SetActive(true);
+        }
+        else if (Time.realtimeSinceStartup - ButtonScriptStart.xuehao >= 11)
+        {
+            if (! check_1)
+            {
+                MusicSource.Play();
+                check_1 = true;
+            }
+            OVRPlayerController.MoveScaleMultiplier = 0;
+        }
+        else if (Time.realtimeSinceStartup - ButtonScriptStart.xuehao >= 6)
+        {
+            todoreminder.SetActive(false);
+        }
+        else if (Time.realtimeSinceStartup - ButtonScriptStart.xuehao >= 1)
+        {
+            todoreminder.SetActive(true);
         }
 
         if (ScrollUnfold.grab == 1)
@@ -91,6 +121,7 @@ public class TODOLIST2222 : MonoBehaviour {
             {
                 MusicSource.clip = MapClip;
                 MusicSource.Play();
+                OVRPlayerController.MoveScaleMultiplier = 0;
                 map.SetActive(true);
                 flag = 2;
             }
@@ -118,6 +149,7 @@ public class TODOLIST2222 : MonoBehaviour {
                 map4.SetActive(false);
                 flag = 6;
                 Done_1.SetActive(true);
+                OVRPlayerController.MoveScaleMultiplier = 0.6f;
                 lectureVillage = 0;
                 ScrollUnfold.grab = 0;
             }
@@ -125,10 +157,10 @@ public class TODOLIST2222 : MonoBehaviour {
         else if (StateManager.CurrState == 2)
         {
             MusicSource.clip = JarClip;
-            if (! check)
+            if (! check_2)
             {
                 MusicSource.Play();
-                check = true;
+                check_2 = true;
             }
             Done_2.SetActive(true);
             arrow.SetActive(true);

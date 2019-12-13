@@ -9,16 +9,22 @@ public class ButtonScriptStart : MonoBehaviour
     //public GameObject target_1;
     public GameObject stageMenu;
 
-    public Color onTouchColor;
+    //public Color onTouchColor;
+    private Image btnImage;
+    public Sprite originalSprite;
+    public Sprite onTouchSprite;
     private Button learnobjBtn;
     public float grabBegin = 0.05f;
     public float grabEnd = 0.05f;
     private float l_flex;
     private float r_flex;
 
+    static public float xuehao;
+
     // Use this for initialization
     void Start()
     {
+
     }
 
     // Update is called once per frame
@@ -44,10 +50,7 @@ public class ButtonScriptStart : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Hand"))
         {
-            learnobjBtn = gameObject.GetComponent<Button>();
-            var colors = learnobjBtn.colors;
-            colors.normalColor = onTouchColor;
-            learnobjBtn.colors = colors;
+            btnImage.sprite = onTouchSprite;
         }
     }
 
@@ -61,10 +64,7 @@ public class ButtonScriptStart : MonoBehaviour
         {
             if (CheckForGrabOrRelease(l_flex, l_prevFlex) || CheckForGrabOrRelease(r_flex, r_prevFlex))
             {
-                learnobjBtn = gameObject.GetComponent<Button>();
-                var colors = learnobjBtn.colors;
-                colors.normalColor = Color.white;
-                learnobjBtn.colors = colors;
+                btnImage.sprite = originalSprite;
 
                 if (gameObject.name == "Exit")
                 {
@@ -76,7 +76,9 @@ public class ButtonScriptStart : MonoBehaviour
                 }
                 else if (gameObject.name == "Start")
                 {
+                    xuehao = Time.realtimeSinceStartup;
                     SceneManager.LoadScene("VillageScene");
+                    OVRPlayerController.MoveScaleMultiplier = 0.6f;
                 }
                 else if (gameObject.name == "Stage")
                 {
@@ -84,15 +86,20 @@ public class ButtonScriptStart : MonoBehaviour
                 }
                 else if (gameObject.name == "village")
                 {
+                    xuehao = Time.realtimeSinceStartup;
                     SceneManager.LoadScene("VillageScene");
+                    OVRPlayerController.MoveScaleMultiplier = 0.6f;
                 }
                 else if (gameObject.name == "village2")
                 {
                     //SceneManager.LoadScene("VillageScene");
+                    //OVRPlayerController.MoveScaleMultiplier = 0.6f;
                 }
                 else if (gameObject.name == "cave")
                 {
                     SceneManager.LoadScene("CaveScene");
+                    OVRPlayerController.MoveScaleMultiplier = 0.6f;
+                    StateManager.cave_timer = Time.realtimeSinceStartup;
                 }
             }
         }
@@ -102,10 +109,7 @@ public class ButtonScriptStart : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Hand"))
         {
-            learnobjBtn = gameObject.GetComponent<Button>();
-            var colors = learnobjBtn.colors;
-            colors.normalColor = Color.white;
-            learnobjBtn.colors = colors;
+            btnImage.sprite = originalSprite;
         }
     }
 }

@@ -11,16 +11,21 @@ public class ButtonScript_Cave : MonoBehaviour
     public GameObject realPause;
     public GameObject todolist;
     public GameObject notebook;
-    public Color onTouchColor;
+    //public Color onTouchColor;
     private Button learnobjBtn;
+    private Image btnImage;
+    public Sprite originalSprite;
+    public Sprite onTouchSprite;
     public float grabBegin = 0.05f;
     public float grabEnd = 0.05f;
     private float l_flex;
     private float r_flex;
+    public GameObject todoreminderrr;
 
     // Use this for initialization
     void Start()
     {
+        btnImage = gameObject.GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -46,10 +51,11 @@ public class ButtonScript_Cave : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Hand"))
         {
-            learnobjBtn = gameObject.GetComponent<Button>();
-            var colors = learnobjBtn.colors;
-            colors.normalColor = onTouchColor;
-            learnobjBtn.colors = colors;
+            btnImage.sprite = onTouchSprite;
+            //learnobjBtn = gameObject.GetComponent<Button>();
+            //var colors = learnobjBtn.colors;
+            //colors.normalColor = onTouchColor;
+            //learnobjBtn.colors = colors;
         }
     }
 
@@ -63,10 +69,11 @@ public class ButtonScript_Cave : MonoBehaviour
         {
             if (CheckForGrabOrRelease(l_flex, l_prevFlex) || CheckForGrabOrRelease(r_flex, r_prevFlex))
             {
-                learnobjBtn = gameObject.GetComponent<Button>();
-                var colors = learnobjBtn.colors;
-                colors.normalColor = Color.white;
-                learnobjBtn.colors = colors;
+                btnImage.sprite = originalSprite;
+                //learnobjBtn = gameObject.GetComponent<Button>();
+                //var colors = learnobjBtn.colors;
+                //colors.normalColor = Color.white;
+                //learnobjBtn.colors = colors;
 
                 if (gameObject.name == "learningobjectives")
                 {
@@ -76,6 +83,7 @@ public class ButtonScript_Cave : MonoBehaviour
                     }
                     else
                     {
+                        todoreminderrr.SetActive(false);
                         notebook.SetActive(false);
                         todolist.SetActive(false);
                         learnobj.SetActive(true);
@@ -90,6 +98,7 @@ public class ButtonScript_Cave : MonoBehaviour
                     }
                     else
                     {
+                        todoreminderrr.SetActive(false);
                         todolist.SetActive(false);
                         learnobj.SetActive(false);
                         notebook.SetActive(true);
@@ -99,6 +108,7 @@ public class ButtonScript_Cave : MonoBehaviour
                 else if (gameObject.name == "starmenu")
                 {
                     SceneManager.LoadScene("StartMenu");
+                    OVRPlayerController.MoveScaleMultiplier = 0;
                 }
                 else if (gameObject.name == "todolist")
                 {
@@ -108,6 +118,7 @@ public class ButtonScript_Cave : MonoBehaviour
                     }
                     else
                     {
+                        todoreminderrr.SetActive(false);
                         notebook.SetActive(false);
                         learnobj.SetActive(false);
                         todolist.SetActive(true);
@@ -122,10 +133,11 @@ public class ButtonScript_Cave : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Hand"))
         {
-            learnobjBtn = gameObject.GetComponent<Button>();
-            var colors = learnobjBtn.colors;
-            colors.normalColor = Color.white;
-            learnobjBtn.colors = colors;
+            btnImage.sprite = originalSprite;
+            //learnobjBtn = gameObject.GetComponent<Button>();
+            //var colors = learnobjBtn.colors;
+            //colors.normalColor = Color.white;
+            //learnobjBtn.colors = colors;
         }
     }
 }
