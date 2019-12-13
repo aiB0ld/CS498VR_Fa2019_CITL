@@ -26,7 +26,7 @@ public class EdgeDetection : MonoBehaviour {
             RangeWarning.SetActive(true);
             timer = 0f;
         }
-        if(RangeWarning.activeInHierarchy && timer > 2f)
+        if(RangeWarning.activeInHierarchy && timer > 3f)
         {
             RangeWarning.SetActive(false);
         }

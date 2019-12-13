@@ -26,6 +26,7 @@ public class TODOLIST : MonoBehaviour
 
     public GameObject todocaveReminder;
     public GameObject findnoteReminder;
+    private bool notereminderisopen = false;
 
     // Use this for initialization
     void Start()
@@ -36,7 +37,7 @@ public class TODOLIST : MonoBehaviour
     void Update()
     {
 
-        if (Time.realtimeSinceStartup - StateManager.cave_timer >= 6)
+        if (Time.realtimeSinceStartup - StateManager.cave_timer >= 10)
         {
             todocaveReminder.SetActive(false);
         }
@@ -63,12 +64,16 @@ public class TODOLIST : MonoBehaviour
         {
             Done_1.SetActive(true);
             urnCanves.SetActive(false);
-            findnoteReminder.SetActive(true);
+            notereminderisopen = true;
+            if (timer_note < 10 && timer_note > 6)
+                findnoteReminder.SetActive(true);
+            
+            
             timer_note += Time.deltaTime;
-            if(timer_note == 4)
+            if(timer_note >= 10)
             {
                 findnoteReminder.SetActive(false);
-                timer_note = 0;
+                //timer_note = 0;
             }
         }
         else if (Notebook.grabnote == 1)

@@ -12,6 +12,7 @@ public class StateManager : MonoBehaviour {
     public Collider stateColl02;
     public Collider stateColl03;
     static public float cave_timer;
+    public static bool isInState2 = false;
 
     private List<GameObject> StateList;
     private List<Collider> stateCollList;
@@ -52,10 +53,27 @@ public class StateManager : MonoBehaviour {
        // Debug.Log("State Number before Entering:" + CurrState);
         if (other.gameObject.CompareTag("Player"))
         {
-            if (CurrState < 2 && CurrState >= 0)
+            if (CurrState >= 0)
             {
                 Debug.Log( "State Number before Entering:" + CurrState);
-                CurrState++;
+
+                if(CurrState == 0 && ScrollUnfold.grab == 1)
+                {
+                    enterNextState();
+                }
+
+                if(CurrState == 1)
+                {
+                    isInState2 = true;
+
+                    if(!TODOLIST2222.audioIsPlayings)
+                    {
+                         enterNextState();
+                    }
+                    
+                }
+
+
             }
             else if(CurrState == 2)
             {   
@@ -79,5 +97,15 @@ public class StateManager : MonoBehaviour {
             StateList[CurrState].SetActive(true);
             
         }
+    }
+
+    void enterNextState()
+    {
+        CurrState++;
+        stateCollList[CurrState - 1].enabled = false;
+        stateCollList[CurrState].enabled = true;
+        Debug.Log("Current State Number changes to: " + CurrState);
+        StateList[CurrState - 1].SetActive(false);
+        StateList[CurrState].SetActive(true);
     }
 }

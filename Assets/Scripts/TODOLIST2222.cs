@@ -20,6 +20,7 @@ public class TODOLIST2222 : MonoBehaviour {
     private bool check_1 = false;
     private bool check_2 = false;
     static public int lectureVillage = 0;
+    public static bool audioIsPlaying = true;
 
     public GameObject Done_1;
     public GameObject Done_2;
@@ -96,7 +97,7 @@ public class TODOLIST2222 : MonoBehaviour {
             }
             OVRPlayerController.MoveScaleMultiplier = 0;
         }
-        else if (Time.realtimeSinceStartup - ButtonScriptStart.xuehao >= 6)
+        else if (Time.realtimeSinceStartup - ButtonScriptStart.xuehao >= 10)
         {
             todoreminder.SetActive(false);
         }
@@ -162,8 +163,13 @@ public class TODOLIST2222 : MonoBehaviour {
                 MusicSource.Play();
                 check_2 = true;
             }
-            Done_2.SetActive(true);
-            arrow.SetActive(true);
+            if(!MusicSource.isPlaying)
+            {
+                audioIsPlaying = false;
+                Done_2.SetActive(true);
+                arrow.SetActive(true);
+            }
+            
             /*timer += Time.deltaTime;
             if (timer >= 0.8)
             {

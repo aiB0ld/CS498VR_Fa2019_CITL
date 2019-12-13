@@ -84,8 +84,7 @@ public class stateManager2 : MonoBehaviour {
                 if (CurrState >= 2)
                 {
                     CurrState = 3;
-                    Debug.Log("Welcome back to the tricky Village.");
-                    //loadscene;
+                    Debug.Log("Welcome to the museum.");
                     SceneManager.LoadScene("Village2ndScene");
                 }
 
