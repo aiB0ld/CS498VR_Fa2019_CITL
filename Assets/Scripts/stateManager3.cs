@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class stateManager3 : MonoBehaviour {
     public static int CurrState = 0;
-    public static bool isInStateOne = false;
+
+    private static bool firstNPCEntered = false;
+    private static bool secondNPCEntered = false;
     private static bool firstNPCdone = false;
     private static bool secondNPCdone = false;
 
@@ -72,9 +74,13 @@ public class stateManager3 : MonoBehaviour {
                 Debug.Log("State Number before Entering:" + CurrState);
                 if (CurrState == 0)
                 {
-                    isInStateOne = true;
+                    firstNPCEntered = true;
                 }
 
+                if(CurrState == 1)
+                {
+                    secondNPCEntered = true;
+                }
 
                 if (CurrState >= 2)
                 {
@@ -88,6 +94,21 @@ public class stateManager3 : MonoBehaviour {
         }
 
 
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (CurrState >= 0 && CurrState <= 1 && other.gameObject.CompareTag("Player"))
+        {
+            if (CurrState == 0 && firstNPCEntered)
+            {
+                firstNPCdone = true;
+            }
+            if (CurrState == 1 && secondNPCEntered)
+            {
+                secondNPCdone = true;
+            }
+        }
     }
 
     void enterNextState()
