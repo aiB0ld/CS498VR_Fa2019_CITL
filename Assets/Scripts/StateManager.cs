@@ -58,6 +58,12 @@ public class StateManager : MonoBehaviour {
             enterNextState();
 
         }
+
+        if (CurrState == 1 && secondNPCEntered && TODOLIST2222.Lecture2done)
+        {
+            secondNPCdone = true;
+        }
+
         if (CurrState == 1 && secondNPCdone)
         {
             enterNextState();
@@ -68,7 +74,7 @@ public class StateManager : MonoBehaviour {
        // Debug.Log("State Number before Entering:" + CurrState);
         if (other.gameObject.CompareTag("Player"))
         {
-            if (CurrState >= 0)
+            if (CurrState >= 0 && CurrState < 2)
             {
                 Debug.Log( "State Number before Entering:" + CurrState);
 
@@ -104,10 +110,6 @@ public class StateManager : MonoBehaviour {
             {
                 Debug.Log("Exit from first State");
                 firstNPCdone = true;
-            }
-            if (CurrState == 1 && secondNPCEntered && TODOLIST2222.Lecture2done)
-            {
-                secondNPCdone = true;
             }
         }
     }

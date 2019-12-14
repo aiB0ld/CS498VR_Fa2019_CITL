@@ -363,43 +363,43 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="AsyncBridge.Net35">
-      <HintPath>C:/Users/haoyuz7/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api">
-      <HintPath>C:/Users/haoyuz7/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>C:/Users/haoyuz7/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity">
-      <HintPath>C:/Users/haoyuz7/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.UnityShim">
-      <HintPath>C:/Users/haoyuz7/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>C:/Users/haoyuz7/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>C:/Users/haoyuz7/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading">
-      <HintPath>C:/Users/haoyuz7/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/Documents/GitHub/CS498VR_Fa2019_CITL/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/haoyuz7/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/haoyuz7/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Analytics">
-      <HintPath>C:/Users/haoyuz7/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/haoyuz7/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/haoyuz7/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/xuehaow2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
