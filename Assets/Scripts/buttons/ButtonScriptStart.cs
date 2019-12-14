@@ -8,6 +8,7 @@ public class ButtonScriptStart : MonoBehaviour
 {
     //public GameObject target_1;
     public GameObject stageMenu;
+    public GameObject buttonCanvas;
 
     //public Color onTouchColor;
     private Image btnImage;
@@ -30,7 +31,6 @@ public class ButtonScriptStart : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
 
     }
 
@@ -66,40 +66,62 @@ public class ButtonScriptStart : MonoBehaviour
             {
                 btnImage.sprite = originalSprite;
 
-                if (gameObject.name == "Exit")
+                if (StartMenuPlayerController.mode == "tutorial")
                 {
-                    #if UNITY_EDITOR
+                    StartMenuPlayerController.isTriggered = true;
+                    if (buttonCanvas.activeInHierarchy)
+                    {
+                        buttonCanvas.SetActive(false);
+                    }
+                } else
+                {
+                    if (gameObject.name == "Exit")
+                    {
+#if UNITY_EDITOR
                         UnityEditor.EditorApplication.isPlaying = false;
-                    #else
+#else
                         Application.Quit();
-                    #endif
-                }
-                else if (gameObject.name == "Start")
-                {
-                    xuehao = Time.realtimeSinceStartup;
-                    SceneManager.LoadScene("VillageScene");
-                    OVRPlayerController.MoveScaleMultiplier = 0.6f;
-                }
-                else if (gameObject.name == "Stage")
-                {
-                    stageMenu.SetActive(true);
-                }
-                else if (gameObject.name == "village")
-                {
-                    xuehao = Time.realtimeSinceStartup;
-                    SceneManager.LoadScene("VillageScene");
-                    OVRPlayerController.MoveScaleMultiplier = 0.6f;
-                }
-                else if (gameObject.name == "village2")
-                {
-                    //SceneManager.LoadScene("VillageScene");
-                    //OVRPlayerController.MoveScaleMultiplier = 0.6f;
-                }
-                else if (gameObject.name == "cave")
-                {
-                    SceneManager.LoadScene("CaveScene");
-                    OVRPlayerController.MoveScaleMultiplier = 0.6f;
-                    StateManager.cave_timer = Time.realtimeSinceStartup;
+#endif
+                    }
+                    else if (gameObject.name == "Start")
+                    {
+                        xuehao = Time.realtimeSinceStartup;
+                        SceneManager.LoadScene("VillageScene");
+                        OVRPlayerController.MoveScaleMultiplier = 0.6f;
+                    } else if (gameObject.name == "Tutorial")
+                    {
+                        StartMenuPlayerController.mode = "tutorial";
+                        StartMenuPlayerController.stage = "menu";
+                        StartMenuPlayerController.isTriggered = false;
+                        StartMenuPlayerController.isGrabbed = false;
+                    }
+                    else if (gameObject.name == "Stage")
+                    {
+                        if (stageMenu.activeInHierarchy)
+                        {
+                            stageMenu.SetActive(false);
+                        }else
+                        {
+                            stageMenu.SetActive(true);
+                        }   
+                    }
+                    else if (gameObject.name == "village")
+                    {
+                        xuehao = Time.realtimeSinceStartup;
+                        SceneManager.LoadScene("VillageScene");
+                        OVRPlayerController.MoveScaleMultiplier = 0.6f;
+                    }
+                    else if (gameObject.name == "village2")
+                    {
+                        SceneManager.LoadScene("Village2ndScene");
+                        OVRPlayerController.MoveScaleMultiplier = 1.0f;
+                    }
+                    else if (gameObject.name == "cave")
+                    {
+                        SceneManager.LoadScene("CaveScene");
+                        OVRPlayerController.MoveScaleMultiplier = 0.6f;
+                        StateManager.cave_timer = Time.realtimeSinceStartup;
+                    }
                 }
             }
         }

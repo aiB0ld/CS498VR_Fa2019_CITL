@@ -86,6 +86,7 @@ public class stateManager2 : MonoBehaviour {
                     CurrState = 3;
                     Debug.Log("Welcome to the museum.");
                     SceneManager.LoadScene("Village2ndScene");
+                    OVRPlayerController.MoveScaleMultiplier = 1.0f;
                 }
 
             }

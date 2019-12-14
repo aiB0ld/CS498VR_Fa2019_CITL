@@ -21,6 +21,7 @@ public class ButtonScript_Cave : MonoBehaviour
     private float l_flex;
     private float r_flex;
     public GameObject todoreminderrr;
+    public GameObject Notereminderrr;
 
     // Use this for initialization
     void Start()
@@ -84,6 +85,7 @@ public class ButtonScript_Cave : MonoBehaviour
                     else
                     {
                         todoreminderrr.SetActive(false);
+                        Notereminderrr.SetActive(false);
                         notebook.SetActive(false);
                         todolist.SetActive(false);
                         learnobj.SetActive(true);
@@ -99,6 +101,7 @@ public class ButtonScript_Cave : MonoBehaviour
                     else
                     {
                         todoreminderrr.SetActive(false);
+                        Notereminderrr.SetActive(false);
                         todolist.SetActive(false);
                         learnobj.SetActive(false);
                         notebook.SetActive(true);
@@ -107,6 +110,7 @@ public class ButtonScript_Cave : MonoBehaviour
                 }
                 else if (gameObject.name == "starmenu")
                 {
+                    StartMenuPlayerController.check_mode = true;
                     SceneManager.LoadScene("StartMenu");
                     OVRPlayerController.MoveScaleMultiplier = 0;
                 }
@@ -119,6 +123,7 @@ public class ButtonScript_Cave : MonoBehaviour
                     else
                     {
                         todoreminderrr.SetActive(false);
+                        Notereminderrr.SetActive(false);
                         notebook.SetActive(false);
                         learnobj.SetActive(false);
                         todolist.SetActive(true);

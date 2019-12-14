@@ -5179,7 +5179,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 81157187}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 292, y: -0.01, z: -0.01}
+  m_LocalPosition: {x: 457.5, y: -0.01, z: -0.01}
   m_LocalScale: {x: 8, y: 8, z: 0}
   m_Children: []
   m_Father: {fileID: 659043264}
@@ -6085,9 +6085,9 @@ GameObject:
   - component: {fileID: 214452864}
   - component: {fileID: 214452863}
   - component: {fileID: 214452862}
+  - component: {fileID: 214452859}
   - component: {fileID: 214452861}
   - component: {fileID: 214452860}
-  - component: {fileID: 214452859}
   m_Layer: 5
   m_Name: learningobjectives
   m_TagString: Untagged
@@ -6122,18 +6122,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 214452857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cdffb3e225fa28439383baea446c833, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f39dbcf055e55341a2778cedf209794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   learnobj: {fileID: 322155673}
   realPause: {fileID: 586040289}
   todolist: {fileID: 959102827}
-  mapmap: {fileID: 1221501818}
   originalSprite: {fileID: 21300000, guid: c48c90c4a74a1204b9e35a4ccac3df01, type: 3}
   onTouchSprite: {fileID: 21300000, guid: 496680a9e089e9244b3725e1372fb95a, type: 3}
   grabBegin: 0.05
   grabEnd: 0.05
-  todoreminder: {fileID: 1937859382}
 --- !u!65 &214452860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7467,18 +7465,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 382990188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cdffb3e225fa28439383baea446c833, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f39dbcf055e55341a2778cedf209794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   learnobj: {fileID: 322155673}
   realPause: {fileID: 586040289}
   todolist: {fileID: 959102827}
-  mapmap: {fileID: 1221501818}
   originalSprite: {fileID: 21300000, guid: c48c90c4a74a1204b9e35a4ccac3df01, type: 3}
   onTouchSprite: {fileID: 21300000, guid: 496680a9e089e9244b3725e1372fb95a, type: 3}
   grabBegin: 0.05
   grabEnd: 0.05
-  todoreminder: {fileID: 1937859382}
 --- !u!65 &382990191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7744,6 +7740,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[3]
       value: 
       objectReference: {fileID: 2100000, guid: 716d4aa566bc3ed4db29178ee61e0348, type: 2}
+    - target: {fileID: 9500000, guid: bbf2b86d35475f84296284d12dece78f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 12eb735f02b74254aa32c948d09571af, type: 2}
+    - target: {fileID: 13700000, guid: bbf2b86d35475f84296284d12dece78f, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: b7918b451b9482d42a4e78393a22a3c0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbf2b86d35475f84296284d12dece78f, type: 3}
   m_IsPrefabAsset: 0
@@ -8586,6 +8590,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7cbe084aff8785c4bb9b1d30387f5106, type: 3}
+    - target: {fileID: 9500000, guid: 7cbe084aff8785c4bb9b1d30387f5106, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d483c2a96db385a4eb08e07e00c72ca5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cbe084aff8785c4bb9b1d30387f5106, type: 3}
   m_IsPrefabAsset: 0
@@ -8681,6 +8689,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 612146261}
   m_Mesh: {fileID: 4300014, guid: 95c83924e4a7cd54d8239a850fb33607, type: 3}
+--- !u!1 &615316332 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100068, guid: bbf2b86d35475f84296284d12dece78f,
+    type: 3}
+  m_PrefabInternal: {fileID: 392043191}
+--- !u!65 &615316333
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 615316332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.187857, y: 13.359401, z: 3.7612164}
+  m_Center: {x: -0.37140784, y: 6.1797004, z: -0.32784125}
 --- !u!1 &655132797
 GameObject:
   m_ObjectHideFlags: 0
@@ -8711,10 +8736,10 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 655132797}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 70a1fc5857d14d544902beac1922cb5a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 92209a9f500b7e54ea2bbd9c427026db, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -8833,25 +8858,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 655132797}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb24250b65378fb449f6d565356ae3b9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2078433b074bc4943a9d5373f7238ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lecture_object: {fileID: 849130406}
-  map: {fileID: 747354205}
-  map2: {fileID: 1253621630}
-  map3: {fileID: 2084225278}
-  map4: {fileID: 1677862127}
-  arrow: {fileID: 0}
   Done_1: {fileID: 81157187}
   Done_2: {fileID: 1646767835}
   Done_3: {fileID: 1139351207}
-  MapClip: {fileID: 8300000, guid: b3f9d3235f6f02246a1f784842512296, type: 3}
-  JarClip: {fileID: 8300000, guid: 166b9250457fb014ba6ad25af7b95aff, type: 3}
+  Npc1Clip: {fileID: 8300000, guid: 92209a9f500b7e54ea2bbd9c427026db, type: 3}
+  Npc2Clip: {fileID: 8300000, guid: 81d61b610162bdf40a9f45747c9dd1aa, type: 3}
   MusicSource: {fileID: 655132798}
-  todoreminder: {fileID: 1937859382}
-  grabreminder: {fileID: 816770698}
 --- !u!114 &655132802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10994,7 +11011,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &959102828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11960,7 +11977,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1139351207}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 298, y: -0.01, z: -0.01}
+  m_LocalPosition: {x: 463.5, y: -0.01, z: -0.01}
   m_LocalScale: {x: 8, y: 8, z: 0}
   m_Children: []
   m_Father: {fileID: 1152184885}
@@ -19198,7 +19215,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1646767835}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 295, y: -0.01, z: -0.01}
+  m_LocalPosition: {x: 460.6, y: -0.01, z: -0.01}
   m_LocalScale: {x: 8, y: 8, z: 0}
   m_Children: []
   m_Father: {fileID: 255948587}
@@ -19695,18 +19712,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1761400641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cdffb3e225fa28439383baea446c833, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f39dbcf055e55341a2778cedf209794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   learnobj: {fileID: 322155673}
   realPause: {fileID: 586040289}
   todolist: {fileID: 959102827}
-  mapmap: {fileID: 1221501818}
   originalSprite: {fileID: 21300000, guid: c48c90c4a74a1204b9e35a4ccac3df01, type: 3}
   onTouchSprite: {fileID: 21300000, guid: 496680a9e089e9244b3725e1372fb95a, type: 3}
   grabBegin: 0.05
   grabEnd: 0.05
-  todoreminder: {fileID: 1937859382}
 --- !u!65 &1761400644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23884,8 +23899,8 @@ ParticleSystem:
       maxColor: {r: 0, g: 1, b: 0.026114225, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.65882355, g: 0, b: 0.06059732, a: 1}
-        key1: {r: 1, g: 0, b: 0.028783798, a: 1}
+        key0: {r: 1, g: 0.6039734, b: 0, a: 1}
+        key1: {r: 1, g: 0.75977707, b: 0, a: 1}
         key2: {r: 1, g: 0.7600515, b: 0, a: 0}
         key3: {r: 0.5566038, g: 0, b: 0.104628086, a: 0}
         key4: {r: 0.23752685, g: 0.05490195, b: 0.6901961, a: 0}
@@ -23893,7 +23908,7 @@ ParticleSystem:
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
-        ctime1: 20624
+        ctime1: 21203
         ctime2: 42791
         ctime3: 65535
         ctime4: 65535
@@ -23997,7 +24012,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.2589019, b: 0, a: 1}
+      maxColor: {r: 1, g: 0.68598413, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -24629,7 +24644,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1814688836}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -3.9, y: 2, z: -3.5}
+  m_LocalPosition: {x: -3.9, y: 2.99, z: -3.5}
   m_LocalScale: {x: 4, y: 4, z: 5}
   m_Children: []
   m_Father: {fileID: 14985107}
@@ -24832,7 +24847,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1865494268}
   m_LocalRotation: {x: -0.64145046, y: 0.31730402, z: 0.29970837, w: 0.63089967}
-  m_LocalPosition: {x: 5.933, y: 3.976, z: -1.904}
+  m_LocalPosition: {x: 5.922, y: 2.883, z: -1.885}
   m_LocalScale: {x: 23.707312, y: 23.707312, z: 23.707312}
   m_Children: []
   m_Father: {fileID: 1742698745}
@@ -26055,6 +26070,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 7cbe084aff8785c4bb9b1d30387f5106, type: 3}
+--- !u!65 &2046710298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2046710296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.668396, y: 13.385571, z: 3.0901043}
+  m_Center: {x: -0.013985396, y: 6.1927853, z: -0.02283788}
 --- !u!1 &2084225278
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,7 +20,7 @@ public class RealpauseMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (OVRInput.GetDown(OVRInput.RawButton.Start) && TODOLIST2222.lectureVillage == 0)
+        if (OVRInput.GetDown(OVRInput.RawButton.Start) && TODOLIST2222.lectureVillage == 0 && TODOLIST2222.villagelecture == 0)
         {
             if (realPause.activeInHierarchy)
             {

@@ -17,6 +17,11 @@ public class TODOLIST : MonoBehaviour
     private int flag = 0;
     private bool check_1 = false;
     private bool check_2 = false;
+
+    private bool check_todo = false;
+    private bool check_ceal = false;
+    private bool check_note = false;
+
     private float timer_note = 0;
     public GameObject urnCanves;
 
@@ -43,7 +48,11 @@ public class TODOLIST : MonoBehaviour
         }
         else if (Time.realtimeSinceStartup - StateManager.cave_timer >= 1)
         {
-            todocaveReminder.SetActive(true);
+            if (! check_todo)
+            {
+                todocaveReminder.SetActive(true);
+                check_todo = true;
+            }
         }
 
         if (stateManager2.CurrState == 0 && stateManager2.isInStateOne)
@@ -52,12 +61,14 @@ public class TODOLIST : MonoBehaviour
             OVRPlayerController.MoveScaleMultiplier = 0;
             if (!check_1)
             {
+                lecture = 1;
                 MusicSource_cave.Play();
                 check_1 = true;
             }
             if (! MusicSource_cave.isPlaying)
             {
                 OVRPlayerController.MoveScaleMultiplier = 0.6f;
+                lecture = 0;
             }
         }
         else if(stateManager2.CurrState == 1)
@@ -65,9 +76,11 @@ public class TODOLIST : MonoBehaviour
             Done_1.SetActive(true);
             urnCanves.SetActive(false);
             notereminderisopen = true;
-            if (timer_note < 10 && timer_note > 6)
+            if (timer_note < 10 && timer_note > 6 && ! check_note)
+            {
                 findnoteReminder.SetActive(true);
-            
+                check_note = true;
+            }
             
             timer_note += Time.deltaTime;
             if(timer_note >= 10)

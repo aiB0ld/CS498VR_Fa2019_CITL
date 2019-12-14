@@ -638,7 +638,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4820239689956586, guid: 76657ee725480b74dbefed1f4a6d2a62, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.8284397
+      value: 1.881
       objectReference: {fileID: 0}
     - target: {fileID: 4820239689956586, guid: 76657ee725480b74dbefed1f4a6d2a62, type: 2}
       propertyPath: m_LocalPosition.z
@@ -873,7 +873,7 @@ Transform:
   - {fileID: 2062970962}
   - {fileID: 964433412}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &324453925
 GameObject:
@@ -1098,7 +1098,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 1830102267}
-  m_PlaneDistance: 0.6
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1328,7 +1328,7 @@ GameObject:
   - component: {fileID: 429407849}
   - component: {fileID: 429407848}
   m_Layer: 5
-  m_Name: 3MoveReminder
+  m_Name: 3MoveButtonReminder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1400,7 +1400,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 1830102267}
-  m_PlaneDistance: 0.6
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1604,7 +1604,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 56446f27c7d9b064790861d196e27776, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 56446f27c7d9b064790861d196e27776, type: 3}
       propertyPath: m_LocalScale.x
@@ -1617,6 +1617,10 @@ Prefab:
     - target: {fileID: 400014, guid: 56446f27c7d9b064790861d196e27776, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 56446f27c7d9b064790861d196e27776, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56446f27c7d9b064790861d196e27776, type: 3}
@@ -1637,7 +1641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20e920a40c5686d4d8841c794d882c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  realPause: {fileID: 877708226}
 --- !u!1001 &627501770
 Prefab:
   m_ObjectHideFlags: 0
@@ -1899,7 +1902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -202.3, y: -23.6}
+  m_AnchoredPosition: {x: -229.7, y: -23.6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &725175324
@@ -1914,6 +1917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageMenu: {fileID: 640540073}
+  buttonCanvas: {fileID: 877708226}
   originalSprite: {fileID: 21300000, guid: 3a60fe95886df0048afee58cae58da7e, type: 3}
   onTouchSprite: {fileID: 21300000, guid: 71c61407dc328bb4b9b9c62df6a19e44, type: 3}
   grabBegin: 0.05
@@ -2514,7 +2518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &877708227
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2960,7 +2964,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1067724031
 GameObject:
@@ -2974,7 +2978,7 @@ GameObject:
   - component: {fileID: 1067724034}
   - component: {fileID: 1067724033}
   m_Layer: 5
-  m_Name: 4GrabReminder
+  m_Name: 4GrabButtonReminder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3046,7 +3050,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 1830102267}
-  m_PlaneDistance: 0.6
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -3120,7 +3124,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1124162333
 Prefab:
@@ -3135,7 +3139,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4787581606949750, guid: 25b7095a6df049c468ca6e5ca2d63af4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.2074397
+      value: 1.251
       objectReference: {fileID: 0}
     - target: {fileID: 4787581606949750, guid: 25b7095a6df049c468ca6e5ca2d63af4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3252,7 +3256,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1201980880}
   m_LocalRotation: {x: -0.18301277, y: 0.6830127, z: -0.18301277, w: -0.6830127}
-  m_LocalPosition: {x: 0, y: 0, z: 0.876}
+  m_LocalPosition: {x: 0, y: 0, z: 0.729}
   m_LocalScale: {x: 0.0024044665, y: 0.003143399, z: 0}
   m_Children:
   - {fileID: 669215690}
@@ -3261,7 +3265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.9, y: -0.468}
+  m_AnchoredPosition: {x: 0.31, y: -0.16}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1201980882
@@ -3378,6 +3382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageMenu: {fileID: 640540073}
+  buttonCanvas: {fileID: 0}
   originalSprite: {fileID: 21300000, guid: 228dcee122156524a8bcf9e972e07b0c, type: 3}
   onTouchSprite: {fileID: 21300000, guid: 6d9a4b0a4821b734ba0fd9ed252dfc55, type: 3}
   grabBegin: 0.05
@@ -3410,7 +3415,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1219305598}
   m_LocalRotation: {x: -0.18301275, y: 0.6830127, z: -0.18301275, w: -0.6830127}
-  m_LocalPosition: {x: 0, y: 0, z: 0.583}
+  m_LocalPosition: {x: 0, y: 0, z: 0.405}
   m_LocalScale: {x: 0.0024034323, y: 0.0032085734, z: 0}
   m_Children:
   - {fileID: 845678767}
@@ -3419,7 +3424,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.34, y: -0.179}
+  m_AnchoredPosition: {x: 0.18, y: -0.097}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1219305600
@@ -3434,6 +3439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageMenu: {fileID: 640540073}
+  buttonCanvas: {fileID: 0}
   originalSprite: {fileID: 21300000, guid: 08912f7ae67e98c46b96cf3d72632ae2, type: 3}
   onTouchSprite: {fileID: 21300000, guid: b1e7445922b28ad47a6cea3249e3f936, type: 3}
   grabBegin: 0.05
@@ -4090,7 +4096,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1512723976}
-  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
   m_LocalPosition: {x: 0, y: 0, z: 406}
   m_LocalScale: {x: 1.9954808, y: 2.0029776, z: 0}
   m_Children:
@@ -4100,7 +4106,7 @@ RectTransform:
   - {fileID: 1981205026}
   m_Father: {fileID: 877708227}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1, y: -296}
@@ -4168,7 +4174,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1531717360}
   m_LocalRotation: {x: -0.18301277, y: 0.6830127, z: -0.18301277, w: -0.6830127}
-  m_LocalPosition: {x: 0, y: 0, z: 0.578}
+  m_LocalPosition: {x: 0, y: 0, z: 0.895}
   m_LocalScale: {x: 0.0024034362, y: 0.003143399, z: 0}
   m_Children:
   - {fileID: 1589425880}
@@ -4177,7 +4183,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.47, y: -0.766}
+  m_AnchoredPosition: {x: 1, y: -0.521}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1531717362
@@ -4294,6 +4300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageMenu: {fileID: 640540073}
+  buttonCanvas: {fileID: 0}
   originalSprite: {fileID: 21300000, guid: 08912f7ae67e98c46b96cf3d72632ae2, type: 3}
   onTouchSprite: {fileID: 21300000, guid: b1e7445922b28ad47a6cea3249e3f936, type: 3}
   grabBegin: 0.05
@@ -4720,7 +4727,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Village2
+  m_Text: Museum
 --- !u!222 &1589425882
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5004,7 +5011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39.7, y: 12}
+  m_AnchoredPosition: {x: 65.1, y: 12}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637477721
@@ -5019,6 +5026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageMenu: {fileID: 640540073}
+  buttonCanvas: {fileID: 877708226}
   originalSprite: {fileID: 21300000, guid: 3a60fe95886df0048afee58cae58da7e, type: 3}
   onTouchSprite: {fileID: 21300000, guid: 71c61407dc328bb4b9b9c62df6a19e44, type: 3}
   grabBegin: 0.05
@@ -5125,6 +5133,137 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1637477719}
   m_CullTransparentMesh: 0
+--- !u!1 &1717282279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 95c83924e4a7cd54d8239a850fb33607,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1717282287}
+  - component: {fileID: 1717282284}
+  - component: {fileID: 1717282283}
+  - component: {fileID: 1717282282}
+  - component: {fileID: 1717282281}
+  - component: {fileID: 1717282286}
+  - component: {fileID: 1717282280}
+  m_Layer: 0
+  m_Name: StartMenuRock
+  m_TagString: StartMenuRock
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1717282280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1717282279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8eeecf1bb6bed46a6203bca7382e60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabBegin: 0.05
+  grabEnd: 0.05
+--- !u!54 &1717282281
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1717282279}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &1717282282
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1717282279}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.07696213
+  m_Center: {x: 0.00696915, y: -0.0076337405, z: 0.00065526355}
+--- !u!23 &1717282283
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2300012, guid: 95c83924e4a7cd54d8239a850fb33607,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1717282279}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 28a1e026e396aaa4bb8aa76c59d4c6c3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1717282284
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3300012, guid: 95c83924e4a7cd54d8239a850fb33607,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1717282279}
+  m_Mesh: {fileID: 4300000, guid: 95c83924e4a7cd54d8239a850fb33607, type: 3}
+--- !u!222 &1717282286
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1717282279}
+  m_CullTransparentMesh: 0
+--- !u!224 &1717282287
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1717282279}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.5}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -12.7, y: 1.104}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1740513002
 GameObject:
   m_ObjectHideFlags: 0
@@ -5199,7 +5338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 149, y: -24}
+  m_AnchoredPosition: {x: 192.2, y: -24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1773782674
@@ -5214,6 +5353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageMenu: {fileID: 640540073}
+  buttonCanvas: {fileID: 877708226}
   originalSprite: {fileID: 21300000, guid: 3a60fe95886df0048afee58cae58da7e, type: 3}
   onTouchSprite: {fileID: 21300000, guid: 71c61407dc328bb4b9b9c62df6a19e44, type: 3}
   grabBegin: 0.05
@@ -5624,8 +5764,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Finally, grab this is island on the table using GRASP BUTTONS and throw
-    it.
+  m_Text: Finally, grab this rock on the sofa using GRASP BUTTONS.
 --- !u!222 &1848613635
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5809,7 +5948,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Welcome to ANTH 250: Exploring Archaeology!'
+  m_Text: Welcome to ANTH 250! Now, press "A" to Explore Archaeology!
 --- !u!222 &1861361994
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6082,6 +6221,7 @@ GameObject:
   - component: {fileID: 1981205026}
   - component: {fileID: 1981205032}
   - component: {fileID: 1981205031}
+  - component: {fileID: 1981205033}
   - component: {fileID: 1981205030}
   - component: {fileID: 1981205029}
   - component: {fileID: 1981205028}
@@ -6136,6 +6276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageMenu: {fileID: 640540073}
+  buttonCanvas: {fileID: 877708226}
   originalSprite: {fileID: 21300000, guid: 3a60fe95886df0048afee58cae58da7e, type: 3}
   onTouchSprite: {fileID: 21300000, guid: 71c61407dc328bb4b9b9c62df6a19e44, type: 3}
   grabBegin: 0.05
@@ -6230,6 +6371,23 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1981205025}
   m_CullTransparentMesh: 0
+--- !u!114 &1981205033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1981205025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f15b8dcc070ba0438363c0705829df3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageMenu: {fileID: 1773782672}
+  buttonCanvas: {fileID: 877708226}
+  originalSprite: {fileID: 21300000, guid: 3a60fe95886df0048afee58cae58da7e, type: 3}
+  onTouchSprite: {fileID: 21300000, guid: 71c61407dc328bb4b9b9c62df6a19e44, type: 3}
+  grabBegin: 0.05
+  grabEnd: 0.05
 --- !u!1 &2001127208
 GameObject:
   m_ObjectHideFlags: 0
@@ -6243,6 +6401,7 @@ GameObject:
   - component: {fileID: 2001127214}
   - component: {fileID: 2001127213}
   - component: {fileID: 2001127211}
+  - component: {fileID: 2001127209}
   m_Layer: 0
   m_Name: OVRPlayerController
   m_TagString: Player
@@ -6250,6 +6409,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2001127209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2001127208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bea27bc39e9033443a3bfd0e5a01d78d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuButtonReminder: {fileID: 2102353798}
+  triggerButtonReminder: {fileID: 338037945}
+  moveButtonReminder: {fileID: 429407846}
+  grabButtonReminder: {fileID: 1067724031}
+  island: {fileID: 604548745}
+  buttonCanvas: {fileID: 877708226}
+  startText: {fileID: 10561733}
+  stageText: {fileID: 171321299}
+  exitText: {fileID: 1508250352}
+  tutorialText: {fileID: 960744652}
+  welcomeAreminder: {fileID: 420337313}
+  startMenuRock: {fileID: 1717282279}
 --- !u!114 &2001127211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6332,13 +6514,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2001127208}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -11.103, y: 0.94000006, z: -4.46}
+  m_LocalPosition: {x: -11, y: 0.95, z: -4.6}
   m_LocalScale: {x: 1, y: 0.9, z: 1}
   m_Children:
   - {fileID: 68348467}
   - {fileID: 859271289}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1 &2050824188
 GameObject:
@@ -6544,7 +6726,7 @@ GameObject:
   - component: {fileID: 2102353801}
   - component: {fileID: 2102353800}
   m_Layer: 5
-  m_Name: 1MuneButtonReminder
+  m_Name: 1MenuButtonReminder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6616,7 +6798,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 1830102267}
-  m_PlaneDistance: 0.6
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -6705,7 +6887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.8}
+  m_AnchoredPosition: {x: 0, y: -1.13}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2143800350

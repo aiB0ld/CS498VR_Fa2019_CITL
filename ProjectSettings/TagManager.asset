@@ -9,6 +9,7 @@ TagManager:
   - Lid
   - Notebook
   - Ground
+  - StartMenuRock
   layers:
   - Default
   - TransparentFX

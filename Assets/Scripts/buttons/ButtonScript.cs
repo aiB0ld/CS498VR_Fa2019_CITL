@@ -99,6 +99,7 @@ public class ButtonScript : MonoBehaviour
                 }
                 else if (gameObject.name == "starmenu")
                 {
+                    StartMenuPlayerController.check_mode = true;
                     SceneManager.LoadScene("StartMenu");
                     OVRPlayerController.MoveScaleMultiplier = 0;
                 }

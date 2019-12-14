@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 public class stateManager3 : MonoBehaviour {
     public static int CurrState = 0;
 
-    private static bool firstNPCEntered = false;
-    private static bool secondNPCEntered = false;
-    private static bool firstNPCdone = false;
-    private static bool secondNPCdone = false;
+    public static bool firstNPCEntered = false;
+    public static bool secondNPCEntered = false;
+    public static bool firstNPCdone = false;
+    public static bool secondNPCdone = false;
 
     public GameObject State01;
     public GameObject State02;
