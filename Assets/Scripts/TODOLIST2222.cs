@@ -20,7 +20,8 @@ public class TODOLIST2222 : MonoBehaviour {
     private bool check_1 = false;
     private bool check_2 = false;
     static public int lectureVillage = 0;
-    public static bool audioIsPlaying = true;
+    public static bool Lecture1done = false;
+    public static bool Lecture2done = false;
 
     public GameObject Done_1;
     public GameObject Done_2;
@@ -152,36 +153,24 @@ public class TODOLIST2222 : MonoBehaviour {
                 Done_1.SetActive(true);
                 OVRPlayerController.MoveScaleMultiplier = 0.6f;
                 lectureVillage = 0;
+                Lecture1done = true;
                 ScrollUnfold.grab = 0;
             }
         }
-        else if (StateManager.CurrState == 2)
+        else if (StateManager.secondNPCEntered)
         {
             MusicSource.clip = JarClip;
-            if (! check_2)
+            if (!check_2)
             {
                 MusicSource.Play();
                 check_2 = true;
             }
-            if(!MusicSource.isPlaying)
+            if (!MusicSource.isPlaying)
             {
-                audioIsPlaying = false;
+                Lecture2done = true;
                 Done_2.SetActive(true);
                 arrow.SetActive(true);
             }
-            
-            /*timer += Time.deltaTime;
-            if (timer >= 0.8)
-            {
-                if (arrow.activeInHierarchy)
-                {
-                    arrow.SetActive(false);
-                } else
-                {
-                    arrow.SetActive(true);
-                }
-                timer = 0;
-            }*/
         }
         else if (StateManager.CurrState == 3)
         {

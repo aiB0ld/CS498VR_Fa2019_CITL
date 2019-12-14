@@ -17,6 +17,13 @@ public class StateManager : MonoBehaviour {
     private List<GameObject> StateList;
     private List<Collider> stateCollList;
     // Use this for initialization
+
+
+    private static bool firstNPCEntered = false;
+    public static bool secondNPCEntered = false;
+    private static bool firstNPCdone = false;
+    private static bool secondNPCdone = false;
+
     void Start () {
 
         Debug.Log("Welcome to Village.");
@@ -46,8 +53,16 @@ public class StateManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (firstNPCdone && CurrState == 0)
+        {
+            enterNextState();
+
+        }
+        if (CurrState == 1 && secondNPCdone)
+        {
+            enterNextState();
+        }
+    }
     void OnTriggerEnter(Collider other)
     {
        // Debug.Log("State Number before Entering:" + CurrState);
@@ -57,20 +72,14 @@ public class StateManager : MonoBehaviour {
             {
                 Debug.Log( "State Number before Entering:" + CurrState);
 
-                if(CurrState == 0 && ScrollUnfold.grab == 1)
+                if (CurrState == 0)
                 {
-                    enterNextState();
+                    firstNPCEntered = true;
                 }
 
-                if(CurrState == 1)
+                if (CurrState == 1)
                 {
-                    isInState2 = true;
-
-                    if(!TODOLIST2222.audioIsPlaying)
-                    {
-                         enterNextState();
-                    }
-                    
+                    secondNPCEntered = true;
                 }
 
 
@@ -88,14 +97,18 @@ public class StateManager : MonoBehaviour {
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Player") && CurrState < 3 && CurrState >= 0)
+        if (CurrState >= 0 && CurrState <= 1 && other.gameObject.CompareTag("Player"))
         {
-            stateCollList[CurrState-1].enabled = false;
-            stateCollList[CurrState].enabled = true;
-            Debug.Log("Current State Number changes to: " + CurrState);
-            StateList[CurrState-1].SetActive(false);
-            StateList[CurrState].SetActive(true);
-            
+            Debug.Log("Exit from State:" + CurrState);
+            if (CurrState == 0 && firstNPCEntered && TODOLIST2222.Lecture1done)
+            {
+                Debug.Log("Exit from first State");
+                firstNPCdone = true;
+            }
+            if (CurrState == 1 && secondNPCEntered && TODOLIST2222.Lecture2done)
+            {
+                secondNPCdone = true;
+            }
         }
     }
 

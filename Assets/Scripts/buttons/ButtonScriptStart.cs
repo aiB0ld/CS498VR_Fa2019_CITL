@@ -24,7 +24,7 @@ public class ButtonScriptStart : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        btnImage = gameObject.GetComponent<Image>();
     }
 
     // Update is called once per frame
