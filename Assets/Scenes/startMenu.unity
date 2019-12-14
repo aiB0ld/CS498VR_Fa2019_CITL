@@ -4462,8 +4462,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Excellent! Now. you can move around using LEFT JOYSTICK and rotate using
-    RIGHT JOYSTICK.
+  m_Text: Excellent! Now. you can move around using LEFT THUMBSTICK and rotate using
+    RIGHT THUMBSTICK.
 --- !u!222 &1555796043
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5764,7 +5764,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Finally, grab this rock on the sofa using GRASP BUTTONS.
+  m_Text: Finally, grab the rock using GRASP BUTTONS.
 --- !u!222 &1848613635
 CanvasRenderer:
   m_ObjectHideFlags: 0

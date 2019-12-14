@@ -857,7 +857,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TO DO LIST
+  m_Text: 'TO DO
+
+    LIST'
 --- !u!222 &121809167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2259,7 +2261,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 38733f52222a9224c9cdf1f990f46949, type: 3}
-    m_FontSize: 25
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -18493,8 +18495,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.016839728, y: 0.0024699008, z: 0.02}
-  m_Center: {x: -0.011550104, y: -0.005702525, z: 0}
+  m_Size: {x: 0.018925311, y: 0.0045597595, z: 0.02378215}
+  m_Center: {x: -0.012592958, y: -0.0067474544, z: -0.0018910588}
 --- !u!1001 &816309779
 Prefab:
   m_ObjectHideFlags: 0
@@ -20457,6 +20459,7 @@ MonoBehaviour:
   grabBegin: 0.05
   grabEnd: 0.05
   todoreminder: {fileID: 563476432}
+  grabreminder: {fileID: 1076176705}
 --- !u!54 &1231822389
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21235,6 +21238,7 @@ MonoBehaviour:
   grabBegin: 0.05
   grabEnd: 0.05
   todoreminder: {fileID: 563476432}
+  grabreminder: {fileID: 1076176705}
 --- !u!54 &1371559021
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22063,6 +22067,7 @@ MonoBehaviour:
   grabBegin: 0.05
   grabEnd: 0.05
   todoreminder: {fileID: 563476432}
+  grabreminder: {fileID: 1076176705}
 --- !u!54 &1540872585
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29433,6 +29438,7 @@ MonoBehaviour:
   grabBegin: 0.05
   grabEnd: 0.05
   todoreminder: {fileID: 563476432}
+  grabreminder: {fileID: 1076176705}
 --- !u!54 &2018450843
 Rigidbody:
   m_ObjectHideFlags: 0

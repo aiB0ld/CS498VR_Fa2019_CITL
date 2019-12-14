@@ -60,17 +60,25 @@ public class StartMenuPlayerController : MonoBehaviour {
 
         if (mode == "tutorial")
         {
-            exitText.GetComponent<Text>().text = "1";
-            tutorialText.GetComponent<Text>().text = "2";
-            startText.GetComponent<Text>().text = "3";
-            stageText.GetComponent<Text>().text = "4";
+            exitText.GetComponent<Text>().text = "Click Me!";
+            exitText.GetComponent<Text>().fontSize = 18;
+            tutorialText.GetComponent<Text>().text = "Click Me!";
+            tutorialText.GetComponent<Text>().fontSize = 18;
+            startText.GetComponent<Text>().text = "Click Me!";
+            startText.GetComponent<Text>().fontSize = 18;
+            stageText.GetComponent<Text>().text = "Click Me!";
+            stageText.GetComponent<Text>().fontSize = 18;
         }
         else
         {
             exitText.GetComponent<Text>().text = "EXIT";
+            exitText.GetComponent<Text>().fontSize = 25;
             tutorialText.GetComponent<Text>().text = "TUTORIAL";
+            tutorialText.GetComponent<Text>().fontSize = 18;
             startText.GetComponent<Text>().text = "START";
+            startText.GetComponent<Text>().fontSize = 25;
             stageText.GetComponent<Text>().text = "STAGE";
+            stageText.GetComponent<Text>().fontSize = 25;
         }
 
         if (mode == "before_tutorial")

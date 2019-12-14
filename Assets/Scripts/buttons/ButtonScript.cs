@@ -21,6 +21,7 @@ public class ButtonScript : MonoBehaviour
     private float l_flex;
     private float r_flex;
     public GameObject todoreminder;
+    public GameObject grabreminder;
 
     // Use this for initialization
     void Start()
@@ -76,6 +77,7 @@ public class ButtonScript : MonoBehaviour
                     else
                     {
                         todoreminder.SetActive(false);
+                        grabreminder.SetActive(false);
                         mapmap.SetActive(false);
                         todolist.SetActive(false);
                         learnobj.SetActive(true);
@@ -91,6 +93,7 @@ public class ButtonScript : MonoBehaviour
                     else
                     {
                         todoreminder.SetActive(false);
+                        grabreminder.SetActive(false);
                         todolist.SetActive(false);
                         learnobj.SetActive(false);
                         mapmap.SetActive(true);
@@ -112,6 +115,7 @@ public class ButtonScript : MonoBehaviour
                     else
                     {
                         todoreminder.SetActive(false);
+                        grabreminder.SetActive(false);
                         mapmap.SetActive(false);
                         learnobj.SetActive(false);
                         todolist.SetActive(true);

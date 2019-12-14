@@ -53,18 +53,13 @@ public class StateManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (firstNPCdone && CurrState == 0)
+        if (firstNPCEntered && CurrState == 0 && TODOLIST2222.Lecture1done)
         {
             enterNextState();
 
         }
 
         if (CurrState == 1 && secondNPCEntered && TODOLIST2222.Lecture2done)
-        {
-            secondNPCdone = true;
-        }
-
-        if (CurrState == 1 && secondNPCdone)
         {
             enterNextState();
         }
@@ -101,18 +96,7 @@ public class StateManager : MonoBehaviour {
         
     }
 
-    void OnTriggerExit(Collider other)
-    {
-        if (CurrState >= 0 && CurrState <= 1 && other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("Exit from State:" + CurrState);
-            if (CurrState == 0 && firstNPCEntered && TODOLIST2222.Lecture1done)
-            {
-                Debug.Log("Exit from first State");
-                firstNPCdone = true;
-            }
-        }
-    }
+
 
     void enterNextState()
     {
